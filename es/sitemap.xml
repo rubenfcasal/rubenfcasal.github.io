@@ -5,6 +5,42 @@
     
     <url>
     
+      <loc>/post/creaci%C3%B3n-contenidos-rmarkdown/</loc>
+      <lastmod>2017-10-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/intro-bookdown/</loc>
+      <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</loc>
+      <lastmod>2017-10-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/analisis-de-datos-con-r/</loc>
+      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/apuntes-de-simulaci%C3%B3n/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
@@ -14,7 +50,7 @@
     
     <url>
     
-      <loc>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</loc>
+      <loc>/post/diagnosis-de-la-independencia/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +59,7 @@
     
     <url>
     
-      <loc>/post/diagnosis-de-la-independencia/</loc>
+      <loc>/post/npsp/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -179,7 +215,17 @@
     <url>
     
       <loc>/tags/blogdown/</loc>
-      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/blookdown/</loc>
+      <lastmod>2017-10-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -213,6 +259,16 @@
     
       <loc>/tags/demo/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/estad%C3%ADstica/</loc>
+      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -261,8 +317,28 @@
     
     <url>
     
+      <loc>/tags/paquetes/</loc>
+      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/plot/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/presentaciones/</loc>
+      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -294,7 +370,7 @@
     <url>
     
       <loc>/categories/r/</loc>
-      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -317,7 +393,7 @@
     <url>
     
       <loc>/tags/r-markdown/</loc>
-      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -337,7 +413,7 @@
     <url>
     
       <loc>/tags/sgapeio/</loc>
-      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

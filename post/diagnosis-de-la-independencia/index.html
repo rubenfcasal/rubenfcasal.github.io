@@ -173,6 +173,9 @@
     >, 
     
     <a href="/categories/apuntes">Apuntes</a
+    >, 
+    
+    <a href="/categories/estad%c3%adstica">Estadística</a
     >
     
   </span>
@@ -283,18 +286,15 @@ mu &lt;- rep(0, n)   # Media
 # Matriz de covarianzas
 t.dist &lt;- as.matrix(dist(t))
 t.cov &lt;- exp(-t.dist)
-str(t.cov)</code></pre>
-<pre><code>##  num [1:100, 1:100] 1 0.99 0.98 0.97 0.96 ...
-##  - attr(*, &quot;dimnames&quot;)=List of 2
-##   ..$ : chr [1:100] &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; ...
-##   ..$ : chr [1:100] &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; ...</code></pre>
-<pre class="r"><code>t.cov[1:5, 1:5] # Covarianzas de las 5 primeras observaciones</code></pre>
-<pre><code>##           1         2         3         4         5
-## 1 1.0000000 0.9899498 0.9800007 0.9701515 0.9604013
-## 2 0.9899498 1.0000000 0.9899498 0.9800007 0.9701515
-## 3 0.9800007 0.9899498 1.0000000 0.9899498 0.9800007
-## 4 0.9701515 0.9800007 0.9899498 1.0000000 0.9899498
-## 5 0.9604013 0.9701515 0.9800007 0.9899498 1.0000000</code></pre>
+# str(t.cov)
+# num [1:100, 1:100] 1 0.99 0.98 0.97 0.96 ...
+t.cov[1:5, 1:5] # Covarianzas de las 5 primeras observaciones</code></pre>
+<pre><code>   #            1         2         3         4         5
+   #  1 1.0000000 0.9899498 0.9800007 0.9701515 0.9604013
+   #  2 0.9899498 1.0000000 0.9899498 0.9800007 0.9701515
+   #  3 0.9800007 0.9899498 1.0000000 0.9899498 0.9800007
+   #  4 0.9701515 0.9800007 0.9899498 1.0000000 0.9899498
+   #  5 0.9604013 0.9701515 0.9800007 0.9899498 1.0000000</code></pre>
 <pre class="r"><code># Simulación de las observaciones
 set.seed(1)
 library(MASS)
@@ -328,9 +328,9 @@ legend(&quot;bottomright&quot;, legend = c(&quot;Datos independientes&quot;, &qu
 <h4>Ejemplo: datos simulados</h4>
 <p>En el caso anterior la varianza es uno con ambos procesos. Las estimaciones suponiendo independencia serían:</p>
 <pre class="r"><code>var(y1)</code></pre>
-<pre><code>## [1] 0.8067621</code></pre>
+<pre><code>   #  [1] 0.8067621</code></pre>
 <pre class="r"><code>var(y2)</code></pre>
-<pre><code>## [1] 0.1108155</code></pre>
+<pre><code>   #  [1] 0.1108155</code></pre>
 <p>En el caso de datos dependientes se produce una clara subestimación de la varianza</p>
 </div>
 </div>
@@ -430,7 +430,7 @@ plot(r[-length(r)], r[-1], xlab = &quot;Y_t&quot;, ylab = &quot;Y_t+1&quot;)</co
 <p><img src="/post/2017-10-23-Diagnosis_independencia_files/figure-html/unnamed-chunk-9-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>El correspondiente coeficiente de correlación es una medida numérica del grado de relación lineal (denominado autocorrelación de orden 1).</p>
 <pre class="r"><code>cor(r[-length(r)], r[-1])</code></pre>
-<pre><code>## [1] 0.8768295</code></pre>
+<pre><code>   #  [1] 0.8768295</code></pre>
 </div>
 </div>
 <div id="el-correlograma" class="section level2">
@@ -507,12 +507,12 @@ legend(&quot;bottomright&quot;, legend = c(&quot;covariograma&quot;, &quot;semiv
 <h4>Ejemplo: residuos mediciones co2</h4>
 <pre class="r"><code>library(tseries)
 runs.test(as.factor(r &gt; median(r)))</code></pre>
-<pre><code>## 
-##  Runs Test
-## 
-## data:  as.factor(r &gt; median(r))
-## Standard Normal = -7.1822, p-value = 6.858e-13
-## alternative hypothesis: two.sided</code></pre>
+<pre><code>   #  
+   #    Runs Test
+   #  
+   #  data:  as.factor(r &gt; median(r))
+   #  Standard Normal = -7.1822, p-value = 6.858e-13
+   #  alternative hypothesis: two.sided</code></pre>
 </div>
 </div>
 <div id="el-contraste-de-ljung-box" class="section level2">
@@ -535,26 +535,26 @@ _{m-1}^{2}\text{, si }H_{0}\text{ es cierta.}\]</span></p></li>
 <div id="ejemplo-residuos-mediciones-co2-3" class="section level4">
 <h4>Ejemplo: residuos mediciones co2</h4>
 <pre class="r"><code>Box.test(r, type=&quot;Ljung&quot;) # Contrasta si la primera autocorrelación es nula </code></pre>
-<pre><code>## 
-##  Box-Ljung test
-## 
-## data:  r
-## X-squared = 67.568, df = 1, p-value = 2.22e-16</code></pre>
+<pre><code>   #  
+   #    Box-Ljung test
+   #  
+   #  data:  r
+   #  X-squared = 67.568, df = 1, p-value = 2.22e-16</code></pre>
 <pre class="r"><code>Box.test(y, lag=10, type=&quot;Ljung&quot;) # Contrasta si las 10 primeras autocorrelaciones son nulas</code></pre>
-<pre><code>## 
-##  Box-Ljung test
-## 
-## data:  y
-## X-squared = 271.5, df = 10, p-value &lt; 2.2e-16</code></pre>
+<pre><code>   #  
+   #    Box-Ljung test
+   #  
+   #  data:  y
+   #  X-squared = 271.5, df = 10, p-value &lt; 2.2e-16</code></pre>
 <p>NOTA: Para contrastar que la primera autocorrelación es cero, teniendo en cuenta además que los valores son residuos, sería preferible emplear el test de Durbin-Watson visto antes:</p>
 <pre class="r"><code>library(lmtest)
 dwtest(modelo, alternative= &quot;two.sided&quot;)</code></pre>
-<pre><code>## 
-##  Durbin-Watson test
-## 
-## data:  modelo
-## DW = 0.23671, p-value &lt; 2.2e-16
-## alternative hypothesis: true autocorrelation is not 0</code></pre>
+<pre><code>   #  
+   #    Durbin-Watson test
+   #  
+   #  data:  modelo
+   #  DW = 0.23671, p-value &lt; 2.2e-16
+   #  alternative hypothesis: true autocorrelation is not 0</code></pre>
 </div>
 </div>
 </div>
@@ -603,7 +603,9 @@ plot(forecast(fit, h = 24, level = 95), shaded = FALSE)           </code></pre>
   <h3></h3>
   <ul>
     
-    <li><a href="/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/">Introducción a la Geoestadística con geoR</a></li>
+    <li><a href="/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/">Introducción a la Geoestadística con `geoR`</a></li>
+    
+    <li><a href="/post/npsp/">Geoestadística no paramétrica con `npsp`</a></li>
     
     <li><a href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></li>
     
