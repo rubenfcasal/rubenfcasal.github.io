@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.27" />
+  <meta name="generator" content="Hugo 0.30.2" />
   <meta name="author" content="Ruben Fernandez-Casal">
   <meta name="description" content="Associate Professor (Contratado Doctor) of Statistics and Operational Research (Estadística e Investigación Operativa)">
 
@@ -49,7 +49,7 @@
 
   
 
-  <title>Creación de sitios web con `blogdown` | R Machinery</title>
+  <title>Creación de sitios web con Blogdown | R Machinery</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -140,29 +140,26 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Creación de sitios web con `blogdown`</h1>
+    <h1 itemprop="name">Creación de sitios web con Blogdown</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
     
-    <time datetime="2017-10-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      2017-10-24
+    <time datetime="2017-10-23 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2017-10-23
     </time>
   </span>
 
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    5 
+    4 
   </span>
   
 
   
-  
-  <span class="middot-divider"></span>
-  <a href="/post/creaci%C3%B3n-de-sitios-web-con-blogdown/#disqus_thread"></a>
   
 
   
@@ -185,7 +182,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Creaci%c3%b3n%20de%20sitios%20web%20con%20%60blogdown%60&amp;url=%2fpost%2fcreaci%25C3%25B3n-de-sitios-web-con-blogdown%2f"
+         href="https://twitter.com/intent/tweet?text=Creaci%c3%b3n%20de%20sitios%20web%20con%20Blogdown&amp;url=%2fpost%2fcreaci%25C3%25B3n-de-sitios-web-con-blogdown%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
@@ -199,21 +196,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fcreaci%25C3%25B3n-de-sitios-web-con-blogdown%2f&amp;title=Creaci%c3%b3n%20de%20sitios%20web%20con%20%60blogdown%60"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fcreaci%25C3%25B3n-de-sitios-web-con-blogdown%2f&amp;title=Creaci%c3%b3n%20de%20sitios%20web%20con%20Blogdown"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2fcreaci%25C3%25B3n-de-sitios-web-con-blogdown%2f&amp;title=Creaci%c3%b3n%20de%20sitios%20web%20con%20%60blogdown%60"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fcreaci%25C3%25B3n-de-sitios-web-con-blogdown%2f&amp;title=Creaci%c3%b3n%20de%20sitios%20web%20con%20Blogdown"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Creaci%c3%b3n%20de%20sitios%20web%20con%20%60blogdown%60&amp;body=%2fpost%2fcreaci%25C3%25B3n-de-sitios-web-con-blogdown%2f">
+         href="mailto:?subject=Creaci%c3%b3n%20de%20sitios%20web%20con%20Blogdown&amp;body=%2fpost%2fcreaci%25C3%25B3n-de-sitios-web-con-blogdown%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -236,22 +233,21 @@
 <li><a href="#algunos-ejemplos">Algunos ejemplos:</a></li>
 </ul></li>
 <li><a href="#publicacion">Publicación</a></li>
-<li><a href="#lenguaje-y-traduccion">Lenguaje y traducción</a></li>
 <li><a href="#ayuda">Ayuda</a></li>
 </ul>
 </div>
 
 <p>Basado en <a href="https://blog.rstudio.com/2017/09/11/announcing-blogdown">este</a> artículo de Yihui Xie publicado en el Blog de RStudio.</p>
-<div id="introduccion" class="section level2">
-<h2>Introducción</h2>
 <p>En CRAN está disponible un nuevo paquete de R, <code>blogdown</code>, que permite crear sitios web (estáticos) de uso general (webs personales, blogs, …) con R Markdown. Se puede instalar con:</p>
 <pre class="r"><code>install.packages(&quot;blogdown&quot;)</code></pre>
-<p>Para instalar la versión de desarrollo (alojado en GitHub en el repositorio <a href="https://github.com/rstudio/blogdown"><em>rstudio / blogdown</em></a>) usar:</p>
-<pre class="r"><code>devtools::install_github(&quot;rstudio/blogdown&quot;)</code></pre>
+<p>Para instalar la versión de desarrollo (alojado en Github en el repositorio <a href="https://github.com/rstudio/blogdown"><em>rstudio / blogdown</em></a>) usar:</p>
+<pre class="r"><code>devtools::install\_github(&quot;rstudio/blogdown&quot;)</code></pre>
+<div id="introduccion" class="section level2">
+<h2>Introducción</h2>
 <p><code>blogdown</code> permite integrar R Markdown con generadores de sitios web estáticos (se pueden crear sitios web desde R; el sitio web estará contenido en una carpeta que se puede previsualizar localmente o subir a cualquier servidor web). Por ejemplo, se puede incluir código R para generar tablas y gráficos automáticamente en cualquier página web. Otras alternativas serían:</p>
 <ul>
-<li><p><code>rmarkdown</code> para crear archivos html (y sitios web simples) a partir de documentos R Markdown.</p></li>
-<li><p><a href="https://github.com/rstudio/bookdown"><code>bookdown</code></a> para crear libros (en múltiples formatos, incluyendo html) a partir de documentos R Markdown.</p></li>
+<li><p><code>rmarkdown</code> para crear archivos html (y sitios web simples) a partir de documentos R Markdown;</p></li>
+<li><p><a href="https://github.com/rstudio/bookdown"><code>bookdown</code></a> para crear libros (en múltiples formatos, incluyendo html) a partir de documentos R Markdown;</p></li>
 </ul>
 <p>La principal ventaja está en la creación (y mantenimiento) de sitios web con estructuras arbitrarias, más complicadas que una colección de páginas HTML. Por ejemplo, permite crear fácilmente un sitio web de un proyecto, un blog o una web personal. Cada página puede tener distintos metadatos (como categorías y etiquetas), y se pueden generar páginas de listas de contenido (como listas de publicaciones o blogs).</p>
 <p>Además, al emplear las extensiones Markdown de Pandoc y herramientas heredadas de <a href="https://github.com/rstudio/bookdown"><code>bookdown</code></a>, se pueden incluir por ejemplo notas al pie de página, tablas, cifras, citas, ecuaciones LaTeX, entre otros; y extensiones markdown para libros (por ejemplo, leyendas de figuras y tablas, referencias cruzadas, teoremas, pruebas, ecuaciones numeradas y widgets HTML).</p>
@@ -259,37 +255,26 @@
 </div>
 <div id="creacion-de-un-sitio-web" class="section level2">
 <h2>Creación de un sitio web</h2>
-<p>A partir de la versión 1.1 de RStudio (Octubre de 2017) se puede crear directamente empleando el menú <em>File/New Project…</em>:</p>
-<div class="figure">
-<img src="/img/rstudio_blogdown.png" width="384" />
-
-</div>
-<p>y estableciendo las opciones:</p>
-<div class="figure">
-<img src="/img/rstudio_blogdown2.png" width="384" />
-
-</div>
-<p>Para crear un nuevo sitio web también se puede emplear la función <code>new_site()</code> bajo un directorio vacío (o un proyecto RStudio vacío):</p>
-<pre class="r"><code>blogdown::new_site()</code></pre>
-<p>Por defecto se descargará e instalará Hugo si no se ha instalado. También se descarga un tema de Hugo (por defecto <code>yihui/hugo-lithium-theme</code>) y mensajes de ejemplo. Aunque se pueden considerar <a href="https://bookdown.org/yihui/blogdown/other-themes.html"><em>otros temas</em></a>, por ejemplo este sitio web se creo empleando <code>gcushen/hugo-academic</code>. Automáticamente se generará el sitio y se abrirá en el navegador (o en RStudio Viewer, aunque se recomienda abrilo en un navegador). Sólo se necesita emplear esta función una vez por cada nuevo sitio.</p>
-<p>Otra opción sería importar y modificar un sitio web generado con blogdown. Por ejemplo en <a href="https://github.com/rbind"><em>https://github.com/rbind</em></a> se pueden encontrar numerosos ejemplos. En ese caso, para instalar <em>Hugo</em> es suficiente con ejecutar (en Windows, macOS y Linux):</p>
+<p>Para crear un nuevo sitio web se puede emplear la función new_site() bajo un directorio vacío (o un proyecto RStudio vacío):</p>
+<pre class="r"><code>blogdown::new\_site()</code></pre>
+<p>Se descargará e instalará Hugo si no se ha instalado (también se descarga un tema de Hugo por defecto y mensajes de ejemplo; también se pueden considerar <a href="https://bookdown.org/yihui/blogdown/other-themes.html"><em>otros temas</em></a>). Automáticamente se generará el sitio y se abrirá en el navegador (o RStudio Viewer). Sólo se necesita emplear esta función una vez por cada nuevo sitio.</p>
+<p>Otra opción sería importar y modificar un sitio web generado con blogdown. Para instalar <em>Hugo</em> es suficiente con ejecutar (en Windows, macOS y Linux):</p>
 <pre class="r"><code>blogdown::install_hugo()</code></pre>
 <p>Para generar y mostrar un sitio web creado anteriormente, se puede ejecutar:</p>
 <pre class="r"><code>blogdown::serve_site()</code></pre>
 <p>o el complemento de RStudio (“Addins”) “Serve Site” (OJO: no confundir con “Build Website” del panel “Build”); se mostrarán los cambios en los archivos de origen y se reconstruirá el sitio web (<strong><em>por defecto se volverá a reconstruir automáticamente cada vez que se realice algún cambio</em></strong>).</p>
 <div id="creacion-de-contenido" class="section level3">
 <h3>Creación de contenido</h3>
-<p>Para escribir nuevos mensajes, se puede usar el complemento de RStudio “New Post” (en el desplegable “Addins”):</p>
+<p>Para escribir nuevos mensajes, puede usar el complemento de RStudio “New Post” (en el desplegable “Addins”):</p>
 <div class="figure">
 <img src="/img/image1.png" width="576" />
 
 </div>
-<p>y cubrir los distintos campos:</p>
 <div class="figure">
 <img src="/img/image2.png" width="384" />
 
 </div>
-<p>Cuidado con los nombres de los archivos (evitar espacios, acentos, …).</p>
+<p>Cuidados con los acentos….</p>
 </div>
 </div>
 <div id="documentacion" class="section level2">
@@ -315,23 +300,15 @@
 </div>
 <div id="publicacion" class="section level2">
 <h2>Publicación</h2>
-<p>La publicación del sitio web puede ser tan simple como subirlo a GitHub. Los autores <a href="https://bookdown.org/yihui/blogdown/netlify.html">recomiendan</a> además emplear <a href="https://www.netlify.com"><em>Netlify</em></a>, para lo que se puede seguir este <a href="https://apreshill.rbind.io/post/up-and-running-with-blogdown/#deploy-in-netlify">enlace</a>.</p>
-<p>Para este sitio web opté por emplear <em>GitHub pages</em>, siguiendo (más o menos) los pasos descritos <a href="https://bookdown.org/yihui/blogdown/github-pages.html">aquí</a> (aunque para automatizar el proceso puede ser recomendable seguir el blog de <a href="http://amber.rbind.io/blog/2016/12/19/creatingsite/#initializing-github-pages-to-work-with-hugo-and-blogdown">Amber Thomas</a>)</p>
-<p>Para ir añadiendo contenido a un sitio en GitHub, se puede seguir por ejemplo este <a href="https://simplystatistics.org/newposts">enlace</a>, emplear RStudio (e.g. <a href="http://r-pkgs.had.co.nz/git.html">R packages</a> by <a href="http://hadley.nz/#code">Hadley Wickham</a>) o instalar <a href="https://desktop.github.com">GitHub Desktop</a> (lo que recomendaría en Windows…).</p>
-</div>
-<div id="lenguaje-y-traduccion" class="section level2">
-<h2>Lenguaje y traducción</h2>
-<p>Para cambiar el idioma predeterminado en el tema “Academic” de Hugo, hay que establecer <code>defaultContentLanguage</code> al identificador de idioma deseado (empleando un <a href="https://www.w3schools.com/tags/ref_language_codes.asp">identificador de idioma ISO</a> en el archivo de configuración <em>config.toml</em> y seguir las instrucciones al final de este archivo si se quieren emplear múltiples idiomas.</p>
-<p>Para traducir la barra de navegación, se pueden editar las instancias <code>[[menu.main]]</code> predeterminadas en <em>config.toml</em>. Sin embargo, para un sitio multilingüe, necesitará duplicar todas las instancias <code>[[menu.main]]</code> y renombrarlas de la forma <code>[[Languages.X.menu.main]]</code>, donde X es el identificador de idioma (por ejemplo, <code>[[Languages.en.menu.main]]</code> para inglés). De esta forma se puede configurar la barra de navegación para varios idiomas.</p>
-<p>El texto de la interfaz se almacena en archivos de idioma en la carpeta <em>themes/academic/i18n</em>, para modificarlos se recomienda copiar esta carpeta <em>/i18n</em> a la raíz del proyecto (o solo los archivos de idioma que se quieran modificar). Los archivos son de la forma <em>i18n/X.yaml</em> donde X es el el identificador de idioma, por ejemplo <em>i18n/es.yaml</em> contiene la traducción a español.</p>
-<p>Para más detalles sobre la internacionalización de Hugo y las características multilingües, consultar la <a href="https://gohugo.io/content-management/multilingual"><em>documentación asociada de Hugo</em></a>.</p>
+<p>La publicación del sitio web puede ser tan simple como subirlo a Github. Los autores <a href="https://bookdown.org/yihui/blogdown/netlify.html">recomiendan</a> además emplear <a href="https://www.netlify.com"><em>Netlify</em></a>, para lo que se puede seguir este <a href="https://apreshill.rbind.io/post/up-and-running-with-blogdown/#deploy-in-netlify">enlace</a>.</p>
+<p>Para ir añadiendo contenido a un sitio en github, se puede seguir por ejemplo este <a href="https://simplystatistics.org/newposts">enlace</a>, emplear RStudio (e.g. <a href="http://r-pkgs.had.co.nz/git.html">R packages</a> by <a href="http://hadley.nz/#code">Hadley Wickham</a>) o instalar <a href="https://desktop.github.com">GitHub Desktop</a> (lo que recomendaría en Windows…).</p>
 </div>
 <div id="ayuda" class="section level2">
 <h2>Ayuda</h2>
 <p>Aunque <code>blogdown</code> es relativamente nuevo:</p>
 <ul>
 <li><p><a href="https://bookdown.org/yihui/blogdown/">Libro de blogdown</a></p></li>
-<li><p><a href="https://github.com/rstudio/blogdown/issues">GitHub issues</a></p></li>
+<li><p><a href="https://github.com/rstudio/blogdown/issues">Github issues</a></p></li>
 <li><p><a href="http://stackoverflow.com/questions/tagged/blogdown">StackOverflow</a></p></li>
 <li><p><a href="https://support.rbind.io/">Rbind Support</a></p></li>
 </ul>
@@ -369,11 +346,11 @@
     
     <li><a href="/post/apuntes-de-simulaci%C3%B3n/">Apuntes de simulación</a></li>
     
-    <li><a href="/post/npsp/">Geoestadística no paramétrica con `npsp`</a></li>
-    
     <li><a href="/post/getting-started/">Getting started with the Academic framework for Hugo</a></li>
     
     <li><a href="/post/widgets/">Customizing the homepage with widgets</a></li>
+    
+    <li><a href="/post/managing-content/">Managing content</a></li>
     
   </ul>
 </div>
@@ -383,29 +360,6 @@
 
 <div class="article-container">
   
-<section id="comments">
-  <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "https-rubenfcasal-github-io" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
-
 
 </div>
 
@@ -434,8 +388,6 @@
     
 
     
-    
-    <script id="dsq-count-scr" src="//https-rubenfcasal-github-io.disqus.com/count.js" async></script>
     
 
     
