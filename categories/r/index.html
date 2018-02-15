@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="generator" content="Hugo 0.27" />
   <meta name="author" content="Ruben Fernandez-Casal">
   <meta name="description" content="Associate Professor (Contratado Doctor) of Statistics and Operational Research (Estadística e Investigación Operativa)">
 
@@ -148,14 +148,58 @@
   
   
   <div>
-    <h2><a href="/post/apuntes-de-simulaci%C3%B3n/">Apuntes de simulación</a></h2>
+    <h2><a href="/post/geoestadistica-no-parametrica-con-el-paquete-npsp/">Geoestadística no paramétrica con el paquete *npsp*</a></h2>
     <div class="article-style">
+      
+      Geoestadística no paramétrica Ejemplo Modelo general Ejemplo Inferencia (no paramétrica) en procesos geoestadísticos  Binning lineal Discretización Interpolación  Estimación de la densidad Estimación de la tendencia Regresión polinómica local Implementación en el paquete npsp Ejemplo  Estimación del variograma Estimación piloto del variograma Estimación piloto del variograma con corrección de sesgo Ajuste de un modelo no paramétrico  Selección de las ventanas Estimación de la tendencia Estimación del variograma  Estimación conjunta (automática) Predicción kriging Futuras implementaciones Referencias   library(npsp) ## Package npsp: Nonparametric Spatial Statistics, ## version 0.
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/post/creaci%C3%B3n-de-sitios-web-con-blogdown/">Creación de sitios web con Blogdown</a></h2>
+    <h2><a href="/post/creaci%C3%B3n-contenidos-rmarkdown/">Creación e divulgación de contidos con R Markdown</a></h2>
+    <div class="article-style">
+      
+      <p>Ejemplos
+Material
+Requisitos</p>
+
+<p>En el próximo Congreso de la Sgapeio voy a participar en la impartición de un curso sobre R Markdown.
+En la segunda parte del curso “Creación e divulgación de contidos con R Markdown” trataremos los siguientes temas:</p>
+
+<p>Conversión entre formatos con pandoc.</p>
+
+<p>Creación de libros e documentos có paquete bookdown.</p>
+
+<p>bookdown para crear libros (en múltiples formatos, incluyendo html) a partir de documentos R Markdown.</p>
+
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/intro-bookdown/">Escritura de libros con `bookdown`</a></h2>
+    <div class="article-style">
+      
+      <p>Introducción
+Requisitos
+Get started
+Primeros pasos
+Encabezado de index.Rmd
+Archivo _bookdown.yml</p>
+
+<p>Licencia
+Publicación en la web</p>
+
+<p>Introducción
+El paquete bookdown de R permite escribir libros empleando R Markdown de forma fácil. Sin preocuparse mucho por los detalles de composición se pueden crear libros en distintos formatos (HTML / PDF / Word / …). Además de permitir emplear las extensiones Markdown de Pandoc (notas al pie de página, tablas, citas, ecuaciones LaTeX, …), se pueden emplear extensiones markdown para libros (leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</p>
+
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/creaci%C3%B3n-de-sitios-web-con-blogdown/">Creación de sitios web con `blogdown`</a></h2>
     <div class="article-style">
       
       <p>Introducción
@@ -166,13 +210,32 @@ Creación de contenido</p>
 Algunos ejemplos:</p>
 
 <p>Publicación
+Lenguaje y traducción
 Ayuda</p>
 
 <p>Basado en este artículo de Yihui Xie publicado en el Blog de RStudio.
+Introducción
 En CRAN está disponible un nuevo paquete de R, blogdown, que permite crear sitios web (estáticos) de uso general (webs personales, blogs, …) con R Markdown. Se puede instalar con:
 install.packages(&quot;blogdown&quot;)
-Para instalar la versión de desarrollo (alojado en Github en el repositorio rstudio / blogdown) usar:</p>
+Para instalar la versión de desarrollo (alojado en GitHub en el repositorio rstudio / blogdown) usar:</p>
 
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/analisis-de-datos-con-r/">Análisis de datos con R</a></h2>
+    <div class="article-style">
+      
+      Una presentación sobre el análisis de datos con R (que preparé para una charla sobre Big Data en Pymes) está accesible online en formato pdf aqui.
+La idea es que el entorno estadístico R puede ser una herramienta de gran utilidad en todo el proceso del análisis de datos (desde el acceso hasta la generación de informes). Con una pincelada de Big Data y &ldquo;publicidad&rdquo; para las empresas (a ver si valoran y demandan más este tipo de conocimientos)&hellip;
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/apuntes-de-simulaci%C3%B3n/">Apuntes de simulación</a></h2>
+    <div class="article-style">
       
     </div>
   </div>
@@ -206,7 +269,17 @@ Para medir la relación (lineal) entre dos variables se emplea la covarianza: [C
   </div>
   
   <div>
-    <h2><a href="/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/">Introducción a la Geoestadística con geoR</a></h2>
+    <h2><a href="/post/npsp/">Geoestadística no paramétrica con `npsp`</a></h2>
+    <div class="article-style">
+      
+      Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub.
+Por ejemplo, está disponible en <a href="http://github.com/rubenfcasal/npsp" target="_blank">http://github.com/rubenfcasal/npsp</a> la versión 0.6.2 del paquete npsp (la versión en CRAN es la 0.5-3). En esta versión añadí una web del paquete que tenía pensado emplear como ejemplo: <a href="https://rubenfcasal.github.io/npsp" target="_blank">https://rubenfcasal.github.io/npsp</a>. Mi intención es subir cuanto antes una nueva versión (la 0.7, con novedades en cuanto al modelado automático de datos espaciales) a GitHub y al CRAN.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/">Introducción a la Geoestadística con `geoR`</a></h2>
     <div class="article-style">
       
       El paquete geoR 1. Inicio de una sesión y de carga de datos 1.1 Cargar el paquete 1.2 Archivos de datos  2. Análisis descriptivo de datos geoestadísticos 3. Modelado de la dependencia 3.1 Variogramas empíricos 3.2 Ajuste de un modelo de variograma 3.3 Inferencia sobre el variograma 3.4 Validación cruzada 3.5 Estimación del variograma en procesos no estacionarios  4. Predicción espacial (kriging)<br />
@@ -219,35 +292,18 @@ El paquete geoR El paquete geoR proporciona herramientas para el análisis de da
     <h2><a href="/post/generaci%C3%B3n-de-informes-con-r/">Generación de informes con R</a></h2>
     <div class="article-style">
       
-      R Markdown Introducción Inclusión de código R Inclusión de gráficos Inclusión de tablas Extracción del código R  Spin   R Markdown Introducción Markdown permite la creación de páginas web a partir de documentos de texto de forma muy sencilla y rápida (tiene unas reglas sintácticas muy simples). Este documento se ha generado empleando Markdown y R. R-Markdown es recomendable para difundir análisis realizados con R en formato HTML, PDF y DOCX (Word), entre otros.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/post/2015-12-30-plain-markdown/">A Plain Markdown Post</a></h2>
-    <div class="article-style">
-      
-      This is a post written in plain Markdown (<em>.md) instead of R Markdown (</em>.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></h2>
-    <div class="article-style">
-      
       <p>R Markdown
-Including Plots</p>
+Introducción
+Inclusión de código R
+Inclusión de gráficos
+Inclusión de tablas
+Extracción del código R</p>
+
+<p>Spin</p>
 
 <p>R Markdown
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" target="_blank">http://rmarkdown.rstudio.com</a>.
-You can embed code chunks:
-this.is = a.code(example)
-like this R code chunk (also adding the resulting R outcomes):
-summary(cars)
- speed dist Min. : 4.0 Min. : 2.00 1st Qu.:12.0 1st Qu.</p>
+Introducción
+Markdown permite la creación de páginas web a partir de documentos de texto de forma muy sencilla y rápida (tiene unas reglas sintácticas muy simples). Este documento se ha generado empleando Markdown y R. R-Markdown es recomendable para difundir análisis realizados con R en formato HTML, PDF y DOCX (Word), entre otros.</p>
 
       
     </div>
@@ -255,6 +311,15 @@ summary(cars)
   
 
   
+<nav>
+  <ul class="pager">
+    
+    
+    <li><a href="/categories/r/page/2/">&gt;</a></li>
+    
+  </ul>
+</nav>
+
 
 
 </div>
@@ -283,6 +348,8 @@ summary(cars)
     
 
     
+    
+    <script id="dsq-count-scr" src="//https-rubenfcasal-github-io.disqus.com/count.js" async></script>
     
 
     
