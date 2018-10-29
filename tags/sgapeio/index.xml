@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sgapeio on R Machinery</title>
+    <link>/tags/sgapeio/</link>
+    <description>Recent content in sgapeio on R Machinery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Thu, 26 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/sgapeio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creación e divulgación de contidos con RMarkdown</title>
+      <link>/post/creaci%C3%B3n-contenidos-rmarkdown/</link>
+      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creaci%C3%B3n-contenidos-rmarkdown/</guid>
+      <description>EjemplosMaterialRequisitosEn el próximo Congreso de la Sgapeio voy a participar en la impartición de un curso sobre R Markdown.
+En la segunda parte del curso “Creación e divulgación de contidos con R Markdown” trataremos los siguientes temas:
+Conversión entre formatos con pandoc.
+Creación de libros e documentos có paquete bookdown.
+bookdown para crear libros (en múltiples formatos, incluyendo html) a partir de documentos R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Escritura de libros con `bookdown`</title>
+      <link>/post/intro-bookdown/</link>
+      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/intro-bookdown/</guid>
+      <description>IntroducciónRequisitosGet startedPrimeros pasosEncabezado de index.RmdArchivo _bookdown.ymlLicenciaPublicación en la webActualización 14-10-18: Una versión más reciente de este post está disponible aquí: https://rubenfcasal.github.io/bookdown_intro.
+IntroducciónEl paquete bookdown de R permite escribir libros empleando R Markdown de forma fácil. Sin preocuparse mucho por los detalles de composición se pueden crear libros en distintos formatos (HTML / PDF / Word / …). Además de permitir emplear las extensiones Markdown de Pandoc (notas al pie de página, tablas, citas, ecuaciones LaTeX, …), se pueden emplear extensiones markdown para libros (leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</description>
+    </item>
+    
+    <item>
+      <title>Creación de sitios web con `blogdown`</title>
+      <link>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
+      <description>IntroducciónCreación de un sitio webCreación de contenidoDocumentaciónAlgunos ejemplos:PublicaciónLenguaje y traducciónAyudaBasado en este artículo de Yihui Xie publicado en el Blog de RStudio.
+IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, que permite crear sitios web (estáticos) de uso general (webs personales, blogs, …) con R Markdown. Se puede instalar con:
+install.packages(&amp;quot;blogdown&amp;quot;)Para instalar la versión de desarrollo (alojado en GitHub en el repositorio rstudio / blogdown) usar:</description>
+    </item>
+    
+    <item>
+      <title>Apuntes de simulación</title>
+      <link>/post/apuntes-de-simulaci%C3%B3n/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/apuntes-de-simulaci%C3%B3n/</guid>
+      <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub. Por ejemplo, está disponible en http://github.com/rubenfcasal/simbook una versión de parte de mis apuntes de simulación en forma de libro para ponerlo como ejemplo.
+El libro está accesible online en formato html (de momento no lo estoy compilando en pdf) aqui: https://rubenfcasal.github.io/simbook.
+Ya me decís&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>`npsp` versión 0.6.2</title>
+      <link>/post/npsp-062/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/npsp-062/</guid>
+      <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub.
+Por ejemplo, está disponible en http://github.com/rubenfcasal/npsp la versión 0.6.2 del paquete npsp (la versión en CRAN es la 0.5-3). En esta versión añadí una web del paquete que tenía pensado emplear como ejemplo: https://rubenfcasal.github.io/npsp. Mi intención es subir cuanto antes una nueva versión (la 0.7, con novedades en cuanto al modelado automático de datos espaciales) a GitHub y al CRAN.</description>
+    </item>
+    
+    <item>
+      <title>Generación de informes con R</title>
+      <link>/post/generaci%C3%B3n-de-informes-con-r/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/generaci%C3%B3n-de-informes-con-r/</guid>
+      <description>R MarkdownIntroducciónInclusión de código RInclusión de gráficosInclusión de tablasExtracción del código RSpinR MarkdownActualización 14-10-18: Una versión más reciente de este post está disponible aquí: https://rubenfcasal.github.io/bookdown_intro/rmarkdown.html.
+IntroducciónMarkdown permite la creación de páginas web a partir de documentos de texto de forma muy sencilla y rápida (tiene unas reglas sintácticas muy simples). Este documento se ha generado empleando Markdown y R.</description>
+    </item>
+    
+  </channel>
+</rss>

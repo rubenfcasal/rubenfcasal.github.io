@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.27" />
+  <meta name="generator" content="Hugo 0.49.2" />
   <meta name="author" content="Ruben Fernandez-Casal">
   <meta name="description" content="Associate Professor (Contratado Doctor) of Statistics and Operational Research (Estadística e Investigación Operativa)">
 
@@ -263,7 +263,7 @@
 <pre><code>   # --------------------------------------------------------------
    #  Analysis of Geostatistical Data
    #  For an Introduction to geoR go to http://www.leg.ufpr.br/geoR
-   #  geoR version 1.7-5.2 (built on 2016-05-02) is now loaded
+   #  geoR version 1.7-5.2.1 (built on 2016-05-02) is now loaded
    # --------------------------------------------------------------</code></pre>
 <p><br></p>
 </div>
@@ -593,10 +593,7 @@ vario.ols &lt;- variofit(vario.b, ini = c(1, 0.5), weights = &quot;equal&quot;) 
    # Call:
    # likfit(geodata = s100, ini.cov.pars = c(1, 0.5))</code></pre>
 <p>Ejemplo de estimación por máxima verosimilitud restringida (opción de <code>likfit</code>):</p>
-<pre class="r"><code>vario.reml &lt;- likfit(s100, ini = c(1, 0.5), method = &quot;RML&quot;)</code></pre>
-<pre><code>   # Warning in likfit(s100, ini = c(1, 0.5), method = &quot;RML&quot;): argument &quot;method&quot;
-   # has changed and is now used as an argument to be passed to optim(). Use
-   # &quot;lik.method&quot; to define the likelihood method</code></pre>
+<pre class="r"><code>vario.reml &lt;- likfit(s100, ini = c(1, 0.5), lik.method = &quot;RML&quot;)</code></pre>
 <pre><code>   # ---------------------------------------------------------------
    # likfit: likelihood maximisation using the function optim.
    # likfit: Use control() to pass additional
@@ -641,7 +638,7 @@ vario.ols &lt;- variofit(vario.b, ini = c(1, 0.5), weights = &quot;equal&quot;) 
    # &quot;-125.1&quot;      &quot;2&quot;  &quot;254.1&quot;  &quot;259.3&quot; 
    # 
    # Call:
-   # likfit(geodata = s100, ini.cov.pars = c(1, 0.5), method = &quot;RML&quot;)</code></pre>
+   # likfit(geodata = s100, ini.cov.pars = c(1, 0.5), lik.method = &quot;RML&quot;)</code></pre>
 <p><strong>NOTAS</strong>:</p>
 <ul>
 <li><p>Para fijar el nugget a un valor p.e. 0.15 añadir las opciones: <code>fix.nugget = TRUE, nugget = 0.15</code>.</p></li>
@@ -669,8 +666,6 @@ legend(0.3, 0.3, legend = c(&quot;ML&quot;, &quot;REML&quot;, &quot;OLS&quot;, &
    # variog.env: computing the empirical variogram for the 99 simulations
    # variog.env: computing the envelops</code></pre>
 <pre class="r"><code>env.model &lt;- variog.model.env(s100, obj.var = vario.b, model = vario.wls)</code></pre>
-<pre><code>   # Warning in if (class(model.pars) == &quot;eyefit&quot;) {: la condición tiene
-   # longitud &gt; 1 y sólo el primer elemento será usado</code></pre>
 <pre><code>   # variog.env: generating 99 simulations (with  100 points each) using the function grf
    # variog.env: adding the mean or trend
    # variog.env: computing the empirical variogram for the 99 simulations
@@ -681,9 +676,13 @@ plot(vario.b, envelope = env.model)
 lines(vario.wls, lty = 2, lwd = 2, max.dist = 0.6)</code></pre>
 <p><img src="/post/2017-10-23-introducción-a-la-geoestadística-con-geor_files/figure-html/unnamed-chunk-25-1.png" width="672" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>par(oldpar)     </code></pre>
-<p>Para estudiar si hay una dependencia espacial “significativa” se puede emplear también la rutina <code>sm.variogram</code> del paquete <code>sm</code>. Esta rutina devuelve un p-valor para contrastar la hipótesis nula de independencia (i.e. se acepta que hay una dependencia espacial si <span class="math inline">\(p \leq \alpha = 0.05\)</span>) y un gráfico en el que se muestra el estimador empírico robusto, un estimador suavizado y una región de confianza para el variograma suponiendo que el proceso es independiente (i.e. consideraríamos que hay dependencia espacial si el variograma suavizado no está contenido en esa región).</p>
-<pre class="r"><code># library(sm)
-# sm.variogram(s100$coords, s100$data)</code></pre>
+<p>Para estudiar si hay una dependencia espacial “significativa” se puede emplear también la rutina <code>sm.variogram</code> del paquete <code>sm</code>. Estableciendo <code>model = &quot;independent&quot;</code> devuelve un p-valor para contrastar la hipótesis nula de independencia (i.e. se acepta que hay una dependencia espacial si <span class="math inline">\(p \leq \alpha = 0.05\)</span>) y un gráfico en el que se muestra el estimador empírico robusto, un estimador suavizado y una región de confianza para el variograma suponiendo que el proceso es independiente (i.e. consideraríamos que hay dependencia espacial si el variograma suavizado no está contenido en esa región).</p>
+<pre class="r"><code>library(sm)</code></pre>
+<pre><code>   # Package &#39;sm&#39;, version 2.2-5.6: type help(sm) for summary information</code></pre>
+<pre class="r"><code>sm.variogram(s100$coords, s100$data, model = &quot;independent&quot;)</code></pre>
+<pre><code>   # Test of spatial independence: p =  0.024</code></pre>
+<p><img src="/post/2017-10-23-introducción-a-la-geoestadística-con-geor_files/figure-html/unnamed-chunk-26-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><strong>Nota</strong>: Se puede realizar contrastes adicionales estableciendo el parámetro <code>model</code> a <code>&quot;isotropic&quot;</code> o <code>&quot;stationary&quot;</code>.</p>
 <p><br></p>
 </div>
 <div id="validacion-cruzada" class="section level3">
@@ -745,8 +744,10 @@ plot(variog(wolfcamp, max.dist = 200)) # Supone que el proceso es estacionario</
 </ul>
 <p>Existen también opciones adicionales para kriging trans-normal (con transformaciones Box-Cox para aproximarse a la normalidad y transformación de nuevo de resultados a la escala original manteniendo insesgadez). También admite modelos de variograma geométricamente anisotrópicos.</p>
 <p>Para obtener una rejilla discreta de predicción puede ser de utilidad la función <code>expand.grid</code>:</p>
-<pre class="r"><code>pred.grid &lt;- expand.grid(x = seq(0, 1, l = 51), y =  seq(0, 1, l = 51)) #rejilla regular 51x51 en cuadrado unidad
-# pred.grid &lt;- expand.grid(seq(0, 1, l = 51), seq(0, 1, l = 51)) #rejilla regular 51x51 en cuadrado unidad
+<pre class="r"><code># Rejilla regular 51x51 en cuadrado unidad
+xx &lt;- seq(0, 1, l = 51)
+yy &lt;- seq(0, 1, l = 51)
+pred.grid &lt;- expand.grid(x = xx, y = yy) 
 plot(s100$coords, pch = 20)
 points(pred.grid, pch = 3, cex = 0.2)</code></pre>
 <p><img src="/post/2017-10-23-introducción-a-la-geoestadística-con-geor_files/figure-html/unnamed-chunk-30-1.png" width="672" style="display: block; margin: auto;" /></p>
@@ -775,14 +776,32 @@ contour(ko.wls,val=sqrt(ko.wls$krige.var),add=T)</code></pre>
 <p>Otras opciones:</p>
 <pre class="r"><code>contour(ko.wls,filled = TRUE)</code></pre>
 <p><img src="/post/2017-10-23-introducción-a-la-geoestadística-con-geor_files/figure-html/unnamed-chunk-34-1.png" width="672" style="display: block; margin: auto;" /></p>
-<pre class="r"><code>persp(ko.wls, theta=-60, phi=30, col=topo.colors(10))</code></pre>
-<p><img src="/post/2017-10-23-introducción-a-la-geoestadística-con-geor_files/figure-html/unnamed-chunk-34-2.png" width="672" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>fcol &lt;- topo.colors(10)[cut(matrix(ko.wls$pred,nrow=51,ncol=51)[-1,-1],10,include.lowest=TRUE)]
 persp(ko.wls, theta=-60, phi=40, col=fcol)</code></pre>
+<p><img src="/post/2017-10-23-introducción-a-la-geoestadística-con-geor_files/figure-html/unnamed-chunk-34-2.png" width="672" style="display: block; margin: auto;" /></p>
+<pre class="r"><code>if(!require(plot3D)) 
+  stop(&#39;Required pakage `plot3D` not installed.&#39;) # install.packages(&#39;plot3D&#39;)</code></pre>
+<pre><code>   # Loading required package: plot3D</code></pre>
+<pre class="r"><code>persp3D(xx, yy, matrix(ko.wls$predict, nrow = length(xx)), theta=-60, phi=40)</code></pre>
 <p><img src="/post/2017-10-23-introducción-a-la-geoestadística-con-geor_files/figure-html/unnamed-chunk-34-3.png" width="672" style="display: block; margin: auto;" /></p>
+<pre class="r"><code>if(!require(npsp)) 
+  stop(&#39;Required pakage `npsp` not installed.&#39;) # install.packages(&#39;npsp&#39;)</code></pre>
+<pre><code>   # Loading required package: npsp</code></pre>
+<pre><code>   #  Package npsp: Nonparametric Spatial Statistics,
+   #  version 0.7-3 (built on 2018-10-11).
+   #  Copyright (C) R. Fernandez-Casal 2012-2018.
+   #  Type `help(npsp)` for an overview of the package and
+   #  `demo(package = &quot;npsp&quot;)` for the list of available demos.</code></pre>
+<pre><code>   # 
+   # Attaching package: &#39;npsp&#39;</code></pre>
+<pre><code>   # The following object is masked from &#39;package:sm&#39;:
+   # 
+   #     binning</code></pre>
+<pre class="r"><code>spersp(xx, yy, ko.wls$predict, theta=-60, phi=40)</code></pre>
+<p><img src="/post/2017-10-23-introducción-a-la-geoestadística-con-geor_files/figure-html/unnamed-chunk-34-4.png" width="672" style="display: block; margin: auto;" /></p>
 <p><br></p>
 <hr />
-<p>Copyright 2009-2017 Rubén Fernández Casal</p>
+<p>Copyright 2009-2018 Rubén Fernández Casal</p>
 <p>Se autoriza la realización y distribución de copias literales de este manual, siempre y cuando las advertencias del copyright y de este permiso se conserven en todas las copias.</p>
 <p>Se autoriza la realización y distribución de copias modificadas de este manual, en las mismas condiciones de las copias literales, siempre y cuando la totalidad del trabajo resultante se distribuya bajo los términos de una advertencia de permiso idéntica a esta.</p>
 </div>
@@ -816,7 +835,7 @@ persp(ko.wls, theta=-60, phi=40, col=fcol)</code></pre>
   <h3></h3>
   <ul>
     
-    <li><a href="/post/npsp/">Geoestadística no paramétrica con `npsp`</a></li>
+    <li><a href="/post/npsp-062/">`npsp` versión 0.6.2</a></li>
     
     <li><a href="/post/diagnosis-de-la-independencia/">Diagnosis de la independencia</a></li>
     
@@ -832,7 +851,7 @@ persp(ko.wls, theta=-60, phi=40, col=fcol)</code></pre>
   
 <section id="comments">
   <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -860,7 +879,7 @@ persp(ko.wls, theta=-60, phi=40, col=fcol)</code></pre>
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 Ruben Fernandez-Casal &middot; 
+      &copy; 2017-2018 Ruben Fernandez-Casal &middot; 
 
       Powered by <a href="https://bookdown.org/yihui/blogdown" target="_blank">blogdown</a> 
       and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic

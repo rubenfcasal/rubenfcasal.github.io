@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estadística on R Machinery</title>
+    <link>/categories/estad%C3%ADstica/</link>
+    <description>Recent content in Estadística on R Machinery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Wed, 10 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/estad%C3%ADstica/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tesis geoestadística espacio-temporal</title>
+      <link>/post/tesis_geoestadistica_espacio-temporal/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tesis_geoestadistica_espacio-temporal/</guid>
+      <description>Mi tesis doctoral “Geoestadística espacio-temporal: modelos flexibles de variogramas anisotrópicos no separables” puede descargarse en formato pdf aquí.
+Esta memoria, del año 2003, se centra principalmente en el modelado flexible de la dependencia espacio-temporal. La monografía esta organizada en dos partes: la primera parte (capítulos del 2 al 5) consiste en una introducción a la geoestadística, donde se realiza una revisión de las distintas ideas y herramientas desarrolladas para el caso general de procesos espaciales, tratando con mayor detalle las distintas propuestas relacionadas con el modelado no paramétrico de la dependencia espacial: la segunda parte (capítulos del 6 al 9) se centra en el caso espacio-temporal.</description>
+    </item>
+    
+    <item>
+      <title>Diagnosis de la independencia</title>
+      <link>/post/diagnosis-de-la-independencia/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/diagnosis-de-la-independencia/</guid>
+      <description>IntroducciónRepaso: La covarianza y el coeficiente de correlaciónEl problema de la dependenciaMétodos para detectar dependenciaMétodos gráficosGráfico secuencialGráfico de dispersion retardadoEl correlogramaContrastes de hipótesisTest de rachasEl contraste de Ljung-BoxEjemplo adicional: Análisis de series temporales
+IntroducciónRepaso: La covarianza y el coeficiente de correlaciónPara medir la relación (lineal) entre dos variables se emplea la covarianza: \[Cov(X,Y) = E{\big[(X - E(X))(Y - E(Y))\big]}\] Su estimador es la covarianza muestral: \[s_{XY}=\frac{1}{n}\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i} - \overline{y})\]</description>
+    </item>
+    
+  </channel>
+</rss>

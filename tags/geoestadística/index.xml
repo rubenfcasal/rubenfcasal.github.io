@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geoestadística on R Machinery</title>
+    <link>/tags/geoestad%C3%ADstica/</link>
+    <description>Recent content in Geoestadística on R Machinery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Wed, 10 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/geoestad%C3%ADstica/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tesis geoestadística espacio-temporal</title>
+      <link>/post/tesis_geoestadistica_espacio-temporal/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tesis_geoestadistica_espacio-temporal/</guid>
+      <description>Mi tesis doctoral “Geoestadística espacio-temporal: modelos flexibles de variogramas anisotrópicos no separables” puede descargarse en formato pdf aquí.
+Esta memoria, del año 2003, se centra principalmente en el modelado flexible de la dependencia espacio-temporal. La monografía esta organizada en dos partes: la primera parte (capítulos del 2 al 5) consiste en una introducción a la geoestadística, donde se realiza una revisión de las distintas ideas y herramientas desarrolladas para el caso general de procesos espaciales, tratando con mayor detalle las distintas propuestas relacionadas con el modelado no paramétrico de la dependencia espacial: la segunda parte (capítulos del 6 al 9) se centra en el caso espacio-temporal.</description>
+    </item>
+    
+    <item>
+      <title>Geoestadística no paramétrica con el paquete `npsp`</title>
+      <link>/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</guid>
+      <description>Geoestadística no paramétricaEjemploModelo generalEjemploInferencia (no paramétrica) en procesos geoestadísticosBinning linealDiscretizaciónInterpolaciónEstimación de la densidadEstimación de la tendenciaRegresión polinómica localImplementación en el paquete npspEjemploEstimación del variogramaEstimación piloto del variogramaEstimación piloto del variograma con corrección de sesgoAjuste de un modelo no paramétricoSelección de las ventanasEstimación de la tendenciaEstimación del variogramaEstimación conjunta (automática)Predicción krigingFuturas implementacionesReferenciaslibrary(npsp)## Package npsp: Nonparametric Spatial Statistics,## version 0.</description>
+    </item>
+    
+    <item>
+      <title>Diagnosis de la independencia</title>
+      <link>/post/diagnosis-de-la-independencia/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/diagnosis-de-la-independencia/</guid>
+      <description>IntroducciónRepaso: La covarianza y el coeficiente de correlaciónEl problema de la dependenciaMétodos para detectar dependenciaMétodos gráficosGráfico secuencialGráfico de dispersion retardadoEl correlogramaContrastes de hipótesisTest de rachasEl contraste de Ljung-BoxEjemplo adicional: Análisis de series temporales
+IntroducciónRepaso: La covarianza y el coeficiente de correlaciónPara medir la relación (lineal) entre dos variables se emplea la covarianza: \[Cov(X,Y) = E{\big[(X - E(X))(Y - E(Y))\big]}\] Su estimador es la covarianza muestral: \[s_{XY}=\frac{1}{n}\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i} - \overline{y})\]</description>
+    </item>
+    
+    <item>
+      <title>Introducción a la Geoestadística con `geoR`</title>
+      <link>/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/</guid>
+      <description>El paquete geoR1. Inicio de una sesión y de carga de datos1.1 Cargar el paquete1.2 Archivos de datos2. Análisis descriptivo de datos geoestadísticos3. Modelado de la dependencia3.1 Variogramas empíricos3.2 Ajuste de un modelo de variograma3.3 Inferencia sobre el variograma3.4 Validación cruzada3.5 Estimación del variograma en procesos no estacionarios4. Predicción espacial (kriging)
+El paquete geoREl paquete geoR proporciona herramientas para el análisis de datos geoestadísticos en R (otra alternativa puede ser emplear el paquete gstat, por ejemplo…).</description>
+    </item>
+    
+    <item>
+      <title>`npsp` versión 0.6.2</title>
+      <link>/post/npsp-062/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/npsp-062/</guid>
+      <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub.
+Por ejemplo, está disponible en http://github.com/rubenfcasal/npsp la versión 0.6.2 del paquete npsp (la versión en CRAN es la 0.5-3). En esta versión añadí una web del paquete que tenía pensado emplear como ejemplo: https://rubenfcasal.github.io/npsp. Mi intención es subir cuanto antes una nueva versión (la 0.7, con novedades en cuanto al modelado automático de datos espaciales) a GitHub y al CRAN.</description>
+    </item>
+    
+  </channel>
+</rss>

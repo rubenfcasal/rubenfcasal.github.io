@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.27" />
+  <meta name="generator" content="Hugo 0.49.2" />
   <meta name="author" content="Ruben Fernandez-Casal">
   <meta name="description" content="Associate Professor (Contratado Doctor) of Statistics and Operational Research (Estadística e Investigación Operativa)">
 
@@ -41,8 +41,8 @@
 
   
 
-  <link rel="alternate" href="" type="application/rss+xml" title="R Machinery">
-  <link rel="feed" href="" type="application/rss+xml" title="R Machinery">
+  <link rel="alternate" href="/tags/geoestad%C3%ADstica/index.xml" type="application/rss+xml" title="R Machinery">
+  <link rel="feed" href="/tags/geoestad%C3%ADstica/index.xml" type="application/rss+xml" title="R Machinery">
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
@@ -148,45 +148,19 @@
   
   
   <div>
-    <h2><a href="/post/geoestadistica-no-parametrica-con-el-paquete-npsp/">Geoestadística no paramétrica con el paquete *npsp*</a></h2>
+    <h2><a href="/post/tesis_geoestadistica_espacio-temporal/">Tesis geoestadística espacio-temporal</a></h2>
     <div class="article-style">
       
-      <p>Geoestadística no paramétrica
-Ejemplo
-Modelo general
-Ejemplo
-Inferencia (no paramétrica) en procesos geoestadísticos</p>
-
-<p>Binning lineal
-Discretización
-Interpolación</p>
-
-<p>Estimación de la densidad
-Estimación de la tendencia
-Regresión polinómica local
-Implementación en el paquete npsp
-Ejemplo</p>
-
-<p>Estimación del variograma
-Estimación piloto del variograma
-Estimación piloto del variograma con corrección de sesgo
-Ajuste de un modelo no paramétrico</p>
-
-<p>Selección de las ventanas
-Estimación de la tendencia
-Estimación del variograma</p>
-
-<p>Estimación conjunta (automática)
-Predicción kriging
-Futuras implementaciones
-Referencias</p>
-
-<p>library(npsp)</p>
-
-<h2 id="package-npsp-nonparametric-spatial-statistics">Package npsp: Nonparametric Spatial Statistics,</h2>
-
-<h2 id="version-0">version 0.</h2>
-
+      Mi tesis doctoral en formato <a href="/Geoestadistica_espacio-temporal.pdf">pdf</a>.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/geoestadistica-no-parametrica-con-el-paquete-npsp/">Geoestadística no paramétrica con el paquete `npsp`</a></h2>
+    <div class="article-style">
+      
+      El paquete <a href="https://rubenfcasal.github.io/npsp" target="_blank">npsp</a> proporciona herramientas para el análisis no paramétrico de datos geoestadísticos en R. En este post se ilustran algunas de las capacidades de este paquete.
       
     </div>
   </div>
@@ -195,36 +169,7 @@ Referencias</p>
     <h2><a href="/post/diagnosis-de-la-independencia/">Diagnosis de la independencia</a></h2>
     <div class="article-style">
       
-      <p>Introducción
-Repaso: La covarianza y el coeficiente de correlación
-El problema de la dependencia
-Métodos para detectar dependencia</p>
-
-<p>Métodos gráficos
-Gráfico secuencial
-Gráfico de dispersion retardado
-El correlograma</p>
-
-<p>Contrastes de hipótesis
-Test de rachas
-El contraste de Ljung-Box</p>
-
-<p>Ejemplo adicional: Análisis de series temporales</p>
-
-<p>Introducción
-Repaso: La covarianza y el coeficiente de correlación
-Para medir la relación (lineal) entre dos variables se emplea la covarianza: [Cov(X,Y) = E{\big[(X - E(X))(Y - E(Y))\big]}] Su estimador es la covarianza muestral: [s<em>{XY}=\frac{1}{n}\sum</em>{i=1}^{n}(x<em>{i}-\overline{x})(y</em>{i} - \overline{y})]</p>
-
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/post/npsp/">Geoestadística no paramétrica con `npsp`</a></h2>
-    <div class="article-style">
-      
-      Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub.
-Por ejemplo, está disponible en <a href="http://github.com/rubenfcasal/npsp" target="_blank">http://github.com/rubenfcasal/npsp</a> la versión 0.6.2 del paquete npsp (la versión en CRAN es la 0.5-3). En esta versión añadí una web del paquete que tenía pensado emplear como ejemplo: <a href="https://rubenfcasal.github.io/npsp" target="_blank">https://rubenfcasal.github.io/npsp</a>. Mi intención es subir cuanto antes una nueva versión (la 0.7, con novedades en cuanto al modelado automático de datos espaciales) a GitHub y al CRAN.
+      Apuntes sobre dependencia con R.
       
     </div>
   </div>
@@ -233,8 +178,16 @@ Por ejemplo, está disponible en <a href="http://github.com/rubenfcasal/npsp" ta
     <h2><a href="/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/">Introducción a la Geoestadística con `geoR`</a></h2>
     <div class="article-style">
       
-      El paquete geoR 1. Inicio de una sesión y de carga de datos 1.1 Cargar el paquete 1.2 Archivos de datos  2. Análisis descriptivo de datos geoestadísticos 3. Modelado de la dependencia 3.1 Variogramas empíricos 3.2 Ajuste de un modelo de variograma 3.3 Inferencia sobre el variograma 3.4 Validación cruzada 3.5 Estimación del variograma en procesos no estacionarios  4. Predicción espacial (kriging)<br />
-El paquete geoR El paquete geoR proporciona herramientas para el análisis de datos geoestadísticos en R (otra alternativa puede ser emplear el paquete gstat, por ejemplo…).
+      El paquete <code>geoR</code> proporciona herramientas para el análisis de datos geoestadísticos en <code>R</code> (otra alternativa puede ser emplear el paquete <code>gstat</code>, por ejemplo&hellip;). En este post se ilustran algunas de las capacidades de este paquete.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/npsp-062/">`npsp` versión 0.6.2</a></h2>
+    <div class="article-style">
+      
+      Disponible en <a href="http://github.com/rubenfcasal/npsp" target="_blank">GitHub</a> la versión 0.6.2 del paquete <a href="https://rubenfcasal.github.io/npsp" target="_blank">npsp</a>.
       
     </div>
   </div>
@@ -248,7 +201,7 @@ El paquete geoR El paquete geoR proporciona herramientas para el análisis de da
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 Ruben Fernandez-Casal &middot; 
+      &copy; 2017-2018 Ruben Fernandez-Casal &middot; 
 
       Powered by <a href="https://bookdown.org/yihui/blogdown" target="_blank">blogdown</a> 
       and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic

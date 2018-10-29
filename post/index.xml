@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Machinery</title>
+    <link>/post/</link>
+    <description>Recent content on R Machinery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Libro sobre `bookdown`</title>
+      <link>/post/escritura-de-libros-con-bookdown/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/escritura-de-libros-con-bookdown/</guid>
+      <description>Tomás Cotos y yo preparamos una pequeña guía sobre sobre como emplear el paquete bookdown de R para la escritura de libros en formato RMarkdown (que presentamos en las V Jornadas de Usuarios de R, incluyendo algunos detalles de configuración para la escritura en otros idiomas distintos del inglés (castellano, galego,…). Este libro está hecho empleando ese mismo paquete y está disponible en el repositorio Github: rubenfcasal/bookdown_intro. Se puede ver online aquí: https://rubenfcasal.</description>
+    </item>
+    
+    <item>
+      <title>Tesis geoestadística espacio-temporal</title>
+      <link>/post/tesis_geoestadistica_espacio-temporal/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tesis_geoestadistica_espacio-temporal/</guid>
+      <description>Mi tesis doctoral “Geoestadística espacio-temporal: modelos flexibles de variogramas anisotrópicos no separables” puede descargarse en formato pdf aquí.
+Esta memoria, del año 2003, se centra principalmente en el modelado flexible de la dependencia espacio-temporal. La monografía esta organizada en dos partes: la primera parte (capítulos del 2 al 5) consiste en una introducción a la geoestadística, donde se realiza una revisión de las distintas ideas y herramientas desarrolladas para el caso general de procesos espaciales, tratando con mayor detalle las distintas propuestas relacionadas con el modelado no paramétrico de la dependencia espacial: la segunda parte (capítulos del 6 al 9) se centra en el caso espacio-temporal.</description>
+    </item>
+    
+    <item>
+      <title>Geoestadística no paramétrica con el paquete `npsp`</title>
+      <link>/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</guid>
+      <description>Geoestadística no paramétricaEjemploModelo generalEjemploInferencia (no paramétrica) en procesos geoestadísticosBinning linealDiscretizaciónInterpolaciónEstimación de la densidadEstimación de la tendenciaRegresión polinómica localImplementación en el paquete npspEjemploEstimación del variogramaEstimación piloto del variogramaEstimación piloto del variograma con corrección de sesgoAjuste de un modelo no paramétricoSelección de las ventanasEstimación de la tendenciaEstimación del variogramaEstimación conjunta (automática)Predicción krigingFuturas implementacionesReferenciaslibrary(npsp)## Package npsp: Nonparametric Spatial Statistics,## version 0.</description>
+    </item>
+    
+    <item>
+      <title>Creación e divulgación de contidos con RMarkdown</title>
+      <link>/post/creaci%C3%B3n-contenidos-rmarkdown/</link>
+      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creaci%C3%B3n-contenidos-rmarkdown/</guid>
+      <description>EjemplosMaterialRequisitosEn el próximo Congreso de la Sgapeio voy a participar en la impartición de un curso sobre R Markdown.
+En la segunda parte del curso “Creación e divulgación de contidos con R Markdown” trataremos los siguientes temas:
+Conversión entre formatos con pandoc.
+Creación de libros e documentos có paquete bookdown.
+bookdown para crear libros (en múltiples formatos, incluyendo html) a partir de documentos R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Escritura de libros con `bookdown`</title>
+      <link>/post/intro-bookdown/</link>
+      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/intro-bookdown/</guid>
+      <description>IntroducciónRequisitosGet startedPrimeros pasosEncabezado de index.RmdArchivo _bookdown.ymlLicenciaPublicación en la webActualización 14-10-18: Una versión más reciente de este post está disponible aquí: https://rubenfcasal.github.io/bookdown_intro.
+IntroducciónEl paquete bookdown de R permite escribir libros empleando R Markdown de forma fácil. Sin preocuparse mucho por los detalles de composición se pueden crear libros en distintos formatos (HTML / PDF / Word / …). Además de permitir emplear las extensiones Markdown de Pandoc (notas al pie de página, tablas, citas, ecuaciones LaTeX, …), se pueden emplear extensiones markdown para libros (leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</description>
+    </item>
+    
+    <item>
+      <title>Creación de sitios web con `blogdown`</title>
+      <link>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
+      <description>IntroducciónCreación de un sitio webCreación de contenidoDocumentaciónAlgunos ejemplos:PublicaciónLenguaje y traducciónAyudaBasado en este artículo de Yihui Xie publicado en el Blog de RStudio.
+IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, que permite crear sitios web (estáticos) de uso general (webs personales, blogs, …) con R Markdown. Se puede instalar con:
+install.packages(&amp;quot;blogdown&amp;quot;)Para instalar la versión de desarrollo (alojado en GitHub en el repositorio rstudio / blogdown) usar:</description>
+    </item>
+    
+    <item>
+      <title>Análisis de datos con R</title>
+      <link>/post/analisis-de-datos-con-r/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/analisis-de-datos-con-r/</guid>
+      <description>Una presentación sobre el análisis de datos con R (que preparé para una charla sobre Big Data en Pymes) está accesible online en formato pdf aqui.
+La idea es que el entorno estadístico R puede ser una herramienta de gran utilidad en todo el proceso del análisis de datos (desde el acceso hasta la generación de informes). Con una pincelada de Big Data y &amp;ldquo;publicidad&amp;rdquo; para las empresas (a ver si valoran y demandan más este tipo de conocimientos)&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Apuntes de simulación</title>
+      <link>/post/apuntes-de-simulaci%C3%B3n/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/apuntes-de-simulaci%C3%B3n/</guid>
+      <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub. Por ejemplo, está disponible en http://github.com/rubenfcasal/simbook una versión de parte de mis apuntes de simulación en forma de libro para ponerlo como ejemplo.
+El libro está accesible online en formato html (de momento no lo estoy compilando en pdf) aqui: https://rubenfcasal.github.io/simbook.
+Ya me decís&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Diagnosis de la independencia</title>
+      <link>/post/diagnosis-de-la-independencia/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/diagnosis-de-la-independencia/</guid>
+      <description>IntroducciónRepaso: La covarianza y el coeficiente de correlaciónEl problema de la dependenciaMétodos para detectar dependenciaMétodos gráficosGráfico secuencialGráfico de dispersion retardadoEl correlogramaContrastes de hipótesisTest de rachasEl contraste de Ljung-BoxEjemplo adicional: Análisis de series temporales
+IntroducciónRepaso: La covarianza y el coeficiente de correlaciónPara medir la relación (lineal) entre dos variables se emplea la covarianza: \[Cov(X,Y) = E{\big[(X - E(X))(Y - E(Y))\big]}\] Su estimador es la covarianza muestral: \[s_{XY}=\frac{1}{n}\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i} - \overline{y})\]</description>
+    </item>
+    
+    <item>
+      <title>Introducción a la Geoestadística con `geoR`</title>
+      <link>/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/</guid>
+      <description>El paquete geoR1. Inicio de una sesión y de carga de datos1.1 Cargar el paquete1.2 Archivos de datos2. Análisis descriptivo de datos geoestadísticos3. Modelado de la dependencia3.1 Variogramas empíricos3.2 Ajuste de un modelo de variograma3.3 Inferencia sobre el variograma3.4 Validación cruzada3.5 Estimación del variograma en procesos no estacionarios4. Predicción espacial (kriging)
+El paquete geoREl paquete geoR proporciona herramientas para el análisis de datos geoestadísticos en R (otra alternativa puede ser emplear el paquete gstat, por ejemplo…).</description>
+    </item>
+    
+    <item>
+      <title>`npsp` versión 0.6.2</title>
+      <link>/post/npsp-062/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/npsp-062/</guid>
+      <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub.
+Por ejemplo, está disponible en http://github.com/rubenfcasal/npsp la versión 0.6.2 del paquete npsp (la versión en CRAN es la 0.5-3). En esta versión añadí una web del paquete que tenía pensado emplear como ejemplo: https://rubenfcasal.github.io/npsp. Mi intención es subir cuanto antes una nueva versión (la 0.7, con novedades en cuanto al modelado automático de datos espaciales) a GitHub y al CRAN.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with the Academic framework for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/post/getting-started/</guid>
+      <description>The Academic framework enables you to easily create a beautifully simple personal or academic website using the Hugo static site generator.
+Key features:
+ Easily manage your homepage, blog posts, publications, talks, and projects Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact Need a different section? Just use the Custom widget! Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize     Installation Getting Started  Core parameters Introduce yourself Customize the homepage Add your content Remove unused widgets and pages Themes Customization &amp;amp; updating  Advanced customization  Navigation menu Website icon Analytics Third party and local scripts (JS) Language and translation Permalinks Advanced style customization (CSS)  Updating Feedback &amp;amp; Contributing License   Installation  Install Hugo and create a new website by typing the following commands in your Terminal or Command Prompt app:</description>
+    </item>
+    
+    <item>
+      <title>Customizing the homepage with widgets</title>
+      <link>/post/widgets/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/post/widgets/</guid>
+      <description>Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:
+ About/biography Selected publications Recent publications Recent news/blog posts Projects Selected talks Recent talks Contact Tag cloud Hero (introduction) Custom widget (demonstrated with the teaching example)  The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.</description>
+    </item>
+    
+    <item>
+      <title>Managing content</title>
+      <link>/post/managing-content/</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/post/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
+      <link>/post/writing-markdown-latex/</link>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/post/writing-markdown-latex/</guid>
+      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Generación de informes con R</title>
+      <link>/post/generaci%C3%B3n-de-informes-con-r/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/generaci%C3%B3n-de-informes-con-r/</guid>
+      <description>R MarkdownIntroducciónInclusión de código RInclusión de gráficosInclusión de tablasExtracción del código RSpinR MarkdownActualización 14-10-18: Una versión más reciente de este post está disponible aquí: https://rubenfcasal.github.io/bookdown_intro/rmarkdown.html.
+IntroducciónMarkdown permite la creación de páginas web a partir de documentos de texto de forma muy sencilla y rápida (tiene unas reglas sintácticas muy simples). Este documento se ha generado empleando Markdown y R.</description>
+    </item>
+    
+    <item>
+      <title>A Plain Markdown Post</title>
+      <link>/post/2015-12-30-plain-markdown/</link>
+      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2015-12-30-plain-markdown/</guid>
+      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownIncluding PlotsR MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed code chunks:
+this.is = a.code(example)like this R code chunk (also adding the resulting R outcomes):
+summary(cars) speed dist Min. : 4.0 Min. : 2.00 1st Qu.:12.0 1st Qu.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.27" />
+  <meta name="generator" content="Hugo 0.49.2" />
   <meta name="author" content="Ruben Fernandez-Casal">
   <meta name="description" content="Associate Professor (Contratado Doctor) of Statistics and Operational Research (Estadística e Investigación Operativa)">
 
@@ -49,7 +49,7 @@
 
   
 
-  <title>Geoestadística no paramétrica con el paquete *npsp* | R Machinery</title>
+  <title>Geoestadística no paramétrica con el paquete `npsp` | R Machinery</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -140,7 +140,7 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Geoestadística no paramétrica con el paquete *npsp*</h1>
+    <h1 itemprop="name">Geoestadística no paramétrica con el paquete `npsp`</h1>
     
 
 <div class="article-metadata">
@@ -188,7 +188,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Geoestad%c3%adstica%20no%20param%c3%a9trica%20con%20el%20paquete%20%2anpsp%2a&amp;url=%2fpost%2fgeoestadistica-no-parametrica-con-el-paquete-npsp%2f"
+         href="https://twitter.com/intent/tweet?text=Geoestad%c3%adstica%20no%20param%c3%a9trica%20con%20el%20paquete%20%60npsp%60&amp;url=%2fpost%2fgeoestadistica-no-parametrica-con-el-paquete-npsp%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
@@ -202,21 +202,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fgeoestadistica-no-parametrica-con-el-paquete-npsp%2f&amp;title=Geoestad%c3%adstica%20no%20param%c3%a9trica%20con%20el%20paquete%20%2anpsp%2a"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fgeoestadistica-no-parametrica-con-el-paquete-npsp%2f&amp;title=Geoestad%c3%adstica%20no%20param%c3%a9trica%20con%20el%20paquete%20%60npsp%60"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2fgeoestadistica-no-parametrica-con-el-paquete-npsp%2f&amp;title=Geoestad%c3%adstica%20no%20param%c3%a9trica%20con%20el%20paquete%20%2anpsp%2a"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fgeoestadistica-no-parametrica-con-el-paquete-npsp%2f&amp;title=Geoestad%c3%adstica%20no%20param%c3%a9trica%20con%20el%20paquete%20%60npsp%60"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Geoestad%c3%adstica%20no%20param%c3%a9trica%20con%20el%20paquete%20%2anpsp%2a&amp;body=%2fpost%2fgeoestadistica-no-parametrica-con-el-paquete-npsp%2f">
+         href="mailto:?subject=Geoestad%c3%adstica%20no%20param%c3%a9trica%20con%20el%20paquete%20%60npsp%60&amp;body=%2fpost%2fgeoestadistica-no-parametrica-con-el-paquete-npsp%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -265,7 +265,7 @@
 
 <pre class="r"><code>library(npsp)</code></pre>
 <pre><code>##  Package npsp: Nonparametric Spatial Statistics,
-##  version 0.7-1 (built on 2018-02-11).
+##  version 0.7-3 (built on 2018-10-11).
 ##  Copyright (C) R. Fernandez-Casal 2012-2018.
 ##  Type `help(npsp)` for an overview of the package and
 ##  `demo(package = &quot;npsp&quot;)` for the list of available demos.</code></pre>
@@ -370,7 +370,7 @@ abline(h = coordvs[[2]], lty = 3)</code></pre>
 <pre class="r"><code>cpu.time(total = FALSE)</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##    0.03    0.00    0.03</code></pre>
+##    0.05    0.02    0.06</code></pre>
 </div>
 <div id="interpolacion" class="section level2">
 <h2>Interpolación</h2>
@@ -417,7 +417,7 @@ str(bin)</code></pre>
 <pre class="r"><code>cpu.time(total = FALSE)</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##     0.2     0.1     0.3</code></pre>
+##    0.23    0.08    0.33</code></pre>
 </div>
 <div id="estimacion-de-la-tendencia" class="section level1">
 <h1>Estimación de la tendencia</h1>
@@ -467,7 +467,7 @@ spersp(lp, main = &#39;Trend estimates&#39;, zlab = &#39;piezometric-head&#39;, 
 <pre class="r"><code>cpu.time(total = FALSE)</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##    0.22    0.04    0.26</code></pre>
+##    0.17    0.03    0.20</code></pre>
 </div>
 </div>
 <div id="estimacion-del-variograma" class="section level1">
@@ -499,7 +499,7 @@ plot(esvar0, main = &quot;Nonparametric (residual) pilot semivariogram&quot;)</c
 <pre class="r"><code>cpu.time(total = FALSE)</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##    0.11    0.04    0.14</code></pre>
+##    0.11    0.03    0.14</code></pre>
 </div>
 <div id="estimacion-piloto-del-variograma-con-correccion-de-sesgo" class="section level2">
 <h2>Estimación piloto del variograma con corrección de sesgo</h2>
@@ -523,7 +523,7 @@ Var\left(\varepsilon(\mathbf{x}_i) - \varepsilon(\mathbf{x}_j) \right)
 <pre class="r"><code>cpu.time(total = FALSE)</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##    0.27    0.01    0.28</code></pre>
+##    0.11    0.03    0.16</code></pre>
 </div>
 <div id="ajuste-de-un-modelo-no-parametrico" class="section level2">
 <h2>Ajuste de un modelo no paramétrico</h2>
@@ -548,7 +548,7 @@ with(svm0$fit, lines(u, fitted.sv, lty = 3, lwd = 2))</code></pre>
 <pre class="r"><code>cpu.time(total = FALSE)</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##    0.15    0.03    0.19</code></pre>
+##    0.06    0.03    0.09</code></pre>
 <p>Estos modelos son extensibles al caso anisotrópico (Fernandez-Casal <em>et al</em>., 2003), adecuado para procesos espacio-temporales.</p>
 </div>
 </div>
@@ -603,19 +603,19 @@ h.cv(bin2, h.start = c(100, 100))                # MCV (ncv = 2)</code></pre>
 lp.h &lt;- h.cv(bin2, cov.bin = svm, h.start = c(100, 100)) # CMCV (ncv = 2)
 lp.h</code></pre>
 <pre><code>## $h
-##          [,1]     [,2]
-## [1,] 403.1891   0.0000
-## [2,]   0.0000 206.8383
+##          [,1]    [,2]
+## [1,] 403.1891   0.000
+## [2,]   0.0000 208.273
 ## 
 ## $value
-## [1] 5.948936
+## [1] 5.925639
 ## 
 ## $objective
 ## [1] &quot;CV&quot;</code></pre>
 <pre class="r"><code>cpu.time(total = FALSE)</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##    1.11    0.25    1.36</code></pre>
+##    0.75    0.28    1.04</code></pre>
 <p>Hay que tener cuidado con los algoritmos de optimización automáticos. Por defecto se emplea el método “L-BFGS-B” de la función <code>optim</code>. Como se trata de una minimización no lineal multidimensional puede haber problemas de mínimos locales. Para intentar evitar este problema se puede establecer unos valores iniciales para los parámetros de la ventana mediante el argumento <code>h.start</code>. Alternativamente se puede establecer el parámetro <code>DEalgorithm = TRUE</code> para utilizar el algoritmo genético de optimización del paquete <code>DEoptim</code> (aunque puede aumentar considerablemente el tiempo de computación).</p>
 <p>Empleando la ventana seleccionada se podría reestimar de nuevo la tendencia, aunque también habría que volver a estimar el variograma (si se modifica la variabilidad de gran escala, habría que actualizar la variabilidad de pequeña escala). Este procedimento se podría repetir iterativamente. Se tratará más adelante en la sección “<a href="Estimación%20conjunta%20(automática)">Estimación conjunta (automática)</a>”.</p>
 </div>
@@ -648,7 +648,7 @@ _{j}\right\Vert \right) }-1\right) ^{2}.\]</span> Adicionalmente, si hay datos a
 cpu.time(total = FALSE)</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##    0.95    0.22    1.17</code></pre>
+##    0.80    0.21    1.00</code></pre>
 <p>El parámetro <code>iter</code> controla el número máximo de iteraciones del algoritmo completo. Estableciendo <code>iter = 0</code> se emplea el variograma residual:</p>
 <pre class="r"><code>geom0 &lt;- np.fitgeo(x, y, iter = 0, h.start = c(100, 100))</code></pre>
 <p>La rutina devuelve el modelo no paramétrico ajustado, un objeto <a href="https://rubenfcasal.github.io/npsp/reference/np.geo.html">np.geo</a> que contiene las estimaciones de la tendencia y del variograma. Al representarlo gráficamente:</p>
@@ -664,7 +664,7 @@ krig.grid &lt;- kriging.np(geom, ngrid = c(96, 96))
 cpu.time(total = FALSE)</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##    3.01    0.09    3.10</code></pre>
+##    2.77    0.04    2.84</code></pre>
 <pre class="r"><code>old.par &lt;- par(mfrow = c(1,2), omd = c(0.01, 0.9, 0.05, 0.95))
 scale.range &lt;- range(krig.grid0$trend, krig.grid$trend, finite = TRUE)
 simage( krig.grid0, &#39;trend&#39;, slim = scale.range, 
@@ -700,10 +700,10 @@ splot(slim = scale.range, col = hot.colors(256), add = TRUE)</code></pre>
 <pre class="r"><code>cpu.time()</code></pre>
 <pre><code>## Time of last operation: 
 ##    user  system elapsed 
-##    0.33    0.13    0.45 
+##    0.37    0.27    0.66 
 ## Total time:
 ##    user  system elapsed 
-##    6.38    0.91    7.28</code></pre>
+##    5.42    1.02    6.52</code></pre>
 </div>
 <div id="futuras-implementaciones" class="section level1">
 <h1>Futuras implementaciones</h1>
@@ -761,7 +761,7 @@ splot(slim = scale.range, col = hot.colors(256), add = TRUE)</code></pre>
     
     <li><a href="/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/">Introducción a la Geoestadística con `geoR`</a></li>
     
-    <li><a href="/post/npsp/">Geoestadística no paramétrica con `npsp`</a></li>
+    <li><a href="/post/npsp-062/">`npsp` versión 0.6.2</a></li>
     
     <li><a href="/post/diagnosis-de-la-independencia/">Diagnosis de la independencia</a></li>
     
@@ -777,7 +777,7 @@ splot(slim = scale.range, col = hot.colors(256), add = TRUE)</code></pre>
   
 <section id="comments">
   <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -805,7 +805,7 @@ splot(slim = scale.range, col = hot.colors(256), add = TRUE)</code></pre>
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 Ruben Fernandez-Casal &middot; 
+      &copy; 2017-2018 Ruben Fernandez-Casal &middot; 
 
       Powered by <a href="https://bookdown.org/yihui/blogdown" target="_blank">blogdown</a> 
       and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic

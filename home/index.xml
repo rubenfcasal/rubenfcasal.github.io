@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on R Machinery</title>
+    <link>/home/</link>
+    <description>Recent content in Homes on R Machinery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Machinery</title>
+      <link>/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/home/hero/</guid>
+      <description> Sitio web (de Rubén Fernández-Casal) sobre R Podrás encontrar (herramientas y maquinaria):
+R  Estadística computacional, Regresión, R Markdown, &amp;hellip;  Estadística espacial y espacio-temporal  El paquete npsp, Geoestadística, &amp;hellip;  Software  Paquetes de R, Herramientas, &amp;hellip;  Material  Libros, Presentaciones, Apuntes, &amp;hellip;  </description>
+    </item>
+    
+    <item>
+      <title>Posts Recientes</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>Biografía Soy profesor Contratado Doctor del Departamento de Matemáticas (Area de Estadística e Investigación Operativa) de la Universidade da Coruña y miembro del grupo Modes.
+ 1998-2006. Profesor propio en la Universidade de Vigo.
+ 1996-1998. Profesor asociado en la Universidade de Santiago de Compostela.
+  Tesis doctoral: Geoestadística espacio-temporal: modelos flexibles de variogramas anisotrópicos no separables.
+Más información en mi página institucional (en inglés):
+ Docencia
+ Publicaciones (desde 2007)</description>
+    </item>
+    
+    <item>
+      <title>Contacto</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

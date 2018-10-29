@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apuntes on R Machinery</title>
+    <link>/tags/apuntes/</link>
+    <description>Recent content in Apuntes on R Machinery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/apuntes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tesis geoestadística espacio-temporal</title>
+      <link>/post/tesis_geoestadistica_espacio-temporal/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tesis_geoestadistica_espacio-temporal/</guid>
+      <description>Mi tesis doctoral “Geoestadística espacio-temporal: modelos flexibles de variogramas anisotrópicos no separables” puede descargarse en formato pdf aquí.
+Esta memoria, del año 2003, se centra principalmente en el modelado flexible de la dependencia espacio-temporal. La monografía esta organizada en dos partes: la primera parte (capítulos del 2 al 5) consiste en una introducción a la geoestadística, donde se realiza una revisión de las distintas ideas y herramientas desarrolladas para el caso general de procesos espaciales, tratando con mayor detalle las distintas propuestas relacionadas con el modelado no paramétrico de la dependencia espacial: la segunda parte (capítulos del 6 al 9) se centra en el caso espacio-temporal.</description>
+    </item>
+    
+  </channel>
+</rss>

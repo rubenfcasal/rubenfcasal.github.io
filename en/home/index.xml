@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on R Machinery</title>
+    <link>/en/home/</link>
+    <description>Recent content in Homes on R Machinery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/en/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Machinery</title>
+      <link>/en/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/en/home/hero/</guid>
+      <description>Website about R (by Rubén Fernández-Casal) You will find here tools (and machinery) about R in Spanish&amp;hellip;
+The web of the npsp package is (mainly) in English.
+You can also visit my institutional web (also in English).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/en/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/en/home/about/</guid>
+      <description>Biography Rubén Fernández-Casal is an Associate Professor (MODES research group) at the Department of Mathematics (University of A Coruña, Spain).
+Academic Background  1998-2006. Associate Professor at the University of Vigo, Spain.
+ 1996-1998. Teaching Assistant at the University of Santiago de Compostela, Spain.
+  Doctoral thesis: Geoestadística espacio-temporal: modelos flexibles de variogramas anisotrópicos no separables.
+Institutional web  Teaching
+ Publications (since 2007)
+ Projects (since 2007)</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/en/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/en/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

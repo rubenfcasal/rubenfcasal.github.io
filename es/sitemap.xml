@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>/post/escritura-de-libros-con-bookdown/</loc>
+      <lastmod>2018-10-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/tesis_geoestadistica_espacio-temporal/</loc>
+      <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</loc>
       <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     </url>
@@ -68,7 +86,7 @@
     
     <url>
     
-      <loc>/post/npsp/</loc>
+      <loc>/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +95,7 @@
     
     <url>
     
-      <loc>/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/</loc>
+      <loc>/post/npsp-062/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -203,38 +221,8 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
-      <lastmod>2017-09-03T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/categories/apuntes/</loc>
-      <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/blogdown/</loc>
-      <lastmod>2017-10-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/blookdown/</loc>
-      <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+      <lastmod>2018-10-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -247,27 +235,7 @@
       <xhtml:link rel="alternate" href="/en/categories/" hreflang="en"/>
     
       <loc>/categories/</loc>
-      <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2018-10-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -277,7 +245,7 @@
     <url>
     
       <loc>/categories/estad%C3%ADstica/</loc>
-      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+      <lastmod>2018-10-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -287,7 +255,7 @@
     <url>
     
       <loc>/tags/geoestad%C3%ADstica/</loc>
-      <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-10-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -307,7 +275,7 @@
     <url>
     
       <loc>/categories/libros/</loc>
-      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+      <lastmod>2018-10-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -327,17 +295,7 @@
     <url>
     
       <loc>/tags/paquetes/</loc>
-      <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2018-10-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -379,7 +337,7 @@
     <url>
     
       <loc>/categories/r/</loc>
-      <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-10-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -402,27 +360,7 @@
     <url>
     
       <loc>/tags/r-markdown/</loc>
-      <lastmod>2017-10-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/regresion/</loc>
-      <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/sgapeio/</loc>
-      <lastmod>2017-10-26T00:00:00+00:00</lastmod>
+      <lastmod>2018-10-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -446,6 +384,86 @@
     
       <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/academic/</loc>
+      <lastmod>2017-09-03T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/blogdown/</loc>
+      <lastmod>2017-10-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/blookdown/</loc>
+      <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/deep-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/demo/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/plot/</loc>
+      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/regresion/</loc>
+      <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/sgapeio/</loc>
+      <lastmod>2017-10-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
