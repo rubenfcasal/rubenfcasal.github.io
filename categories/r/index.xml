@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
-    <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ayuda y recursos para el aprendizaje de R</title>
+      <link>/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
+      <description>Ayuda onlineCursosLibrosIniciaciónAvanzadosBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…)
+Ayuda onlineAyuda en línea sobre funciones o paquetes: RDocumentation
+Buscador RSeek
+StackOverflow
+CursosPara información sobre cursos en castellano se puede recurrir a la web de R-Hispano en el apartado formación.</description>
+    </item>
     
     <item>
       <title>Libro sobre `bookdown`</title>
@@ -59,9 +72,9 @@ IntroducciónEl paquete bookdown de R permite escribir libros empleando R Markd
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
-      <description>IntroducciónCreación de un sitio webCreación de contenidoDocumentaciónAlgunos ejemplos:PublicaciónLenguaje y traducciónAyudaBasado en este artículo de Yihui Xie publicado en el Blog de RStudio.
-IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, que permite crear sitios web (estáticos) de uso general (webs personales, blogs, …) con R Markdown. Se puede instalar con:
-install.packages(&amp;quot;blogdown&amp;quot;)Para instalar la versión de desarrollo (alojado en GitHub en el repositorio rstudio / blogdown) usar:</description>
+      <description>IntroducciónCreación de un sitio webCreación de contenidoDocumentaciónAlgunos ejemplos:PublicaciónLenguaje y traducciónAyudaActualización 24-03-19: Documentación más reciente sobre blogdown en el libro blogdown: Creating Websites with R Markdown (y también en el Capítulo 10 del libro R Markdown: The Definitive Guide).
+Basado en este artículo de Yihui Xie publicado en el Blog de RStudio.
+IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, que permite crear sitios web (estáticos) de uso general (webs personales, blogs, …) con R Markdown.</description>
     </item>
     
     <item>

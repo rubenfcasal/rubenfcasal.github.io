@@ -50,9 +50,9 @@ IntroducciónEl paquete bookdown de R permite escribir libros empleando R Markd
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
-      <description>IntroducciónCreación de un sitio webCreación de contenidoDocumentaciónAlgunos ejemplos:PublicaciónLenguaje y traducciónAyudaBasado en este artículo de Yihui Xie publicado en el Blog de RStudio.
-IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, que permite crear sitios web (estáticos) de uso general (webs personales, blogs, …) con R Markdown. Se puede instalar con:
-install.packages(&amp;quot;blogdown&amp;quot;)Para instalar la versión de desarrollo (alojado en GitHub en el repositorio rstudio / blogdown) usar:</description>
+      <description>IntroducciónCreación de un sitio webCreación de contenidoDocumentaciónAlgunos ejemplos:PublicaciónLenguaje y traducciónAyudaActualización 24-03-19: Documentación más reciente sobre blogdown en el libro blogdown: Creating Websites with R Markdown (y también en el Capítulo 10 del libro R Markdown: The Definitive Guide).
+Basado en este artículo de Yihui Xie publicado en el Blog de RStudio.
+IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, que permite crear sitios web (estáticos) de uso general (webs personales, blogs, …) con R Markdown.</description>
     </item>
     
     <item>
