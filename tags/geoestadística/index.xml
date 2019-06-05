@@ -47,8 +47,7 @@ IntroducciónRepaso: La covarianza y el coeficiente de correlaciónPara medir 
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/</guid>
-      <description>El paquete geoR1. Inicio de una sesión y de carga de datos1.1 Cargar el paquete1.2 Archivos de datos2. Análisis descriptivo de datos geoestadísticos3. Modelado de la dependencia3.1 Variogramas empíricos3.2 Ajuste de un modelo de variograma3.3 Inferencia sobre el variograma3.4 Validación cruzada3.5 Estimación del variograma en procesos no estacionarios4. Predicción espacial (kriging)
-El paquete geoREl paquete geoR proporciona herramientas para el análisis de datos geoestadísticos en R (otra alternativa puede ser emplear el paquete gstat, por ejemplo…).</description>
+      <description>El paquete geoR1. Inicio de una sesión y de carga de datos1.1 Cargar el paquete1.2 Archivos de datos2. Análisis descriptivo de datos geoestadísticos3. Modelado de la dependencia3.1 Variogramas empíricos3.2 Ajuste de un modelo de variograma3.3 Inferencia sobre el variograma3.4 Validación cruzada3.5 Estimación del variograma en procesos no estacionarios4. Predicción espacial (kriging)</description>
     </item>
     
     <item>

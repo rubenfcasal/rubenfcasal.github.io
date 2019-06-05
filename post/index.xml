@@ -73,7 +73,7 @@ En la segunda parte del curso “Creación e divulgación de contidos con R Mark
       
       <guid>/post/intro-bookdown/</guid>
       <description>IntroducciónRequisitosGet startedPrimeros pasosEncabezado de index.RmdArchivo _bookdown.ymlLicenciaPublicación en la webActualización 14-10-18: Una versión más reciente de este post está disponible aquí: https://rubenfcasal.github.io/bookdown_intro.
-IntroducciónEl paquete bookdown de R permite escribir libros empleando R Markdown de forma fácil. Sin preocuparse mucho por los detalles de composición se pueden crear libros en distintos formatos (HTML / PDF / Word / …). Además de permitir emplear las extensiones Markdown de Pandoc (notas al pie de página, tablas, citas, ecuaciones LaTeX, …), se pueden emplear extensiones markdown para libros (leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</description>
+IntroducciónEl paquete bookdown de R permite escribir libros empleando R Markdown de forma fácil. Sin preocuparse mucho por los detalles de composición se pueden crear libros en distintos formatos (HTML / PDF / Word / …).</description>
     </item>
     
     <item>
@@ -124,8 +124,7 @@ IntroducciónRepaso: La covarianza y el coeficiente de correlaciónPara medir 
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/</guid>
-      <description>El paquete geoR1. Inicio de una sesión y de carga de datos1.1 Cargar el paquete1.2 Archivos de datos2. Análisis descriptivo de datos geoestadísticos3. Modelado de la dependencia3.1 Variogramas empíricos3.2 Ajuste de un modelo de variograma3.3 Inferencia sobre el variograma3.4 Validación cruzada3.5 Estimación del variograma en procesos no estacionarios4. Predicción espacial (kriging)
-El paquete geoREl paquete geoR proporciona herramientas para el análisis de datos geoestadísticos en R (otra alternativa puede ser emplear el paquete gstat, por ejemplo…).</description>
+      <description>El paquete geoR1. Inicio de una sesión y de carga de datos1.1 Cargar el paquete1.2 Archivos de datos2. Análisis descriptivo de datos geoestadísticos3. Modelado de la dependencia3.1 Variogramas empíricos3.2 Ajuste de un modelo de variograma3.3 Inferencia sobre el variograma3.4 Validación cruzada3.5 Estimación del variograma en procesos no estacionarios4. Predicción espacial (kriging)</description>
     </item>
     
     <item>
@@ -174,7 +173,7 @@ Key features:
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>/post/writing-markdown-latex/</guid>
-      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting.&lt;/p&gt;</description>
     </item>
     
     <item>
