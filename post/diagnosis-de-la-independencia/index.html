@@ -263,11 +263,11 @@
 <li><p>Si la covarianza es positiva indica que a valores grandes de X le corresponden valores grandes de Y (i.e. al incrementar X se incrementa Y) y se dice que hay una relación lineal positiva.</p></li>
 <li><p>Si la covarianza es negativa indica que a valores grandes de X le corresponden valores pequeños de Y (i.e. al incrementar X, Y disminuye) y se dice que hay una relación lineal negativa.</p></li>
 </ul>
-<p>Cuanto mayor es el valor (absoluto) de la covarianza, mayor es el grado de relación lineal entre las variables. Sin embargo, su valor depende de las escala de las variables por lo que es difícil determinar cuando es grande o pequeña. Para medir el grado de relación lineal puede ser preferible reescalarla, i.e. emplear el coeficiente de correlación: <span class="math display">\[\rho\left( X, Y \right)  =\frac{Cov\left( X, Y \right)    }
-{\sigma\left( X \right)  \sigma\left( Y \right)}\]</span></p>
-<p>Su estimador es el correlograma muestral: <span class="math display">\[r_{XY}=\frac{\sum_{i=1}^{n}(x_i-\overline{x})(y_i-\overline{y})}
-    {\sqrt{ \sum_{i=1}^{n}(x_i-\overline{x})^{2}} 
-    \sqrt{\sum_{i=1}^{n}(y_i-\overline{y})^{2}}}\]</span></p>
+<p>Cuanto mayor es el valor (absoluto) de la covarianza, mayor es el grado de relación lineal entre las variables. Sin embargo, su valor depende de las escala de las variables por lo que es difícil determinar cuando es grande o pequeña. Para medir el grado de relación lineal puede ser preferible reescalarla, i.e. emplear el coeficiente de correlación: <span class="math display">\[\rho \left( X, Y \right)  =\frac{ Cov \left( X, Y \right) }
+{ \sigma \left( X \right) \sigma \left( Y \right) }\]</span></p>
+<p>Su estimador es el coeficiente de correlación muestral: <span class="math display">\[r_{XY}=\frac{\sum_{i=1}^{n}(x_i-\overline{x})(y_i-\overline{y})}
+{\sqrt{ \sum_{i=1}^{n}(x_i-\overline{x})^{2}} 
+\sqrt{\sum_{i=1}^{n}(y_i-\overline{y})^{2}}}\]</span></p>
 <div id="matriz-de-covarianzas" class="section level4">
 <h4>Matriz de covarianzas</h4>
 <p>Cuando consideramos <span class="math inline">\(d\)</span> variables aleatorias,<br />
@@ -606,9 +606,9 @@ plot(forecast(fit, h = 24, level = 95), shaded = FALSE)           </code></pre>
   <h3></h3>
   <ul>
     
-    <li><a href="/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/">Introducción a la Geoestadística con `geoR`</a></li>
-    
     <li><a href="/post/npsp-062/">`npsp` versión 0.6.2</a></li>
+    
+    <li><a href="/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor/">Introducción a la Geoestadística con `geoR`</a></li>
     
     <li><a href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></li>
     

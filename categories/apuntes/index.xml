@@ -72,16 +72,6 @@ El paquete geoREl paquete geoR proporciona herramientas para el análisis de da
     </item>
     
     <item>
-      <title>`npsp` versión 0.6.2</title>
-      <link>/post/npsp-062/</link>
-      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/npsp-062/</guid>
-      <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub.
-Por ejemplo, está disponible en http://github.com/rubenfcasal/npsp la versión 0.6.2 del paquete npsp (la versión en CRAN es la 0.5-3). En esta versión añadí una web del paquete que tenía pensado emplear como ejemplo: https://rubenfcasal.github.io/npsp. Mi intención es subir cuanto antes una nueva versión (la 0.7, con novedades en cuanto al modelado automático de datos espaciales) a GitHub y al CRAN.</description>
-    </item>
-    
-    <item>
       <title>Generación de informes con R</title>
       <link>/post/generaci%C3%B3n-de-informes-con-r/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
