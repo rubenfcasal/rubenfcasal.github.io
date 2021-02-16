@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentos on R Machinery</title>
+    <link>https://rubenfcasal.github.io/categories/documentos/</link>
+    <description>Recent content in Documentos on R Machinery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; 2017-2021 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rubenfcasal.github.io/categories/documentos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apuntes de Remuestreo</title>
+      <link>https://rubenfcasal.github.io/post/apuntes-de-remuestreo/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/apuntes-de-remuestreo/</guid>
+      <description>Los apuntes de la asignatura de Técnicas de Remuestreo del Máster en Técnicas Estadísticas, que impartimos Ricardo Cao Abad (rcao@udc.es) y yo, están accesibles online en formato html y pdf aqui:
+https://rubenfcasal.github.io/book_remuestreo.
+Cualquier sugerencia o observación será bien recibida&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Libro sobre `bookdown`</title>
+      <link>https://rubenfcasal.github.io/post/escritura-de-libros-con-bookdown/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/escritura-de-libros-con-bookdown/</guid>
+      <description>Tomás Cotos y yo preparamos una pequeña guía sobre sobre como emplear el paquete bookdown de R para la escritura de libros en formato RMarkdown (que presentamos en las V Jornadas de Usuarios de R, incluyendo algunos detalles de configuración para la escritura en otros idiomas distintos del inglés (castellano, galego,…). Este libro está hecho empleando ese mismo paquete y está disponible en el repositorio Github: rubenfcasal/bookdown_intro. Se puede ver online aquí: https://rubenfcasal.</description>
+    </item>
+    
+    <item>
+      <title>Tesis geoestadística espacio-temporal</title>
+      <link>https://rubenfcasal.github.io/post/tesis_geoestadistica_espacio-temporal/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/tesis_geoestadistica_espacio-temporal/</guid>
+      <description>Mi tesis doctoral “Geoestadística espacio-temporal:modelos flexibles de variogramas anisotrópicos no separables” puede descargarse en formato pdf aquí.
+Esta memoria, del año 2003, se centra principalmente en el modelado flexible de la dependencia espacio-temporal.La monografía esta organizada en dos partes: la primera parte (capítulos del 2 al 5) consiste en una introducción a la geoestadística, donde se realiza una revisión de las distintas ideas y herramientas desarrolladas para el caso general de procesos espaciales, tratando con mayor detalle las distintas propuestas relacionadas con el modelado no paramétrico de la dependencia espacial: la segunda parte (capítulos del 6 al 9) se centra en el caso espacio-temporal.</description>
+    </item>
+    
+    <item>
+      <title>Geoestadística no paramétrica con el paquete `npsp`</title>
+      <link>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</guid>
+      <description>Geoestadística no paramétricaEjemploModelo generalEjemploInferencia (no paramétrica) en procesos geoestadísticosBinning linealDiscretizaciónInterpolaciónEstimación de la densidadEstimación de la tendenciaRegresión polinómica localImplementación en el paquete npspEjemploEstimación del variogramaEstimación piloto del variogramaEstimación piloto del variograma con corrección de sesgoAjuste de un modelo no paramétricoSelección de las ventanasEstimación de la tendenciaEstimación del variogramaEstimación conjunta (automática)Predicción krigingFuturas implementacionesReferenciaslibrary(npsp)## Package npsp: Nonparametric Spatial Statistics,## version 0.</description>
+    </item>
+    
+    <item>
+      <title>Análisis de datos con R</title>
+      <link>https://rubenfcasal.github.io/post/analisis-de-datos-con-r/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/analisis-de-datos-con-r/</guid>
+      <description>Una presentación sobre el análisis de datos con R (que preparé para una charla sobre Big Data en Pymes) está accesible online en formato pdf aqui.
+La idea es que el entorno estadístico R puede ser una herramienta de gran utilidad en todo el proceso del análisis de datos (desde el acceso hasta la generación de informes). Con una pincelada de Big Data y &amp;ldquo;publicidad&amp;rdquo; para las empresas (a ver si valoran y demandan más este tipo de conocimientos)&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Apuntes de simulación</title>
+      <link>https://rubenfcasal.github.io/post/apuntes-de-simulaci%C3%B3n/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/apuntes-de-simulaci%C3%B3n/</guid>
+      <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub. Por ejemplo, está disponible en http://github.com/rubenfcasal/simbook una versión de parte de mis apuntes de simulación en forma de libro para ponerlo como ejemplo.
+El libro está accesible online en formato html (de momento no lo estoy compilando en pdf) aqui: https://rubenfcasal.github.io/simbook.
+Ya me decís&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Introducción a la Geoestadística con `geoR`</title>
+      <link>https://rubenfcasal.github.io/post/introduccion-a-la-geoestadistica-con-geor/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/introduccion-a-la-geoestadistica-con-geor/</guid>
+      <description>El paquete geoR1. Inicio de una sesión y de carga de datos1.1 Cargar el paquete1.2 Archivos de datos2. Análisis descriptivo de datos geoestadísticos3. Modelado de la dependencia3.1 Variogramas empíricos3.2 Ajuste de un modelo de variograma3.3 Inferencia sobre el variograma3.4 Validación cruzada3.5 Estimación del variograma en procesos no estacionarios4. Predicción espacial (kriging)
+El paquete geoREl paquete geoR proporciona herramientas para el análisis de datosgeoestadísticos en R(otra alternativa es el paquete gstat, por ejemplo…).</description>
+    </item>
+    
+    <item>
+      <title>Generación de informes con R</title>
+      <link>https://rubenfcasal.github.io/post/generaci%C3%B3n-de-informes-con-r/</link>
+      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/generaci%C3%B3n-de-informes-con-r/</guid>
+      <description>R MarkdownIntroducciónInclusión de código RInclusión de gráficosInclusión de tablasExtracción del código RSpinR MarkdownActualización 14-10-18: Una versión actualizada de este post está disponible aquí:https://rubenfcasal.github.io/bookdown_intro/rmarkdown.html.
+IntroducciónMarkdown permite la creación de páginas web a partir de documentos de textode forma muy sencilla y rápida (tiene unas reglas sintácticas muy simples).Este documento se ha generado empleando Markdown y R.</description>
+    </item>
+    
+  </channel>
+</rss>

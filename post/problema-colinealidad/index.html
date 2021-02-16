@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.49.2" />
+  <meta name="author" content="Ruben Fernandez-Casal">
+  <meta name="description" content="Associate Professor (Contratado Doctor) of Statistics and Operational Research (Estadística e Investigación Operativa)">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  <link rel="alternate" href="" type="application/rss+xml" title="R Machinery">
+  <link rel="feed" href="" type="application/rss+xml" title="R Machinery">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://rubenfcasal.github.io/post/problema-colinealidad/">
+
+  
+
+  <title>El problema de la colinelidad | R Machinery</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Barra de navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/rmach.png" alt="R Machinery"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/post">
+            
+            <span>Blog</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/npsp">
+            
+            <span>npsp</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>CV</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contacto</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">El problema de la colinelidad</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2021-02-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2021-02-01
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="https://rubenfcasal.github.io/post/problema-colinealidad/#disqus_thread"></a>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/estad%c3%adstica">Estadística</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=El%20problema%20de%20la%20colinelidad&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2fproblema-colinealidad%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2frubenfcasal.github.io%2fpost%2fproblema-colinealidad%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2fproblema-colinealidad%2f&amp;title=El%20problema%20de%20la%20colinelidad"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2frubenfcasal.github.io%2fpost%2fproblema-colinealidad%2f&amp;title=El%20problema%20de%20la%20colinelidad"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=El%20problema%20de%20la%20colinelidad&amp;body=https%3a%2f%2frubenfcasal.github.io%2fpost%2fproblema-colinealidad%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p>En regresión múltiple, si alguna de las variables explicativas no aporta información adicional relevante sobre la respuesta puede aparecer el problema de la colinealidad (o concurvidad, si se consideran efectos no lineales).</p>
+<p>En regresión lineal múltiple se supone que ninguna de las variables explicativas es combinación lineal de las demás.
+Si una de las variables explicativas (variables independientes) es combinación lineal de las otras, no se pueden determinar los parámetros de forma única (sistema singular).
+Sin llegar a esta situación extrema, cuando algunas variables explicativas estén altamente correlacionadas entre sí, tendremos una situación de alta colinealidad.
+En este caso las estimaciones de los parámetros pueden verse seriamente afectadas:</p>
+<ul>
+<li><p>Tendrán varianzas muy altas (serán poco eficientes).</p></li>
+<li><p>Habrá mucha dependencia entre ellas (al modificar ligeramente el
+modelo, añadiendo o eliminando una variable o una observación,
+se producirán grandes cambios en las estimaciones de los efectos).</p></li>
+</ul>
+<p>Consideraremos un ejemplo de regresión lineal bidimensional con datos simulados en el que las dos variables explicativas están altamente correlacionadas:</p>
+<pre class="r"><code>set.seed(1)
+n &lt;- 50
+rand.gen &lt;- runif # rnorm
+x1 &lt;- rand.gen(n)
+rho &lt;- sqrt(0.99) # coeficiente de correlación
+x2 &lt;- rho*x1 + sqrt(1 - rho^2)*rand.gen(n)
+fit.x2 &lt;- lm(x2 ~ x1)
+# plot(x1, x2)
+# summary(fit.x2)
+
+# Rejilla x-y para predicciones:
+x1.range &lt;- range(x1)
+x1.grid &lt;- seq(x1.range[1], x1.range[2], length.out = 30)
+x2.range &lt;- range(x2)
+x2.grid &lt;- seq(x2.range[1], x2.range[2], length.out = 30)
+xy &lt;- expand.grid(x1 = x1.grid, x2 = x2.grid)
+
+# Modelo teórico:
+model.teor &lt;- function(x1, x2) x1
+# model.teor &lt;- function(x1, x2) x1 - 0.5*x2
+y.grid &lt;- matrix(mapply(model.teor, xy$x1, xy$x2), nrow = length(x1.grid))
+y.mean &lt;- mapply(model.teor, x1, x2)</code></pre>
+<p>Tendencia teórica y valores de las variables explicativas:</p>
+<pre class="r"><code>library(plot3D)
+ylim &lt;- c(-2, 3) # range(y, y.pred)
+scatter3D(z = y.mean, x = x1, y = x2, pch = 16, cex = 1, clim = ylim, zlim = ylim,
+          theta = -40, phi = 20, ticktype = &quot;detailed&quot;, 
+          main = &quot;Modelo teórico y valores de las variables explicativas&quot;,
+          xlab = &quot;x1&quot;, ylab = &quot;x2&quot;, zlab = &quot;y&quot;, sub = sprintf(&quot;R2(x1,x2) = %.2f&quot;, summary(fit.x2)$r.squared),
+          surf = list(x = x1.grid, y = x2.grid, z = y.grid, facets = NA))
+scatter3D(z = rep(ylim[1], n), x = x1, y = x2, add = TRUE, colkey = FALSE, 
+           pch = 16, cex = 1, col = &quot;black&quot;)
+x2.pred &lt;- predict(fit.x2, newdata = data.frame(x1 = x1.range))
+lines3D(z = rep(ylim[1], 2), x = x1.range, y = x2.pred, add = TRUE, colkey = FALSE, col = &quot;black&quot;) </code></pre>
+<p><img src="/post/2021-02-01-problema-colinealidad_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>Simulación de la respuesta:</p>
+<pre class="r"><code>sd.err &lt;- 0.25
+nsim &lt;- 10
+
+for (isim in 1:nsim) {
+  set.seed(isim)
+  y &lt;- y.mean + rnorm(n, 0, sd.err)
+  
+  # Ajuste lineal y superficie de predicción
+  fit &lt;- lm(y ~ x1 + x2)
+  y.pred &lt;- matrix(predict(fit, newdata = xy), nrow = length(x1.grid)) 
+  
+  # Representar
+  fitpoints &lt;- predict(fit) 
+  scatter3D(z = y, x = x1, y = x2, pch = 16, cex = 1.5, clim = ylim, zlim = ylim,
+            theta = -40, phi = 20, ticktype = &quot;detailed&quot;, 
+            main = &quot;Modelo ajustado&quot;, xlab = &quot;x1&quot;, ylab = &quot;x2&quot;, zlab = &quot;y&quot;, 
+            surf = list(x = x1.grid, y = x2.grid, z = y.pred, 
+                        facets = NA, fit = fitpoints))
+}</code></pre>
+<p><img src="/post/2021-02-01-problema-colinealidad_files/figure-html/multicol-movie.gif" width="672" /></p>
+<p>Incluso puede ocurrir que el contraste de regresión sea significativo (alto coeficiente de determinación), pero los contrastes individuales sean no significativos.</p>
+<p>Por ejemplo, en el último ajuste obtendríamos:</p>
+<pre class="r"><code>summary(fit)</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = y ~ x1 + x2)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -0.45461 -0.13147  0.01428  0.16316  0.36616 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)
+## (Intercept) -0.11373    0.08944  -1.272    0.210
+## x1           0.87084    1.19929   0.726    0.471
+## x2           0.16752    1.19337   0.140    0.889
+## 
+## Residual standard error: 0.2209 on 47 degrees of freedom
+## Multiple R-squared:  0.6308, Adjusted R-squared:  0.6151 
+## F-statistic: 40.15 on 2 and 47 DF,  p-value: 6.776e-11</code></pre>
+<p>Si las variables explicativas no estuviesen correlacionadas:</p>
+<pre class="r"><code>x2 &lt;- rand.gen(n)
+y.mean &lt;- mapply(model.teor, x1, x2)
+
+for (isim in 1:nsim) {
+  # Simular respuesta
+  set.seed(isim)
+  y &lt;- y.mean + rnorm(n, 0, sd.err)
+  
+  # Ajuste lineal y superficie de predicción
+  fit2 &lt;- lm(y ~ x1 + x2)
+  y.pred &lt;- matrix(predict(fit2, newdata = xy), nrow = length(x1.grid)) 
+  
+  # Representar
+  fitpoints &lt;- predict(fit2) 
+  scatter3D(z = y, x = x1, y = x2, pch = 16, cex = 1.5, clim = ylim, zlim = ylim,
+            theta = -40, phi = 20, ticktype = &quot;detailed&quot;, 
+            main = &quot;Modelo ajustado&quot;, xlab = &quot;x1&quot;, ylab = &quot;x2&quot;, zlab = &quot;y&quot;, 
+            surf = list(x = x1.grid, y = x2.grid, z = y.pred, 
+                        facets = NA, fit = fitpoints))
+}</code></pre>
+<p><img src="/post/2021-02-01-problema-colinealidad_files/figure-html/indep-movie.gif" width="672" /></p>
+<p>Por ejemplo, en el último ajuste obtendríamos:</p>
+<pre class="r"><code>summary(fit2)</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = y ~ x1 + x2)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -0.45800 -0.08645  0.00452  0.15402  0.33662 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -0.22365    0.08515  -2.627   0.0116 *  
+## x1           1.04125    0.11044   9.428 2.07e-12 ***
+## x2           0.22334    0.10212   2.187   0.0337 *  
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 0.2105 on 47 degrees of freedom
+## Multiple R-squared:  0.6648, Adjusted R-squared:  0.6505 
+## F-statistic:  46.6 on 2 and 47 DF,  p-value: 7.016e-12</code></pre>
+<p>En la práctica, para la detección de colinealidad, se puede emplear la función
+<code>vif()</code> del paquete <a href="https://cran.r-project.org/package=car"><code>car</code></a> para calcular los factores de inflación de varianza para las variables del modelo.
+Por ejemplo, en los últimos ajustes obtendríamos:</p>
+<pre class="r"><code>library(car)</code></pre>
+<pre><code>## Loading required package: carData</code></pre>
+<pre class="r"><code>vif(fit)</code></pre>
+<pre><code>##       x1       x2 
+## 107.0814 107.0814</code></pre>
+<pre class="r"><code>vif(fit2) </code></pre>
+<pre><code>##       x1       x2 
+## 1.000139 1.000139</code></pre>
+<p>La idea de este estadístico es que la varianza de la estimación del efecto en
+regresión simple (efecto global) es menor que en regresión múltiple (efecto parcial).
+El factor de inflación de la varianza mide el incremento debido a la colinealidad.
+Valores grandes, por ejemplo &gt; 10, indican la posible presencia de colinealidad.</p>
+<p>Las tolerancias, proporciones de variabilidad no explicada por las demás covariables, se pueden calcular con <code>1/vif(modelo)</code>.
+Por ejemplo, los coeficientes de tolerancia de los últimos ajustes serían:</p>
+<pre class="r"><code>1/vif(fit)</code></pre>
+<pre><code>##          x1          x2 
+## 0.009338689 0.009338689</code></pre>
+<pre class="r"><code>1/vif(fit2) </code></pre>
+<pre><code>##        x1        x2 
+## 0.9998606 0.9998606</code></pre>
+<p>El problema de la colinealidad se agrava al aumentar el número de dimensiones (la maldición de la dimensionalidad).
+Hay que tener en cuenta también que, además de la dificultad para interpretar el efecto de los predictores, va a resultar más difícil determinar que variables son de interés para predecir la respuesta (i.e. no son ruido). Debido a la aleatoriedad, predictores que realmente no están relacionados con la respuesta pueden ser tenidos en cuenta por el modelo con mayor facilidad, especialmente si se recurre a los contrastes tradicionales para determinar si tienen un efecto significativo.</p>
+<p>Por ejemplo en el último ajuste, bajo las hipótesis del modelo de regresión lineal múltiple, se aceptaría un efecto lineal significativo de <code>x2</code> aunque realmente no influye en la respuesta (esto puede ocurrir el 5% de las veces, considerando una única variable).</p>
+
+    </div>
+
+    
+    
+    
+    <div class="article-tags">
+      
+      <a class="btn btn-primary btn-outline" href="/tags/apuntes">Apuntes</a>
+      
+      <a class="btn btn-primary btn-outline" href="/tags/regresi%c3%b3n">Regresión</a>
+      
+    </div>
+    
+    
+
+  </div>
+
+</article>
+
+
+
+<div class="article-container article-widget">
+  <div class="hr-light"></div>
+  <h3></h3>
+  <ul>
+    
+    <li><a href="/post/geoestadistica-no-parametrica-con-el-paquete-npsp/">Geoestadística no paramétrica con el paquete `npsp`</a></li>
+    
+    <li><a href="/post/introduccion-a-la-geoestadistica-con-geor/">Introducción a la Geoestadística con `geoR`</a></li>
+    
+    <li><a href="/post/diagnosis-de-la-independencia/">Diagnosis de la independencia</a></li>
+    
+    <li><a href="/post/apuntes-de-remuestreo/">Apuntes de Remuestreo</a></li>
+    
+    <li><a href="/post/escritura-de-libros-con-bookdown/">Libro sobre `bookdown`</a></li>
+    
+  </ul>
+</div>
+
+
+
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-rubenfcasal-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017-2021 Ruben Fernandez-Casal &middot; 
+
+      Powered by <a href="https://bookdown.org/yihui/blogdown" target="_blank">blogdown</a> 
+      and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//https-rubenfcasal-github-io.disqus.com/count.js" async></script>
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

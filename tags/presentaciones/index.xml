@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Presentaciones on R Machinery</title>
-    <link>/tags/presentaciones/</link>
+    <link>https://rubenfcasal.github.io/tags/presentaciones/</link>
     <description>Recent content in Presentaciones on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2021 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Mon, 23 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/presentaciones/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rubenfcasal.github.io/tags/presentaciones/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Análisis de datos con R</title>
-      <link>/post/analisis-de-datos-con-r/</link>
+      <link>https://rubenfcasal.github.io/post/analisis-de-datos-con-r/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/analisis-de-datos-con-r/</guid>
+      <guid>https://rubenfcasal.github.io/post/analisis-de-datos-con-r/</guid>
       <description>Una presentación sobre el análisis de datos con R (que preparé para una charla sobre Big Data en Pymes) está accesible online en formato pdf aqui.
 La idea es que el entorno estadístico R puede ser una herramienta de gran utilidad en todo el proceso del análisis de datos (desde el acceso hasta la generación de informes). Con una pincelada de Big Data y &amp;ldquo;publicidad&amp;rdquo; para las empresas (a ver si valoran y demandan más este tipo de conocimientos)&amp;hellip;</description>
     </item>

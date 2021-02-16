@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.49.2" />
+  <meta name="author" content="Ruben Fernandez-Casal">
+  <meta name="description" content="Associate Professor (Contratado Doctor) of Statistics and Operational Research (Estadística e Investigación Operativa)">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  <link rel="alternate" href="" type="application/rss+xml" title="R Machinery">
+  <link rel="feed" href="" type="application/rss+xml" title="R Machinery">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://rubenfcasal.github.io/post/instalacion-de-r-para-hpc/">
+
+  
+
+  <title>Instalación de R en Ubuntu para HPC (High Performance Computing) | R Machinery</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Barra de navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/rmach.png" alt="R Machinery"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/post">
+            
+            <span>Blog</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/npsp">
+            
+            <span>npsp</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>CV</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contacto</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Instalación de R en Ubuntu para HPC (High Performance Computing)</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2021-02-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2021-02-15
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    15 
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="https://rubenfcasal.github.io/post/instalacion-de-r-para-hpc/#disqus_thread"></a>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/r">R</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Instalaci%c3%b3n%20de%20R%20en%20Ubuntu%20para%20HPC%20%28High%20Performance%20Computing%29&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r-para-hpc%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r-para-hpc%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r-para-hpc%2f&amp;title=Instalaci%c3%b3n%20de%20R%20en%20Ubuntu%20para%20HPC%20%28High%20Performance%20Computing%29"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r-para-hpc%2f&amp;title=Instalaci%c3%b3n%20de%20R%20en%20Ubuntu%20para%20HPC%20%28High%20Performance%20Computing%29"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Instalaci%c3%b3n%20de%20R%20en%20Ubuntu%20para%20HPC%20%28High%20Performance%20Computing%29&amp;body=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r-para-hpc%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <div id="TOC">
+<ul>
+<li><a href="#instalación-de-r">Instalación de R</a><ul>
+<li><a href="#ropen">Instalar <span>Microsoft R Open</span> con <span>MKL</span></a></li>
+</ul></li>
+<li><a href="#configurar-r-para-hpc-en-ubuntudebian">Configurar R para HPC en Ubuntu/Debian</a><ul>
+<li><a href="#configurar-r-para-emplear-openblas-o-atlas">Configurar R para emplear <span>OpenBLAS</span> o <span>ATLAS</span></a><ul>
+<li><a href="#instalar-openblas-o-atlas">Instalar OpenBLAS o ATLAS</a></li>
+<li><a href="#NUM_THREADS">Seleccionar el número de núcleos/hilos</a></li>
+</ul></li>
+<li><a href="#configurar-r-para-emplear-intel-math-kernel-library-mkl">Configurar R para emplear <span>Intel Math Kernel Library (MKL)</span></a><ul>
+<li><a href="#instalación-de-intel-mkl">Instalación de Intel MKL</a></li>
+<li><a href="#integrate-mkl">Integrate MKL</a></li>
+<li><a href="#use-the-mkl">Use the MKL</a></li>
+<li><a href="#desinstalar-o-desenlazar-mkl">Desinstalar o desenlazar MKL</a></li>
+<li><a href="#problemas-con-mkl">Problemas con MKL</a></li>
+</ul></li>
+<li><a href="#selectblas">Seleccionar librerías BLAS y LAPACK</a></li>
+</ul></li>
+<li><a href="#rstudio-server">Instalación de RStudio Server</a><ul>
+<li><a href="#problemas-con-rstudio-server">Problemas con RStudio Server</a></li>
+</ul></li>
+<li><a href="#compilaR">Instalación HPC compilando R desde el código fuente</a></li>
+<li><a href="#benchmarking-r">Benchmarking R</a></li>
+<li><a href="#introducción-al-procesamiento-en-paralelo-en-r">Introducción al procesamiento en paralelo en R</a><ul>
+<li><a href="#paquetes-de-r">Paquetes de R</a></li>
+<li><a href="#ejemplos">Ejemplos</a></li>
+</ul></li>
+<li><a href="#procesamiento-en-paralelo-en-r-con-gpus">Procesamiento en paralelo en R con GPUs</a><ul>
+<li><a href="#configurar-r-para-emplear-nvblas">Configurar R para emplear NVBLAS</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p>Work in progess… (sugerencias y comentarios serán bien recibidos).</p>
+<p>La idea es preparar R para HPSC (High Performance Statistical Computing) de forma transparente para el usuario y posteriormente ver herramientas adicionales (paquetes y funciones) para procesamiento en paralelo (con CPUs y GPUs).
+Algunos paquetes se pueden configurar de forma transparente (<code>Matrix</code>, <code>TensorFlow</code>, …) pero otras herramientas requieren adaptar la programación.</p>
+<p>El procedimiento habitual sería compilar las librerías de álgebra lineal (BLAS y LAPACK) y posteriormente R desde el código fuente tratando de conseguir la máxima optimización.
+Sin embargo compilar R de esta forma puede presentar problemas (ver <a href="https://cran.r-project.org/doc/manuals/r-release/R-admin.html#BLAS">R Installation and Administration</a>) y depende de la instalación previa de BLAS/LAPACK.
+En la <a href="#compilaR">última sección</a> se muestran algunas referencias para esta aproximación (se podrían instalar distintas versiones en distintos directorios).</p>
+<p>Un enfoque más simple consiste en instalar R desde CRAN (siguiendo los pasos descritos en <a href="/post/instalacion-de-r/#ubuntu">este post</a>), que por defecto utilizará una implementación BLAS/LAPACK estable y compatible con distintas plataformas pero que no está optimizadas para el rendimiento, y posteriormente reemplazar las librerías estándar de referencia (típicamente enlazando con las proporcionadas por <a href="https://www.openblas.net">OpenBLAS</a>, <a href="http://math-atlas.sourceforge.net">ATLAS</a> o <a href="https://software.intel.com/en-us/mkl">Intel MKL</a>), como se describe en las secciones siguientes.</p>
+<p>Otra alternativa sería instalar <a href="https://mran.revolutionanalytics.com/open">Microsoft R Open</a> con <a href="https://mran.revolutionanalytics.com/documents/rro/multithread">MKL</a>, como se describe en <a href="#ropen">esta sección</a>.</p>
+<p>Antes de nada, puede ser recomendable crear un directorio donde descargar archivos (si se instala RStudio, Microsoft R Open, Intel MKL o se compila R desde el código fuente):</p>
+<pre class="sh"><code>mkdir installr
+cd installr</code></pre>
+<p>Fuentes:</p>
+<ul>
+<li><p><a href="http://brettklamer.com/diversions/statistical/faster-blas-in-r">Faster BLAS in R</a></p></li>
+<li><p><a href="http://dirk.eddelbuettel.com/blog/2018/04/15/#018_mkl_for_debian_ubuntu">Adding Intel MKL easily via a simple script</a></p></li>
+</ul>
+<div id="instalación-de-r" class="section level1">
+<h1>Instalación de R</h1>
+<p>Como ya se comentó, el primer paso sería la instalación de R, bien la versión oficial de <a href="https://cran.r-project.org">CRAN</a> siguiendo los pasos descritos en <a href="/post/instalacion-de-r/#ubuntu">este post</a>, o la versión de Microsoft como se describe a continuación.</p>
+<p>Posteriormente se puede cambiar la versión de R que se empleará por defecto modificando el <code>path</code>.</p>
+<div id="ropen" class="section level2">
+<h2>Instalar <a href="https://mran.revolutionanalytics.com/open">Microsoft R Open</a> con <a href="https://mran.revolutionanalytics.com/documents/rro/multithread">MKL</a></h2>
+<p>Seguir los pasos descritos en la <a href="http://mran.revolutionanalytics.com/documents/rro/installation/#revorinst-sidebyside">guía oficial</a>.</p>
+<p>Para emplear esta instalación en RStudio (ver <a href="https://support.rstudio.com/hc/en-us/articles/360002358593-Using-Microsoft-R-Open-MRO-with-RStudio-Server-and-RStudio-Connect">Using Microsoft R Open (MRO) with RStudio Server and RStudio Connect</a>), se puede establecer la variable de entorno <code>RSTUDIO_WHICH_R</code>:</p>
+<pre><code>export RSTUDIO_WHICH_R=/opt/microsoft/ropen/X.Y.Z/lib64/R</code></pre>
+<p>donde <code>X.Y.Z</code> es la versión de R (actualmente la 4.0.2), por ejemplo en el fichero <em>~/.profile</em>:</p>
+<pre class="sh"><code>echo &#39;export RSTUDIO_WHICH_R=/opt/microsoft/ropen/4.0.2/lib64/R&#39;  | tee -a ~/.profile</code></pre>
+</div>
+</div>
+<div id="configurar-r-para-hpc-en-ubuntudebian" class="section level1">
+<h1>Configurar R para HPC en Ubuntu/Debian</h1>
+<p>Después de instalar R el siguiente paso es reemplazar las librerías estándar BLAS/LAPACK por las proporcionadas por <a href="https://www.openblas.net">OpenBLAS</a>, <a href="http://math-atlas.sourceforge.net">ATLAS</a> o <a href="https://software.intel.com/en-us/mkl">Intel MKL</a>.</p>
+<p>Posteriormente se podrá seleccionar que librerías de desea emplear, como se muestra <a href="#selectblas">más adelante</a>.</p>
+<div id="configurar-r-para-emplear-openblas-o-atlas" class="section level2">
+<h2>Configurar R para emplear <a href="https://www.openblas.net">OpenBLAS</a> o <a href="http://math-atlas.sourceforge.net">ATLAS</a></h2>
+<div id="instalar-openblas-o-atlas" class="section level3">
+<h3>Instalar OpenBLAS o ATLAS</h3>
+<p>Instalar OpenBLAS:</p>
+<pre class="sh"><code>sudo apt-get install libopenblas-base</code></pre>
+<p>Instalar ATLAS (Automatically Tuned Linear Algebra Software):</p>
+<pre class="sh"><code>sudo apt-get install libatlas3-base liblapack3</code></pre>
+</div>
+<div id="NUM_THREADS" class="section level3">
+<h3>Seleccionar el número de núcleos/hilos</h3>
+<p>Por defecto OpenBLAS (y OpenMP) utilizan todos los núcleos disponibles.
+Nos puede interesar establecer el número de núcleos/threads que empleará OpenBLAS a través de la variable de entorno <code>OPENBLAS_NUM_THREADS</code>o a través de <code>OMP_NUM_THREADS</code> (el orden de prioridades es <code>OPENBLAS_NUM_THREADS</code> &gt; <code>GOTO_NUM_THREADS</code> &gt; <code>OMP_NUM_THREADS</code>), e.g.:</p>
+<pre class="sh"><code>echo &quot;OMP_NUM_THREADS=8&quot; | sudo tee -a /etc/environment</code></pre>
+<p>El código anterior no tendrá efecto hasta que se reinicie el sistema o se vuelva a iniciar sesión (temporalmente se podría ejecutar <code>export OMP_NUM_THREADS=8</code>). En R se puede emplear las funciones <code>Sys.getenv('OMP_NUM_THREADS')</code> y <code>Sys.setenv(OMP_NUM_THREADS = 8)</code>.</p>
+<p>El último paso sería enlazar estas librerías como se describe en <a href="#selectblas">esta sección</a>.</p>
+</div>
+</div>
+<div id="configurar-r-para-emplear-intel-math-kernel-library-mkl" class="section level2">
+<h2>Configurar R para emplear <a href="https://software.intel.com/en-us/mkl">Intel Math Kernel Library (MKL)</a></h2>
+<p>Seguiremos los pasos descritos en
+<a href="http://dirk.eddelbuettel.com/blog/2018/04/15/#018_mkl_for_debian_ubuntu">Adding Intel MKL easily via a simple script</a>,
+actualizados a la última versión y de forma interactiva.</p>
+<div id="instalación-de-intel-mkl" class="section level3">
+<h3>Instalación de Intel MKL</h3>
+<p>Revisar las versiones disponibles en el repositorio:
+<a href="https://software.intel.com/en-us/articles/installing-intel-free-libs-and-python-apt-repo">Installing Intel Performance Libraries Using APT Repository</a>.
+Instalaremos únicamente la última versión de 64bits de MKL (e.g. intel-mkl-64bit-2020.0-088), por lo que añadiremos solo ese repositorio.
+Antes hay que descargar y añadir la llave GnuPG.</p>
+<pre class="sh"><code>wget https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
+sudo apt-key add GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
+sudo sh -c &#39;echo deb https://apt.repos.intel.com/mkl all main &gt; /etc/apt/sources.list.d/intel-mkl.list&#39;
+sudo apt update
+sudo apt install intel-mkl-64bit-2020.0-088</code></pre>
+<p>El enlace anterior puede no estar actualizado, se pueden listar los paquetes disponibles con:</p>
+<pre class="sh"><code>apt-cache search intel-mkl-64bit</code></pre>
+</div>
+<div id="integrate-mkl" class="section level3">
+<h3>Integrate MKL</h3>
+<p>El siguiente código de <a href="https://software.intel.com/en-us/articles/installing-intel-free-libs-and-python-apt-repo">Installing Intel Performance Libraries Using APT Repository</a>, enlaza las librerías MKL mediante código (estableciendo una prioridad alta, 150),
+pero puede ser recomendable saltarse este paso (no los siguientes) y hacerlo manualmente como se describe en <a href="#selectblas">esta sección</a>.</p>
+<blockquote>
+<p>One the key advantages of a Debian or Ubuntu system is the overall integration providing a raft of useful features. One of these is the seamless and automatic selection of alternatives. By declaring a particular set of BLAS and LAPACK libraries the default, <em>all</em> application linked against this interface will use the default.<br />
+Better still, users can switch between these as well.
+So here we can make the MKL default for BLAS and LAPACK:</p>
+</blockquote>
+<pre class="sh"><code>## update alternatives
+sudo update-alternatives --install /usr/lib/x86_64-linux-gnu/libblas.so     libblas.so-x86_64-linux-gnu      /opt/intel/mkl/lib/intel64/libmkl_rt.so 150
+sudo update-alternatives --install /usr/lib/x86_64-linux-gnu/libblas.so.3   libblas.so.3-x86_64-linux-gnu    /opt/intel/mkl/lib/intel64/libmkl_rt.so 150
+sudo update-alternatives --install /usr/lib/x86_64-linux-gnu/liblapack.so   liblapack.so-x86_64-linux-gnu    /opt/intel/mkl/lib/intel64/libmkl_rt.so 150
+sudo update-alternatives --install /usr/lib/x86_64-linux-gnu/liblapack.so.3 liblapack.so.3-x86_64-linux-gnu  /opt/intel/mkl/lib/intel64/libmkl_rt.so 150</code></pre>
+<blockquote>
+<p>Next, we have to tell the dyanmic linker about two directories use by the MKL, and have it update its cache:</p>
+</blockquote>
+<pre class="sh"><code>echo &quot;/opt/intel/lib/intel64&quot; | sudo tee /etc/ld.so.conf.d/mkl.conf
+echo &quot;/opt/intel/mkl/lib/intel64&quot; | sudo tee -a /etc/ld.so.conf.d/mkl.conf
+sudo ldconfig</code></pre>
+<blockquote>
+<p>As discussed in <a href="https://github.com/eddelbuettel/mkl4deb/issues/2">issue ticket #2</a>, mixing Intel OpenMP and GNU OpenMP run-times in one application can lead to issues.
+Since most of the open-source performance libraries use GNU OpenMP it is safer to make the MKL library also use GNU OpenMP as well by setting <code>MKL_THREADING_LAYER=GNU</code> in either <code>/etc/environment</code> or your local per-user settings.
+Here we use the file in <code>/etc</code>:</p>
+</blockquote>
+<pre class="sh"><code>echo &quot;MKL_THREADING_LAYER=GNU&quot; | sudo tee -a /etc/environment</code></pre>
+<p>NOTA: El código anterior no tendrá efecto hasta que se reinicie el sistema o se vuelva a iniciar sesión (temporalmente se podría ejecutar <code>export MKL_THREADING_LAYER=GNU</code>).</p>
+<blockquote>
+<p>Thanks to Evarist Fomenko from Intel’s Novosibirsk office for help with this point.</p>
+</blockquote>
+</div>
+<div id="use-the-mkl" class="section level3">
+<h3>Use the MKL</h3>
+<blockquote>
+<p>Now the MKL is ‘known’ and the default. If we start R, its <code>sessionInfo()</code> shows the MKL:</p>
+</blockquote>
+<pre><code>Matrix products: default                            
+BLAS/LAPACK: /opt/intel/compilers_and_libraries_2020.0.166/linux/mkl/lib/intel64_lin/libmkl_rt.so</code></pre>
+</div>
+<div id="desinstalar-o-desenlazar-mkl" class="section level3">
+<h3>Desinstalar o desenlazar MKL</h3>
+<p>Desenlazar (como ya se comentó, puede ser recomendable hacerlo manualmente como se describe <a href="#selectblas">aquí</a>):</p>
+<pre class="sh"><code>sudo update-alternatives --remove libblas.so-x86_64-linux-gnu /opt/intel/mkl/lib/intel64/libmkl_rt.so 
+sudo update-alternatives --remove libblas.so.3-x86_64-linux-gnu  /opt/intel/mkl/lib/intel64/libmkl_rt.so 
+sudo update-alternatives --remove liblapack.so-x86_64-linux-gnu  /opt/intel/mkl/lib/intel64/libmkl_rt.so 
+sudo update-alternatives --remove liblapack.so.3-x86_64-linux-gnu  /opt/intel/mkl/lib/intel64/libmkl_rt.so </code></pre>
+<p>Desinstalar:</p>
+<pre class="sh"><code>sudo apt-get autoremove intel-mkl-64bit-2020.0-088</code></pre>
+</div>
+<div id="problemas-con-mkl" class="section level3">
+<h3>Problemas con MKL</h3>
+<p>Al ejecutar paquetes que se compilan con LAPACK (<code>npsp</code>) aparecieron algunos problemas con los resultados… Pendiente volver a testear…</p>
+</div>
+</div>
+<div id="selectblas" class="section level2">
+<h2>Seleccionar librerías BLAS y LAPACK</h2>
+<p>R por defecto emplea las librerías dinámicas por lo que solo sería necesario enlazar <em>libblas.so.3</em> y <em>liblapack.so.3</em> (<em>libblas.so.3-x86_64-linux-gnu</em> y <em>liblapack.so.3-x86_64-linux-gnu</em> en la última version de Ubuntu).</p>
+<p>Enlazar BLAS:</p>
+<pre class="sh"><code>sudo update-alternatives --config libblas.so.3-x86_64-linux-gnu</code></pre>
+<pre><code>Existen 4 opciones para la alternativa libblas.so.3-x86_64-linux-gnu (que provee /usr/lib/x86_64-linux-gnu/libblas.so.3).
+
+  Selección   Ruta                                             Prioridad  Estado
+------------------------------------------------------------
+* 0            /opt/intel/mkl/lib/intel64/libmkl_rt.so           150       modo automático
+  1            /opt/intel/mkl/lib/intel64/libmkl_rt.so           150       modo manual
+  2            /usr/lib/x86_64-linux-gnu/atlas/libblas.so.3      35        modo manual
+  3            /usr/lib/x86_64-linux-gnu/blas/libblas.so.3       10        modo manual
+  4            /usr/lib/x86_64-linux-gnu/openblas/libblas.so.3   40        modo manual
+
+Pulse &lt;Intro&gt; para mantener el valor por omisión [*] o pulse un número de selección: 4</code></pre>
+<p>Enlazar LAPACK (si se emplea ATLAS o MKL):</p>
+<pre class="sh"><code>sudo update-alternatives --config liblapack.so.3-x86_64-linux-gnu </code></pre>
+<pre><code>Existen 4 opciones para la alternativa liblapack.so.3-x86_64-linux-gnu (que provee /usr/lib/x86_64-linux-gnu/liblapack.so.3).
+
+  Selección   Ruta                                               Prioridad  Estado
+------------------------------------------------------------
+* 0            /opt/intel/mkl/lib/intel64/libmkl_rt.so             150       modo automático
+  1            /opt/intel/mkl/lib/intel64/libmkl_rt.so             150       modo manual
+  2            /usr/lib/x86_64-linux-gnu/atlas/liblapack.so.3      35        modo manual
+  3            /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3     10        modo manual
+  4            /usr/lib/x86_64-linux-gnu/openblas/liblapack.so.3   40        modo manual
+
+Pulse &lt;Intro&gt; para mantener el valor por omisión [*] o pulse un número de selección: 4</code></pre>
+<p>Para confirmar la selección, podemos ejecutar <code>sessionInfo()</code> en R y nos mostrará algo de este estilo:</p>
+<pre><code>Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas/libblas.so.3
+LAPACK: /usr/lib/x86_64-linux-gnu/libopenblasp-r0.2.20.so</code></pre>
+<pre><code>Matrix products: default                            
+BLAS/LAPACK: /opt/intel/compilers_and_libraries_2020.0.166/linux/mkl/lib/intel64_lin/libmkl_rt.so</code></pre>
+<p>Si se emplean paquetes que se compilan con LAPACK (e.g. <code>npsp</code>) habría que reinstalarlos si se cambia el enlace a las librerías BLAS/LAPACK.
+Pendiente buscar referencia…</p>
+<p>Se podrían seleccionar el número de núcleos/hilos como se describió <a href="#NUM_THREADS">aquí</a>.</p>
+</div>
+</div>
+<div id="rstudio-server" class="section level1">
+<h1>Instalación de RStudio Server</h1>
+<p>Descargar e instalar RStudio Server siguiendo los pasos en:
+<a href="https://rstudio.com/products/rstudio/download-server/debian-ubuntu/">Download RStudio Server for Debian &amp; Ubuntu</a></p>
+<pre class="sh"><code>sudo apt-get install gdebi-core
+wget https://download2.rstudio.org/server/trusty/amd64/rstudio-server-1.2.5033-amd64.deb
+sudo gdebi rstudio-server-1.2.5033-amd64.deb</code></pre>
+<p>Se recomienda crear un usuario:</p>
+<pre class="sh"><code>sudo adduser rstudio</code></pre>
+<p>Para acceder (se solicitarán las credenciales):</p>
+<pre><code>http://&lt;server-ip&gt;:8787</code></pre>
+<p>Si aparecen problemas:</p>
+<pre class="sh"><code>sudo rstudio-server verify-installation</code></pre>
+<p>Fuentes:</p>
+<ul>
+<li><p><a href="http://jianghao.wang/post/2018-01-23-rstudio-server/">Configure Rstudio Server on Ubuntu 16.04</a></p></li>
+<li><p><a href="https://support.rstudio.com/hc/en-us/articles/234653607-Getting-Started-with-RStudio-Server">Getting Started with RStudio Server</a></p></li>
+<li><p><a href="https://docs.rstudio.com/ide/server-pro">RStudio Server Professional Edition Administration Guide</a></p></li>
+</ul>
+<div id="problemas-con-rstudio-server" class="section level2">
+<h2>Problemas con RStudio Server</h2>
+<p>Desde RStudio solo se pudo ejecutar <a href="https://mac.r-project.org/benchmarks"><em>R-benchmark-25.R</em></a> sin problemas con OpenBLAS (aunque al emplear la consola por SSH no hubo ningún problema con ninguna de las opciones).</p>
+<p><strong>ERROR</strong>: Al seleccionar MKL y testear con <em>R-benchmark-25.R</em>:</p>
+<pre><code>Error in solve(crossprod(a), crossprod(a, b)) : 
+  the leading minor of order 1608 is not positive definite</code></pre>
+<p>Este tipo de errores pueden ser debidos a Open MP:
+<a href="https://stat.ethz.ch/pipermail/r-sig-debian/2011-July/001638.html" class="uri">https://stat.ethz.ch/pipermail/r-sig-debian/2011-July/001638.html</a>
+pese a haber incluido <code>MKL_THREADING_LAYER=GNU</code> en <code>/etc/environment</code>
+para que MKL utilice la misma versión de R.</p>
+<p>Este problema no apareció en la consola, pero pudo ser debido a que se inició una nueva conexión y se cargaron las variables de entorno? Pendiente volver a testear…</p>
+<p><strong>ERROR</strong>: Al seleccionar ATLAS y testear con <em>R-benchmark-25.R</em>, se queda colgado en:</p>
+<pre><code>Inverse of a 1600x1600 random matrix________________ (sec):</code></pre>
+</div>
+</div>
+<div id="compilaR" class="section level1">
+<h1>Instalación HPC compilando R desde el código fuente</h1>
+<p>Fuentes:</p>
+<ul>
+<li><p><a href="https://github.com/alexisph/high_performance_r">Instructions and benchmarks for high-performance computing in R</a></p></li>
+<li><p><a href="https://software.intel.com/en-us/articles/using-intel-mkl-with-r">Using Intel MKL with R</a></p></li>
+<li><p><a href="https://www.r-bloggers.com/why-is-r-slow-some-explanations-and-mklopenblas-setup-to-try-to-fix-this/">Why is R slow?</a></p></li>
+<li><p><a href="https://community.oracle.com/blogs/machinelearning/2016/11/08/building-r-with-intel-mkl-blas-on-linux">How to build R with Intel MKL BLAS on Linux</a></p></li>
+<li><p><a href="https://support.rstudio.com/hc/en-us/articles/218004217-Building-R-from-Source">Building R from source</a></p></li>
+</ul>
+</div>
+<div id="benchmarking-r" class="section level1">
+<h1>Benchmarking R</h1>
+<p>Fuentes:</p>
+<ul>
+<li><p><a href="https://mac.r-project.org/benchmarks">R benchmarks - R for Mac OS X</a></p></li>
+<li><p><a href="http://www.parallelr.com/r-hpac-benchmark-analysis">R benchmark for High-Performance Analytics and Computing</a></p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/RHPCBenchmark/vignettes/vignette.html">R package RHPCBenchmark</a></p></li>
+</ul>
+</div>
+<div id="introducción-al-procesamiento-en-paralelo-en-r" class="section level1">
+<h1>Introducción al procesamiento en paralelo en R</h1>
+<p>En esta sección se pretenden mostrar las principales herramientas para
+el procesamiento en paralelo disponibles en R y dar una idea de su funcionamiento.
+Para más detalles se recomienda ver <a href="https://cran.r-project.org/view=HighPerformanceComputing">CRAN Task View: High-Performance and Parallel Computing with R</a>
+(además de HPC, High Performance Computing, también incluye herramientas
+para computación distribuida)<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+<p>Emplearemos la siguiente terminología:</p>
+<ul>
+<li><p><strong>Núcleo</strong>: término empleado para referirse a un procesador lógico de un equipo
+(un equipo puede tener un único procesador con múltiples núcleos que pueden
+realizar operaciones en paralelo). También podría referirse aquí a un
+equipo (nodo) de una red (clúster de equipos; en la práctica cada uno puede tener
+múltiples núcleos). <em>Un núcleo puede ejecutar procesos en serie</em>.</p></li>
+<li><p><strong>Clúster</strong>: colección de núcleos en un equipo o red de equipos.
+<em>Un clúster puede ejecutar varios procesos en paralelo</em>.</p></li>
+</ul>
+<p>Por defecto la versión oficial de R emplea un único núcleo, aunque se puede configurar de forma que realice cálculos en paralelo (e.g. librería LAPACK).</p>
+<p>Los métodos simples de paralelización<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> disponibles en R son:</p>
+<ul>
+<li><p><em>Forking</em>: Copia el proceso de R a un nuevo núcleo (se comparte el entorno de trabajo).
+Es el más simple y eficiente pero <strong>no está disponible en Windows</strong>.</p></li>
+<li><p><em>Socket</em>: Lanza una nueva versión de R en cada núcleo, como si se tratase de un cluster
+de equipos comunicados a traves de red (hay que crear un entorno de trabajo en cada núcleo).
+Disponible en todos los sistemas operativos.</p></li>
+</ul>
+<div id="paquetes-de-r" class="section level2">
+<h2>Paquetes de R</h2>
+<p>Hay varios paquetes que se pueden usar para el procesamiento paralelo en R,
+entre ellos podríamos destacar:</p>
+<ul>
+<li><p><code>parallel</code>: forma parte de la instalación base de R y fusiona los paquetes
+<code>multicore</code> (forking) y <code>snow</code> (sockets; Simple Network of Workstations).
+Además incluye herramientas para la generación de números aleatorios en paralelo
+(cada proceso empleara una secuencia y los resultados serán reproducibles).</p>
+<p>Incluye versiones “paralelizadas” de la familia <code>*apply()</code>:
+<code>mclapply()</code> (forking), <code>parLapply()</code> (socket), …</p></li>
+<li><p><code>foreach</code>: permite realizar iteraciones y admite paralelización con el operador <code>%dopar%</code>,
+aunque requiere paquetes adicionales como <code>doSNOW</code> o <code>doParallel</code> (recomendado).</p></li>
+<li><p><code>rslurm</code>: permite la ejecución distribuida en clústeres Linux que implementen
+SLURM (Simple Linux Utility for Resource Management),
+un gestor de recursos de código abierto muy empleado.</p></li>
+</ul>
+</div>
+<div id="ejemplos" class="section level2">
+<h2>Ejemplos</h2>
+<p>Si se emplea el paquete <code>parallel</code> en sistemas tipo Unix (Linux, Mac OS X, …), se podría
+evaluar en paralelo una función llamando directamente a <code>mclapply()</code>.
+Por defecto empleará todos los núcleos disponibles, pero se puede especificar un número menor
+mediante el argumento <code>mc.cores</code>.</p>
+<pre class="r"><code>library(parallel)
+ncores &lt;- detectCores()
+ncores
+
+func &lt;- function(k) {
+  i_boot &lt;- sample(nrow(iris), replace = TRUE)
+  lm(Petal.Width ~ Petal.Length, data = iris[i_boot, ])$coefficients
+}
+
+RNGkind(&quot;L&#39;Ecuyer-CMRG&quot;) # Establecemos Pierre L&#39;Ecuyer&#39;s RngStreams...
+set.seed(1)
+
+system.time(res.boot &lt;- mclapply(1:100, func)) # En Windows llama a lapply() (mc.cores = 1)
+# res.boot &lt;- mclapply(1:100, func, mc.cores = ncores - 1) # En Windows genera un error si mc.cores &gt; 1</code></pre>
+<p>En Windows habría que crear previamente un cluster, llamar a una de las funciones
+<code>par*apply()</code> y finalizar el cluster:</p>
+<pre class="r"><code>cl &lt;- makeCluster(ncores - 1, type = &quot;PSOCK&quot;)
+clusterSetRNGStream(cl, 1) # Establecemos Pierre L&#39;Ecuyer&#39;s RngStreams con semilla 1...
+
+system.time(res.boot &lt;- parSapply(cl, 1:100, func))
+
+# stopCluster(cl)
+
+str(res.boot)</code></pre>
+<p>Esto también se puede realizar en Linux (<code>type = "FORK"</code>),
+aunque podríamos estar trabajando ya en un cluster de equipos…</p>
+<p>También podríamos emplear balance de carga si el tiempo de computación es variable
+(e.g. <code>parLapplyLB()</code> o <code>clusterApplyLB()</code>) pero no sería recomendable si se emplean
+números pseudo-aleatorios (los resultados no serían reproducibles).</p>
+<p>Además, empleando las herramientas del paquete <code>snow</code> se puede representar el uso
+del cluster (<em>experimental</em> en Windows):</p>
+<pre class="r"><code># library(snow)
+ctime &lt;- snow::snow.time(snow::parSapply(cl, 1:100, func))
+ctime
+plot(ctime)</code></pre>
+<p>Hay que tener en cuenta la sobrecarga adicional debida a la comunicación entre nodos
+al paralelizar (especialmente con el enfoque de socket).</p>
+<p>La función <code>boot::boot()</code> incluye parámetros para el procesamiento en paralelo:
+<code>parallel = c("no", "multicore", "snow")</code>, <code>ncpus</code>, <code>cl</code>.
+Si <code>parallel = "snow"</code> se crea un clúster en la máquina local durante la ejecución,
+salvo que se establezca con el parámetro <code>cl</code>.</p>
+</div>
+</div>
+<div id="procesamiento-en-paralelo-en-r-con-gpus" class="section level1">
+<h1>Procesamiento en paralelo en R con GPUs</h1>
+<p><strong>Esta sección está incompleta</strong>, en un primer intento no conseguí configurar R (era necesario que el administrador del sistema<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> modificase la instalación), no tuve tiempo a volver a intentarlo.
+Incluyo las notas por si resultan de utilidad (avisadme si conseguís finalizar la configuración…).</p>
+<p>La idea era emplear en R la librería NVBLAS disponible en equipos con GPUs de NVIDIA (no es necesario que sea un servidor con GPUs avanzadas) y configurar los paquetes de R que admiten procesamiento con GPUs.</p>
+<p>Para verificar que está instalado el driver de NVIDIA, ejecutar:</p>
+<pre class="sh"><code>nvidia-smi</code></pre>
+<p>y se obtendrá algo similar a esto:</p>
+<pre><code>+-----------------------------------------------------------------------------+
+| NVIDIA-SMI 430.30       Driver Version: 430.30       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GRID P40-12Q        On   | 00000000:02:01.0 Off |                    0 |
+| N/A   N/A    P8    N/A /  N/A |    784MiB / 11454MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+</code></pre>
+<p>Adicionalmente se mostrará un cuadro con el uso de GPU.</p>
+<div id="configurar-r-para-emplear-nvblas" class="section level2">
+<h2>Configurar R para emplear NVBLAS</h2>
+<p>The NVBLAS Library is a GPU-accelerated Libary that implements BLAS on top of the cuBLAS Library (using only the CUBLASXT API). Because NVBLAS does not support all standard BLAS routines, it might be necessary to associate it with an existing full BLAS Library.</p>
+<p>Ubuntu/Debian installation of cuBLAS:</p>
+<pre class="sh"><code>sudo apt-get install cublas</code></pre>
+<p><strong>ERROR</strong>: No se ha podido localizar el paquete cublas</p>
+<p>Install a full BLAS Library: OpenBLAS? MKL?</p>
+<p>Add to you path?</p>
+<pre class="sh"><code>export LD_LIBRARY_PATH=PATH_TO_CUBLAS/lib64:PATH_TO_SYSTEM_BLAS</code></pre>
+<p><a href="https://docs.nvidia.com/cuda/nvblas/index.html#configuration-file">Configuration</a>:</p>
+<p>NVBLAS must be configured through an ASCII text file, parsed at the time of the loading of the library. The location and name of the configuration file must be defined by the environment variable <code>NVBLAS_CONFIG_FILE</code> (if it is not defined, it is assumed to be <em>nvblas.conf</em> in the current directory). The configuration file should have restricted write permissions.</p>
+<p>The example below shows a typical NVBLAS configuration file:</p>
+<pre><code># This is the configuration file to use NVBLAS Library
+# Setup the environment variable NVBLAS_CONFIG_FILE to specify your own config file.
+# By default, if NVBLAS_CONFIG_FILE is not defined, 
+# NVBLAS Library will try to open the file &quot;nvblas.conf&quot; in its current directory
+# Example : NVBLAS_CONFIG_FILE  /home/cuda_user/my_nvblas.conf
+# The config file should have restricted write permissions accesses
+
+# Specify which output log file (default is stderr)
+NVBLAS_LOGFILE  nvblas.log
+
+# Enable trace log of every intercepted BLAS calls
+NVBLAS_TRACE_LOG_ENABLED
+
+#Put here the CPU BLAS fallback Library of your choice
+#It is strongly advised to use full path to describe the location of the CPU Library
+NVBLAS_CPU_BLAS_LIB  /usr/lib/libopenblas.so
+#NVBLAS_CPU_BLAS_LIB  &lt;mkl_path_installtion&gt;/libmkl_rt.so
+
+# List of GPU devices Id to participate to the computation 
+# Use ALL if you want all your GPUs to contribute
+# Use ALL0, if you want all your GPUs of the same type as device 0 to contribute
+# However, NVBLAS consider that all GPU have the same performance and PCI bandwidth
+# By default if no GPU are listed, only device 0 will be used
+
+#NVBLAS_GPU_LIST 0 2 4
+#NVBLAS_GPU_LIST ALL
+NVBLAS_GPU_LIST ALL0
+
+# Tile Dimension
+NVBLAS_TILE_DIM 2048
+
+# Autopin Memory
+NVBLAS_AUTOPIN_MEM_ENABLED
+
+#List of BLAS routines that are prevented from running on GPU (use for debugging purpose
+# The current list of BLAS routines supported by NVBLAS are
+# GEMM, SYRK, HERK, TRSM, TRMM, SYMM, HEMM, SYR2K, HER2K
+
+#NVBLAS_GPU_DISABLED_SGEMM 
+#NVBLAS_GPU_DISABLED_DGEMM 
+#NVBLAS_GPU_DISABLED_CGEMM 
+#NVBLAS_GPU_DISABLED_ZGEMM 
+
+# Computation can be optionally hybridized between CPU and GPU
+# By default, GPU-supported BLAS routines are ran fully on GPU
+# The option NVBLAS_CPU_RATIO_&lt;BLAS_ROUTINE&gt; give the ratio [0,1] 
+# of the amount of computation that should be done on CPU
+# CAUTION : this option should be used wisely because it can actually
+# significantly reduced the overall performance if too much work is given to CPU
+
+#NVBLAS_CPU_RATIO_CGEMM 0.07</code></pre>
+<pre class="sh"><code>echo &quot;NVBLAS_LOGFILE nvblas.log
+NVBLAS_CPU_BLAS_LIB /usr/lib64/libopenblas.so
+NVBLAS_GPU_LIST ALL&quot; &gt; /etc/nvblas.conf</code></pre>
+<pre class="sh"><code>nano /etc/nvblas.conf</code></pre>
+<p>Usage:</p>
+<p>Unfortunately, it seems that R does not offer a way to specify multiple BLAS Libraries.</p>
+<p>On Linux, an alternative way to use NVBLAS Library is to use the LD_PRELOAD environment variable; this technique has the advantage of avoiding the relinkage step. However, the user should avoid defining that environment variable globally because it will cause the NVBLAS library to be loaded by every shell command executed on the system, thus leading to a lack of responsiveness of the system.</p>
+<pre class="sh"><code>export LD_PRELOAD=libnvblas.so</code></pre>
+<p>You can now run R on the command line with GPU-accelerated BLAS like this:</p>
+<pre class="sh"><code>LD_PRELOAD=/usr/local/cuda-9.0/lib64/libnvblas.so NVBLAS_CONFIG_FILE=/etc/nvblas.conf R</code></pre>
+<p><a href="https://clint.id.au/?p=1900">Accelerated R with CUDA on Linux</a></p>
+<p>Fuentes:</p>
+<ul>
+<li><p><a href="https://developer.nvidia.com/gpu-accelerated-libraries">NVIDIA CUDA-X</a></p>
+<ul>
+<li><p><a href="https://docs.nvidia.com/cuda/nvblas/">NVBLAS Library</a></p></li>
+<li><p><a href="https://developer.nvidia.com/cublas">NVIDIA cuBLAS library</a></p></li>
+<li><p><a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html">NVIDIA CUDA Installation Guide for Linux</a></p></li>
+<li><p><a href="https://devblogs.nvidia.com/accelerate-r-applications-cuda">Accelerate R Applications with CUDA - obsolete</a></p></li>
+</ul></li>
+<li><p><a href="https://github.com/fommil/netlib-java/wiki/NVBLAS">GPU usage with NVBLAS</a></p></li>
+<li><p><a href="https://clint.id.au/?p=1900">Accelerated R with CUDA on Linux</a></p></li>
+<li><p><a href="http://www.parallelr.com/r-hpac-benchmark-analysis-gpu">R benchmark for High-Performance Analytics and Computing (II): GPU Packages</a></p></li>
+<li><p><a href="https://tensorflow.rstudio.com/installation/gpu/local_gpu">TensorFlow with GPU support</a></p>
+<ul>
+<li><a href="https://keras.rstudio.com/reference/install_keras.html">Install Keras and the TensorFlow backend</a></li>
+</ul></li>
+<li><p><a href="https://blog.revolutionanalytics.com/2015/01/parallel-programming-with-gpus-and-r.html">Parallel Programming with GPUs and R</a></p></li>
+<li><p><a href="http://www.r-tutor.com/gpu-computing">GPU Computing with R</a></p></li>
+<li><p><a href="https://andrewzm.wordpress.com/2015/04/04/getting-magma-to-work-with-r/">Getting MAGMA to work with R - obsolete</a></p></li>
+</ul>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>También puede ser de interés la presentación <a href="https://www.r-users.gal/sites/default/files/10_aurelio_rodriguez.pdf">R y HPC (uso de R en el CESGA)</a> de Aurelio Rodríguez en las <a href="https://www.r-users.gal/pagina/programa-2018">VI Xornada de Usuarios de R en Galicia</a>.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Realmente las herramientas estándar son
+<em>OpenMP</em> para el procesamiento en paralelo con memoria compartida en un único equipo
+y <em>MPI</em> para la computación distribuida en múltiples nodos.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>En nuestro caso se emplearon máquinas virtuales (que nos proporciona el CITIC, <a href="https://citic.udc.es" class="uri">https://citic.udc.es</a>) en equipos con NVIDIA Tesla P40 24GB configuradas para trabajar con NVIDIA Grid.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+    </div>
+
+    
+    
+    
+    <div class="article-tags">
+      
+      <a class="btn btn-primary btn-outline" href="/tags/configuraci%c3%b3n">Configuración</a>
+      
+      <a class="btn btn-primary btn-outline" href="/tags/apuntes">Apuntes</a>
+      
+    </div>
+    
+    
+
+  </div>
+
+</article>
+
+
+
+<div class="article-container article-widget">
+  <div class="hr-light"></div>
+  <h3></h3>
+  <ul>
+    
+    <li><a href="/post/instalacion-de-rstudio/">Instalación y configuración de RStudio Desktop</a></li>
+    
+    <li><a href="/post/instalacion-de-r/">Instalación de R</a></li>
+    
+    <li><a href="/post/ayuda-y-recursos-para-el-aprendizaje-de-r/">Ayuda y recursos para el aprendizaje de R</a></li>
+    
+    <li><a href="/post/problema-colinealidad/">El problema de la colinelidad</a></li>
+    
+    <li><a href="/post/apuntes-de-remuestreo/">Apuntes de Remuestreo</a></li>
+    
+  </ul>
+</div>
+
+
+
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-rubenfcasal-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017-2021 Ruben Fernandez-Casal &middot; 
+
+      Powered by <a href="https://bookdown.org/yihui/blogdown" target="_blank">blogdown</a> 
+      and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//https-rubenfcasal-github-io.disqus.com/count.js" async></script>
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

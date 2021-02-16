@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.49.2" />
   <meta name="author" content="Ruben Fernandez-Casal">
   <meta name="description" content="Associate Professor (Contratado Doctor) of Statistics and Operational Research (Estadística e Investigación Operativa)">
 
@@ -45,7 +45,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="/post/intro-bookdown/">
+  <link rel="canonical" href="https://rubenfcasal.github.io/post/intro-bookdown/">
 
   
 
@@ -93,7 +93,7 @@
         
 
         <li class="nav-item">
-          <a href="https://rubenfcasal.github.io/npsp">
+          <a href="/npsp">
             
             <span>npsp</span>
           </a>
@@ -162,7 +162,7 @@
   
   
   <span class="middot-divider"></span>
-  <a href="/post/intro-bookdown/#disqus_thread"></a>
+  <a href="https://rubenfcasal.github.io/post/intro-bookdown/#disqus_thread"></a>
   
 
   
@@ -185,35 +185,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Escritura%20de%20libros%20con%20%60bookdown%60&amp;url=%2fpost%2fintro-bookdown%2f"
+         href="https://twitter.com/intent/tweet?text=Escritura%20de%20libros%20con%20%60bookdown%60&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2fintro-bookdown%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpost%2fintro-bookdown%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2frubenfcasal.github.io%2fpost%2fintro-bookdown%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fintro-bookdown%2f&amp;title=Escritura%20de%20libros%20con%20%60bookdown%60"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2fintro-bookdown%2f&amp;title=Escritura%20de%20libros%20con%20%60bookdown%60"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2fintro-bookdown%2f&amp;title=Escritura%20de%20libros%20con%20%60bookdown%60"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2frubenfcasal.github.io%2fpost%2fintro-bookdown%2f&amp;title=Escritura%20de%20libros%20con%20%60bookdown%60"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Escritura%20de%20libros%20con%20%60bookdown%60&amp;body=%2fpost%2fintro-bookdown%2f">
+         href="mailto:?subject=Escritura%20de%20libros%20con%20%60bookdown%60&amp;body=https%3a%2f%2frubenfcasal.github.io%2fpost%2fintro-bookdown%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -226,11 +226,9 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<div id="TOC">
+      <div id="TOC">
 <ul>
-<li><a href="#introduccion">Introducción</a></li>
+<li><a href="#introducción">Introducción</a></li>
 <li><a href="#requisitos">Requisitos</a></li>
 <li><a href="#get-started">Get started</a></li>
 <li><a href="#primeros-pasos">Primeros pasos</a><ul>
@@ -238,20 +236,37 @@
 <li><a href="#archivo-_bookdown.yml">Archivo <em>_bookdown.yml</em></a></li>
 </ul></li>
 <li><a href="#licencia">Licencia</a></li>
-<li><a href="#publicacion-en-la-web">Publicación en la web</a></li>
+<li><a href="#publicación-en-la-web">Publicación en la web</a></li>
 </ul>
 </div>
 
-<p><strong><em>Actualización 14-10-18</em></strong>: Una versión más reciente de este post está disponible aquí: <a href="https://rubenfcasal.github.io/bookdown_intro" class="uri">https://rubenfcasal.github.io/bookdown_intro</a>.</p>
-<div id="introduccion" class="section level2">
+<p><strong><em>Actualización 14-10-18</em></strong>: Una versión más reciente de este post está disponible aquí:
+<a href="https://rubenfcasal.github.io/bookdown_intro" class="uri">https://rubenfcasal.github.io/bookdown_intro</a>.</p>
+<div id="introducción" class="section level2">
 <h2>Introducción</h2>
-<p>El paquete <code>bookdown</code> de R permite escribir libros empleando <a href="http://rmarkdown.rstudio.com">R Markdown</a> de forma fácil. Sin preocuparse mucho por los detalles de composición se pueden crear libros en distintos formatos (HTML / PDF / Word / …). Además de permitir emplear las extensiones Markdown de Pandoc (notas al pie de página, tablas, citas, ecuaciones LaTeX, …), se pueden emplear extensiones markdown para libros (leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</p>
-<p>El libro se generará (de forma simultánea en los formatos deseados) a partir de una serie de documentos R Markdown, cada uno correspondiente a un capítulo. Ejemplos de este tipo de libros se tienen en <a href="https://bookdown.org" class="uri">https://bookdown.org</a> (los libros de Hadley <a href="http://adv-r.had.co.nz">Advanced R</a> y <a href="http://r-pkgs.had.co.nz">R packages</a>, serían ejemplos con una versión “preliminar” de este paquete). Uno en castellano que utilizaremos como ejemplo es <a href="https://rubenfcasal.github.io/simbook">Prácticas de Simulación</a>, disponible en el repositorio de GitHub <a href="https://github.com/rubenfcasal/simbook">rubenfcasal/simbook</a> (<a href="https://github.com/rubenfcasal/simbook/archive/master.zip">Zip</a>).</p>
+<p>El paquete <code>bookdown</code> de R permite escribir libros empleando
+<a href="http://rmarkdown.rstudio.com">R Markdown</a> de forma fácil.
+Sin preocuparse mucho por los detalles de composición
+se pueden crear libros en distintos formatos (HTML / PDF / Word / …).
+Además de permitir emplear las extensiones Markdown de Pandoc
+(notas al pie de página, tablas, citas, ecuaciones LaTeX, …),
+se pueden emplear extensiones markdown para libros
+(leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</p>
+<p>El libro se generará (de forma simultánea en los formatos deseados)
+a partir de una serie de documentos R Markdown, cada uno correspondiente a un capítulo.
+Ejemplos de este tipo de libros se tienen en <a href="https://bookdown.org" class="uri">https://bookdown.org</a>
+(los libros de Hadley <a href="http://adv-r.had.co.nz">Advanced R</a> y <a href="http://r-pkgs.had.co.nz">R packages</a>,
+serían ejemplos con una versión “preliminar” de este paquete).
+Uno en castellano que utilizaremos como ejemplo es
+<a href="https://rubenfcasal.github.io/simbook">Prácticas de Simulación</a>,
+disponible en el repositorio de GitHub
+<a href="https://github.com/rubenfcasal/simbook">rubenfcasal/simbook</a>
+(<a href="https://github.com/rubenfcasal/simbook/archive/master.zip">Zip</a>).</p>
 </div>
 <div id="requisitos" class="section level2">
 <h2>Requisitos</h2>
 <ol style="list-style-type: decimal">
-<li>Disponer de una versión reciente de RStudio. <a href="https://www.rstudio.com/products/rstudio/download/">Descargar la última versión</a> si la versión actual es anterior a la 1.0.0.</li>
+<li><p>Disponer de una versión reciente de RStudio. <a href="https://www.rstudio.com/products/rstudio/download/">Descargar la última versión</a> si la versión actual es anterior a la 1.0.0.</p></li>
 <li><p>Instalar el paquete <code>bookdown</code> de R:</p>
 <pre class="r"><code># stable version on CRAN
 install.packages(&#39;bookdown&#39;)
@@ -274,25 +289,39 @@ install.packages(&#39;bookdown&#39;)
 </div>
 <div id="primeros-pasos" class="section level2">
 <h2>Primeros pasos</h2>
-<p>Al abrir el proyecto (<em>bookdown-demo.Rproj</em>) podemos compilar el libro ejecutando “Build Book” en la pestaña “Build”. Por defecto se generará el libro (en los distintos formatos) en la carpeta <em>_book</em> y al terminar se abrirá automáticamente la versión HTML.</p>
-<p><strong>Nota</strong>: Si se produce un error, eliminar manualmente el fichero <em>book_filename.Rmd</em> (o <em>book_filename.md</em>) para poder volver a compilar.</p>
-<p>Posteriormente se pueden ir añadiendo (modificando o eliminando) los ficheros <em>.Rmd</em> correspondientes a los distintos capítulos (se numerarán automáticamente por orden alfabético)</p>
+<p>Al abrir el proyecto (<em>bookdown-demo.Rproj</em>) podemos compilar el libro
+ejecutando “Build Book” en la pestaña “Build”.
+Por defecto se generará el libro (en los distintos formatos)
+en la carpeta <em>_book</em> y al terminar se abrirá automáticamente la versión HTML.</p>
+<p><strong>Nota</strong>: Si se produce un error, eliminar manualmente el fichero
+<em>book_filename.Rmd</em> (o <em>book_filename.md</em>) para poder volver a compilar.</p>
+<p>Posteriormente se pueden ir añadiendo (modificando o eliminando) los ficheros
+<em>.Rmd</em> correspondientes a los distintos capítulos
+(se numerarán automáticamente por orden alfabético)</p>
 <p><strong>Nota</strong>: Evitar espacios (y acentos) en los nombres de los ficheros de los capítulos.</p>
-<p>Información sobre como emplear las extensiones markdown para libros está disponible en el <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html">libro de bookdown</a>:</p>
+<p>Información sobre como emplear las extensiones markdown para libros
+está disponible en el
+<a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html">libro de bookdown</a>:</p>
 <ul>
 <li><p><a href="https://bookdown.org/yihui/bookdown/figures.html">Figuras</a></p></li>
 <li><p><a href="https://bookdown.org/yihui/bookdown/tables.html">Tablas</a></p></li>
-<li><p>Referencias: <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html#equations">ecuaciones</a>, <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html#theorems">teoremas</a>, <a href="https://bookdown.org/yihui/bookdown/figures.html#figures">figuras</a>, <a href="https://bookdown.org/yihui/bookdown/tables.html#tables">tablas</a>, y <a href="https://bookdown.org/yihui/bookdown/cross-references.html">secciones</a></p></li>
+<li><p>Referencias:
+<a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html#equations">ecuaciones</a>, <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html#theorems">teoremas</a>,
+<a href="https://bookdown.org/yihui/bookdown/figures.html#figures">figuras</a>,
+<a href="https://bookdown.org/yihui/bookdown/tables.html#tables">tablas</a>,
+y <a href="https://bookdown.org/yihui/bookdown/cross-references.html">secciones</a></p></li>
 <li><p><a href="https://bookdown.org/yihui/bookdown/citations.html">Citas</a></p></li>
 </ul>
-<p>Nos puede interesar modificar el encabezado de <em>index.Rmd</em> y un par de archivos <a href="https://en.wikipedia.org/wiki/YAML">YAML</a> de configuración.</p>
+<p>Nos puede interesar modificar el encabezado de <em>index.Rmd</em> y
+un par de archivos <a href="https://en.wikipedia.org/wiki/YAML">YAML</a> de configuración.</p>
 <div id="encabezado-de-index.rmd" class="section level3">
 <h3>Encabezado de <em>index.Rmd</em></h3>
-<p>La cabecera YAML del primer archivo <em>.Rmd</em> del libro se puede utilizar para configurar distintas opciones:</p>
+<p>La cabecera YAML del primer archivo <em>.Rmd</em> del libro se puede utilizar para configurar
+distintas opciones:</p>
 <pre><code>--- 
 title: &quot;A Minimal Book Example&quot;
 author: &quot;Yihui Xie&quot;
-date: &quot;2019-03-25&quot;
+date: &quot;2021-02-15&quot;
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -303,7 +332,8 @@ github-repo: rstudio/bookdown-demo
 description: &quot;This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook.&quot;
 ---</code></pre>
 <p>Probablemente nos interesará cambiar el título y el nombre del autor…</p>
-<p>Aunque tambien se pueden especificar otras opciones relacionadas con Pandoc. Por ejemplo:</p>
+<p>Aunque tambien se pueden especificar otras opciones relacionadas con Pandoc.
+Por ejemplo:</p>
 <pre><code>---
 output:
   bookdown::gitbook:
@@ -311,7 +341,8 @@ output:
   bookdown::pdf_book:
     keep_tex: yes
 ---</code></pre>
-<p>Las opciones del formato de salida también se pueden especificar en el archivo de configuración YAML <em>_output.yml</em>:</p>
+<p>Las opciones del formato de salida también se pueden especificar en el
+archivo de configuración YAML <em>_output.yml</em>:</p>
 <pre><code>bookdown::gitbook:
   css: style.css
   config:
@@ -329,7 +360,10 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: default</code></pre>
-<p>Más detalles sobre las opciones de salida en el <a href="https://bookdown.org/yihui/bookdown/output-formats.html">libro de bookdown</a>. Ejemplos en castellano de <a href="https://github.com/rubenfcasal/simbook/raw/master/index.Rmd"><em>index.Rmd</em></a> y <a href="https://github.com/rubenfcasal/simbook/blob/master/_output.yml"><em>_output.yml</em></a>.</p>
+<p>Más detalles sobre las opciones de salida en el <a href="https://bookdown.org/yihui/bookdown/output-formats.html">libro de bookdown</a>.
+Ejemplos en castellano de
+<a href="https://github.com/rubenfcasal/simbook/raw/master/index.Rmd"><em>index.Rmd</em></a> y
+<a href="https://github.com/rubenfcasal/simbook/blob/master/_output.yml"><em>_output.yml</em></a>.</p>
 </div>
 <div id="archivo-_bookdown.yml" class="section level3">
 <h3>Archivo <em>_bookdown.yml</em></h3>
@@ -338,11 +372,17 @@ bookdown::epub_book: default</code></pre>
 language:
   ui:
     chapter_name: &quot;Chapter &quot;</code></pre>
-<p>Por ejemplo, nos interesará cambiar el nombre del fichero y, si se trata de un libro en castellano, el encabezado de los títulos de los capítulos:</p>
+<p>Por ejemplo, nos interesará cambiar el nombre del fichero y,
+si se trata de un libro en castellano,
+el encabezado de los títulos de los capítulos:</p>
 <pre><code>book_filename: &quot;SimulationR&quot;
 chapter_name: &quot;Capítulo &quot;</code></pre>
-<p>Además nos puede interesar cambiar los encabezados de algunos componentes como figuras y tablas, siguiendo las instrucciones de la <a href="https://bookdown.org/yihui/bookdown/internationalization.html">Sección 4.5</a> del libro de bookdown (ejemplo en castellano <a href="https://github.com/rubenfcasal/simbook/blob/master/_bookdown.yml">aquí</a>).</p>
-<p>Otras opciones permitirían cambiar el orden de los ficheros <em>.Rmd</em> (<code>rmd_files:</code>) , o establecer y configurar la salida (<code>output:</code>). Por ejemplo:</p>
+<p>Además nos puede interesar cambiar los encabezados de algunos componentes como figuras y tablas,
+siguiendo las instrucciones de la <a href="https://bookdown.org/yihui/bookdown/internationalization.html">Sección 4.5</a>
+del libro de bookdown (ejemplo en castellano <a href="https://github.com/rubenfcasal/simbook/blob/master/_bookdown.yml">aquí</a>).</p>
+<p>Otras opciones permitirían cambiar el orden de los ficheros <em>.Rmd</em> (<code>rmd_files:</code>) ,
+o establecer y configurar la salida (<code>output:</code>).
+Por ejemplo:</p>
 <pre><code>new_session: yes
 output:
   bookdown::gitbook:
@@ -353,15 +393,32 @@ output:
 </div>
 <div id="licencia" class="section level2">
 <h2>Licencia</h2>
-<p>Es recomendable incluir una licencia, por ejemplo, en el libro de <a href="https://rubenfcasal.github.io/simbook">Prácticas de Simulación</a> se consideró una licencia <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es_ES">Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional</a> (de forma preliminar…).</p>
+<p>Es recomendable incluir una licencia, por ejemplo, en el libro de
+<a href="https://rubenfcasal.github.io/simbook">Prácticas de Simulación</a>
+se consideró una licencia
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es_ES">Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional</a>
+(de forma preliminar…).</p>
 </div>
-<div id="publicacion-en-la-web" class="section level2">
+<div id="publicación-en-la-web" class="section level2">
 <h2>Publicación en la web</h2>
-<p>La “publicación” del libro web puede ser tan simple como subirlo a <a href="https://help.github.com">GitHub</a>, aunque también bastaría con subir la carpeta de salida <em>_book</em> a cualquier servidor web.</p>
+<p>La “publicación” del libro web puede ser tan simple como subirlo a
+<a href="https://help.github.com">GitHub</a>, aunque también bastaría con subir
+la carpeta de salida <em>_book</em> a cualquier servidor web.</p>
 <p>Para poder emplear <a href="https://pages.github.com">GitHub Pages</a> habría que cambiar el directorio de salida en el archivo <em>_bookdown.yml</em>:</p>
 <pre><code>output_dir: &quot;docs&quot;</code></pre>
-<p>Después de generar el libro, crear un fichero <em>.nojekyll</em> (vacio) en el nuevo directorio <em>docs</em> (GitHub procesa los sitios web con Jekyll; e.g. <a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages">enlace</a> ), para lo que bastaría con ejecutar en la consola <code>file.create('docs/.nojekyll')</code>. Finalmente crear el correspondiente repositorio en GitHub, estableciendo en la configuración de “GitHub Pages” la opción de “Source” como “master branch /docs folder” (p.e. siguiendo estos <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages">pasos</a>).</p>
-<p>Para ir añadiendo contenido a un sitio en GitHub, se puede emplear por ejemplo RStudio (e.g. <a href="http://r-pkgs.had.co.nz/git.html">R packages</a> by <a href="http://hadley.nz/#code">Hadley Wickham</a>) o instalar <a href="https://desktop.github.com">GitHub Desktop</a> (lo que recomendaría en Windows…).</p>
+<p>Después de generar el libro, crear un fichero <em>.nojekyll</em> (vacio)
+en el nuevo directorio <em>docs</em>
+(GitHub procesa los sitios web con Jekyll;
+e.g. <a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages">enlace</a> ),
+para lo que bastaría con ejecutar en la consola <code>file.create('docs/.nojekyll')</code>.
+Finalmente crear el correspondiente repositorio en GitHub,
+estableciendo en la configuración de “GitHub Pages”
+la opción de “Source” como “master branch /docs folder”
+(p.e. siguiendo estos <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages">pasos</a>).</p>
+<p>Para ir añadiendo contenido a un sitio en GitHub, se puede emplear por ejemplo RStudio (e.g. <a href="http://r-pkgs.had.co.nz/git.html">R packages</a>
+by <a href="http://hadley.nz/#code">Hadley Wickham</a>)
+o instalar <a href="https://desktop.github.com">GitHub Desktop</a>
+(lo que recomendaría en Windows…).</p>
 <p>Más información y alternativas en el <a href="https://bookdown.org/yihui/bookdown/publishing.html">libro de bookdown</a>.</p>
 </div>
 
@@ -372,9 +429,13 @@ output:
     
     <div class="article-tags">
       
+      <a class="btn btn-primary btn-outline" href="/tags/bookdown">bookdown</a>
+      
       <a class="btn btn-primary btn-outline" href="/tags/r-markdown">R Markdown</a>
       
-      <a class="btn btn-primary btn-outline" href="/tags/blookdown">blookdown</a>
+      <a class="btn btn-primary btn-outline" href="/tags/apuntes">Apuntes</a>
+      
+      <a class="btn btn-primary btn-outline" href="/tags/paquetes">Paquetes</a>
       
       <a class="btn btn-primary btn-outline" href="/tags/sgapeio">sgapeio</a>
       
@@ -397,11 +458,11 @@ output:
     
     <li><a href="/post/generaci%C3%B3n-de-informes-con-r/">Generación de informes con R</a></li>
     
-    <li><a href="/post/apuntes-de-simulaci%C3%B3n/">Apuntes de simulación</a></li>
-    
     <li><a href="/post/npsp-062/">`npsp` versión 0.6.2</a></li>
     
-    <li><a href="/post/2015-12-30-plain-markdown/">A Plain Markdown Post</a></li>
+    <li><a href="/post/introduccion-a-la-geoestadistica-con-geor/">Introducción a la Geoestadística con `geoR`</a></li>
+    
+    <li><a href="/post/apuntes-de-simulaci%C3%B3n/">Apuntes de simulación</a></li>
     
   </ul>
 </div>
@@ -441,7 +502,7 @@ output:
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017-2018 Ruben Fernandez-Casal &middot; 
+      &copy; 2017-2021 Ruben Fernandez-Casal &middot; 
 
       Powered by <a href="https://bookdown.org/yihui/blogdown" target="_blank">blogdown</a> 
       and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic

@@ -2,148 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on R Machinery</title>
-    <link>/tags/</link>
+    <link>https://rubenfcasal.github.io/tags/</link>
     <description>Recent content in Tags on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2021 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rubenfcasal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Apuntes</title>
-      <link>/tags/apuntes/</link>
+      <link>https://rubenfcasal.github.io/tags/apuntes/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/apuntes/</guid>
+      <guid>https://rubenfcasal.github.io/tags/apuntes/</guid>
       <description>Contenido marcado como apuntes&amp;hellip;</description>
     </item>
     
     <item>
+      <title>Configuración</title>
+      <link>https://rubenfcasal.github.io/tags/configuraci%C3%B3n/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/tags/configuraci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Geoestadística</title>
-      <link>/tags/geoestad%C3%ADstica/</link>
+      <link>https://rubenfcasal.github.io/tags/geoestad%C3%ADstica/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/geoestad%C3%ADstica/</guid>
+      <guid>https://rubenfcasal.github.io/tags/geoestad%C3%ADstica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Libros</title>
+      <link>https://rubenfcasal.github.io/tags/libros/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/tags/libros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>/tags/markdown/</link>
+      <link>https://rubenfcasal.github.io/tags/markdown/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>/tags/markdown/</guid>
+      <guid>https://rubenfcasal.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Paquetes</title>
-      <link>/tags/paquetes/</link>
+      <link>https://rubenfcasal.github.io/tags/paquetes/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/paquetes/</guid>
+      <guid>https://rubenfcasal.github.io/tags/paquetes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Presentaciones</title>
-      <link>/tags/presentaciones/</link>
+      <link>https://rubenfcasal.github.io/tags/presentaciones/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/presentaciones/</guid>
+      <guid>https://rubenfcasal.github.io/tags/presentaciones/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
+      <link>https://rubenfcasal.github.io/tags/r-markdown/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>https://rubenfcasal.github.io/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regresión</title>
+      <link>https://rubenfcasal.github.io/tags/regresi%C3%B3n/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/tags/regresi%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simulación</title>
-      <link>/tags/simulaci%C3%B3n/</link>
-      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      <link>https://rubenfcasal.github.io/tags/simulaci%C3%B3n/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/simulaci%C3%B3n/</guid>
+      <guid>https://rubenfcasal.github.io/tags/simulaci%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
       <title>academic</title>
-      <link>/tags/academic/</link>
+      <link>https://rubenfcasal.github.io/tags/academic/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/tags/academic/</guid>
+      <guid>https://rubenfcasal.github.io/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogdown</title>
-      <link>/tags/blogdown/</link>
+      <link>https://rubenfcasal.github.io/tags/blogdown/</link>
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blogdown/</guid>
+      <guid>https://rubenfcasal.github.io/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>blookdown</title>
-      <link>/tags/blookdown/</link>
+      <title>bookdown</title>
+      <link>https://rubenfcasal.github.io/tags/bookdown/</link>
       <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blookdown/</guid>
+      <guid>https://rubenfcasal.github.io/tags/bookdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deep-learning</title>
-      <link>/tags/deep-learning/</link>
+      <link>https://rubenfcasal.github.io/tags/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/deep-learning/</guid>
+      <guid>https://rubenfcasal.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>demo</title>
-      <link>/tags/demo/</link>
+      <link>https://rubenfcasal.github.io/tags/demo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regresion</title>
-      <link>/tags/regresion/</link>
-      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/regresion/</guid>
+      <guid>https://rubenfcasal.github.io/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sgapeio</title>
-      <link>/tags/sgapeio/</link>
-      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
+      <link>https://rubenfcasal.github.io/tags/sgapeio/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sgapeio/</guid>
+      <guid>https://rubenfcasal.github.io/tags/sgapeio/</guid>
       <description></description>
     </item>
     

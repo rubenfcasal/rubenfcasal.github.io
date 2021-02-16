@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bookdown on R Machinery</title>
+    <link>https://rubenfcasal.github.io/tags/bookdown/</link>
+    <description>Recent content in bookdown on R Machinery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; 2017-2021 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Wed, 25 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rubenfcasal.github.io/tags/bookdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Escritura de libros con `bookdown`</title>
+      <link>https://rubenfcasal.github.io/post/intro-bookdown/</link>
+      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/intro-bookdown/</guid>
+      <description>IntroducciónRequisitosGet startedPrimeros pasosEncabezado de index.RmdArchivo _bookdown.ymlLicenciaPublicación en la webActualización 14-10-18: Una versión más reciente de este post está disponible aquí:https://rubenfcasal.github.io/bookdown_intro.
+IntroducciónEl paquete bookdown de R permite escribir libros empleandoR Markdown de forma fácil.Sin preocuparse mucho por los detalles de composiciónse pueden crear libros en distintos formatos (HTML / PDF / Word / …).Además de permitir emplear las extensiones Markdown de Pandoc(notas al pie de página, tablas, citas, ecuaciones LaTeX, …),se pueden emplear extensiones markdown para libros(leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</description>
+    </item>
+    
+  </channel>
+</rss>

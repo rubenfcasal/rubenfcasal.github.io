@@ -2,41 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on R Machinery</title>
-    <link>/home/</link>
+    <link>https://rubenfcasal.github.io/home/</link>
     <description>Recent content in Homes on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2021 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rubenfcasal.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R Machinery</title>
-      <link>/home/hero/</link>
+      <link>https://rubenfcasal.github.io/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
       
-      <guid>/home/hero/</guid>
-      <description> Sitio web (de Rubén Fernández-Casal) sobre R Podrás encontrar (herramientas y maquinaria):
-R  Estadística computacional, Regresión, R Markdown, &amp;hellip;  Estadística espacial y espacio-temporal  El paquete npsp, Geoestadística, &amp;hellip;  Software  Paquetes de R, Herramientas, &amp;hellip;  Material  Libros, Presentaciones, Apuntes, &amp;hellip;  </description>
+      <guid>https://rubenfcasal.github.io/home/hero/</guid>
+      <description>Sitio web de Rubén Fernández-Casal sobre R R: Configuración, R Markdown, Paquetes de R,&amp;hellip;  Fernandez-Casal R (2019). npsp: Nonparametric Spatial Statistics. R package version 0.7-5.
+ Fernandez-Casal R, Lafuente-Rego B, Lombardia MJ, Tarrio-Saavedra J, Costa-Bouzas J (2021). scimetr: Analysis of Scientific Publication Data with R. R package version 0.3.0.
+ Casas I, Fernández-Casal R (2020). tvReg: Time-Varying Coefficients Linear Regression for Single and Multi-Equations. R package version 0.5.3, (preprint).</description>
     </item>
     
     <item>
       <title>Posts Recientes</title>
-      <link>/home/posts/</link>
+      <link>https://rubenfcasal.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://rubenfcasal.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://rubenfcasal.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://rubenfcasal.github.io/home/about/</guid>
       <description>Biografía Soy profesor Contratado Doctor del Departamento de Matemáticas (Area de Estadística e Investigación Operativa) de la Universidade da Coruña y miembro del grupo Modes.
  1998-2006. Profesor propio en la Universidade de Vigo.
  1996-1998. Profesor asociado en la Universidade de Santiago de Compostela.
@@ -48,10 +49,10 @@ Más información en mi página institucional (en inglés):
     
     <item>
       <title>Contacto</title>
-      <link>/home/contact/</link>
+      <link>https://rubenfcasal.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://rubenfcasal.github.io/home/contact/</guid>
       <description></description>
     </item>
     

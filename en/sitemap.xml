@@ -5,10 +5,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/en/categories/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/categories/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/en/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/categories/" hreflang="es"/>
     
-      <loc>/en/categories/</loc>
+      <loc>https://rubenfcasal.github.io/en/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -17,10 +17,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/en/publication_types/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/publication_types/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/en/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/publication_types/" hreflang="es"/>
     
-      <loc>/en/publication_types/</loc>
+      <loc>https://rubenfcasal.github.io/en/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -29,10 +29,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/en/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/en/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/" hreflang="es"/>
     
-      <loc>/en/</loc>
+      <loc>https://rubenfcasal.github.io/en/</loc>
       <lastmod>2017-10-15T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -42,10 +42,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/en/tags/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/tags/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/en/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/tags/" hreflang="es"/>
     
-      <loc>/en/tags/</loc>
+      <loc>https://rubenfcasal.github.io/en/tags/</loc>
       <priority>0</priority>
     </url>
     
