@@ -27,7 +27,7 @@
       <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/instalacion-de-rstudio/</guid>
-      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc.</description>
+      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc(ver RStudio IDE Features).</description>
     </item>
     
     <item>

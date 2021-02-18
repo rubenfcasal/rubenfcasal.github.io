@@ -155,7 +155,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 
+    4 
   </span>
   
 
@@ -237,7 +237,8 @@
 </div>
 
 <p>Un entorno de desarrollo (IDE, <em>Integrated Development Environment</em>) de R muy recomendable es <a href="http://rstudio.org">RStudio</a>.
-Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc.</p>
+Está disponible para la mayoría de plataformas (hay una versión para servidores: <a href="https://rstudio.com/products/rstudio/#rstudio-server">RStudio Server</a>, ver <a href="/post/instalacion-de-r-para-hpc/#rstudio-server">post</a>) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc
+(ver <a href="https://rstudio.com/products/rstudio/features">RStudio IDE Features</a>).</p>
 <p>En primer lugar es necesario tener instalado previamente R, por ejemplo como se describe en <a href="/post/instalacion-de-r">este post</a>.</p>
 <div id="windows" class="section level1">
 <h1>Instalación en Windows y primeros pasos</h1>
@@ -271,13 +272,13 @@ Está disponible para la mayoría de plataformas (hay una versión para servidor
 <p>Antes de nada, puede ser recomendable crear un directorio donde descargar el instalador:</p>
 <pre class="sh"><code>mkdir installr
 cd installr</code></pre>
-<p>Buscar la versión actualizada de RStudio en <a href="https://rstudio.com/products/rstudio/download/#download">Download RStudio</a>,
-en este caso emplearemos “<a href="https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5033-amd64.deb" class="uri">https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5033-amd64.deb</a>”</p>
+<p>Buscar la versión actualizada de RStudio en <a href="https://rstudio.com/products/rstudio/download/#download">Download RStudio</a> correspondiente a la versión de ubuntu, en este caso emplearemos “<a href="https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.4.1103-amd64.deb" class="uri">https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.4.1103-amd64.deb</a>”,
+para Ubuntu 18/Debian 10.</p>
 <pre class="sh"><code>sudo apt-get install gdebi-core
-wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5033-amd64.deb
-sudo gdebi -n rstudio-1.2.5033-amd64.deb
+wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.4.1103-amd64.deb
+sudo gdebi -n rstudio-1.4.1103-amd64.deb
 </code></pre>
-<p>Si mo se dispone de un entorno gráfico puede ser recomendable instalar RStudio Server como se describe en <a href="#rstudio-server">este post</a>.</p>
+<p>Si no se dispone de un entorno gráfico puede ser recomendable instalar RStudio Server como se describe en <a href="/post/instalacion-de-r-para-hpc/#rstudio-server">este post</a>.</p>
 <hr />
 </div>
 <div id="configuración" class="section level1">
