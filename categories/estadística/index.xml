@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>&amp;copy; 2017-2021 Ruben Fernandez-Casal</copyright>
-    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rubenfcasal.github.io/categories/estad%C3%ADstica/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Geoestadística no paramétrica con el paquete `npsp`</title>
+      <link>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</guid>
+      <description>IntroducciónModelo generalAproximación tradicionalGeoestadística no paramétricaEstimación de la tendenciaSelección de la ventanaEstimación del variogramaModelado automáticoPredicción krigingFuturas implementaciones y temas abiertosAgradecimientosReferenciasEn esta presentación para el X Seminario Internacional SEE, se pretende proporcionar una introducción a la Geoestadística No Paramétrica desde un punto de vista aplicado, empleando el paquete npsp (Nonparametric spatial statistics) del entorno estadístico R.</description>
+    </item>
     
     <item>
       <title>El problema de la colinelidad</title>
@@ -41,15 +50,6 @@ Cualquier sugerencia o observación será bien recibida&amp;hellip;</description
       <guid>https://rubenfcasal.github.io/post/tesis_geoestadistica_espacio-temporal/</guid>
       <description>Mi tesis doctoral “Geoestadística espacio-temporal:modelos flexibles de variogramas anisotrópicos no separables” puede descargarse en formato pdf aquí.
 Esta memoria, del año 2003, se centra principalmente en el modelado flexible de la dependencia espacio-temporal.La monografía esta organizada en dos partes: la primera parte (capítulos del 2 al 5) consiste en una introducción a la geoestadística, donde se realiza una revisión de las distintas ideas y herramientas desarrolladas para el caso general de procesos espaciales, tratando con mayor detalle las distintas propuestas relacionadas con el modelado no paramétrico de la dependencia espacial: la segunda parte (capítulos del 6 al 9) se centra en el caso espacio-temporal.</description>
-    </item>
-    
-    <item>
-      <title>Geoestadística no paramétrica con el paquete `npsp`</title>
-      <link>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</link>
-      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</guid>
-      <description>Geoestadística no paramétricaEjemploModelo generalEjemploInferencia (no paramétrica) en procesos geoestadísticosBinning linealDiscretizaciónInterpolaciónEstimación de la densidadEstimación de la tendenciaRegresión polinómica localImplementación en el paquete npspEjemploEstimación del variogramaEstimación piloto del variogramaEstimación piloto del variograma con corrección de sesgoAjuste de un modelo no paramétricoSelección de las ventanasEstimación de la tendenciaEstimación del variogramaEstimación conjunta (automática)Predicción krigingFuturas implementacionesReferenciaslibrary(npsp)## Package npsp: Nonparametric Spatial Statistics,## version 0.</description>
     </item>
     
     <item>
