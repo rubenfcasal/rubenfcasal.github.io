@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Instalación de R</title>
+      <link>https://rubenfcasal.github.io/post/instalacion-de-r/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/instalacion-de-r/</guid>
+      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de Rtools y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS XActualizado el 16/02/2022</description>
+    </item>
+    
+    <item>
       <title>Geoestadística no paramétrica con el paquete `npsp`</title>
       <link>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
@@ -36,16 +45,7 @@
       <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/instalacion-de-rstudio/</guid>
-      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc(ver RStudio IDE Features).</description>
-    </item>
-    
-    <item>
-      <title>Instalación de R</title>
-      <link>https://rubenfcasal.github.io/post/instalacion-de-r/</link>
-      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://rubenfcasal.github.io/post/instalacion-de-r/</guid>
-      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de Rtools y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS XEn la web del proyecto R (www.</description>
+      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc(ver RStudio IDE Features).</description>
     </item>
     
     <item>
@@ -54,14 +54,12 @@
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
-      <description>Ayuda onlineCursosLibrosIniciaciónAvanzadosBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…)
-Ayuda onlineAyuda en línea sobre funciones o paquetes: RDocumentation
+      <description>Ayuda onlineCursosLibrosIniciaciónAvanzadosBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…, actualizado el 2022-02-18).
+Ayuda onlineAyuda en línea sobre funciones o paquetes: rdrr.io, RDocumentation
 Buscador RSeek
 StackOverflow, en castellano
 Cross Validated
-CursosAlgunos cursos gratuitos:
-Coursera:
-Introducción a Data Science: Programación Estadística con R</description>
+CursosAlgunos cursos gratuitos:</description>
     </item>
     
     <item>

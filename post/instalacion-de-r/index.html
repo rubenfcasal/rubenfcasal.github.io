@@ -147,8 +147,8 @@
 
   <span class="article-date">
     
-    <time datetime="2021-02-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      2021-02-13
+    <time datetime="2022-02-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2022-02-16
     </time>
   </span>
 
@@ -226,18 +226,23 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <div id="TOC">
+      <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
 <ul>
-<li><a href="#windows">Instalación de R en Windows</a><ul>
+<li><a href="#windows">Instalación de R en Windows</a>
+<ul>
 <li><a href="#asistente-de-instalación">Asistente de instalación</a></li>
 <li><a href="#instalación-de-paquetes">Instalación de paquetes</a></li>
 <li><a href="#ide">Instalación (opcional) de un entorno de desarrollo o un editor de comandos</a></li>
-<li><a href="#configuración-avanzada-opcional">Configuración avanzada (opcional)</a><ul>
+<li><a href="#configuración-avanzada-opcional">Configuración avanzada (opcional)</a>
+<ul>
 <li><a href="#library">Cambiar los permisos de la carpeta <em>library</em></a></li>
 <li><a href="#rtools">Instalación de Rtools y configuración de la ruta de búsqueda</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#ubuntu">Instalación de R en Ubuntu/Devian</a><ul>
+<li><a href="#ubuntu">Instalación de R en Ubuntu/Devian</a>
+<ul>
 <li><a href="#instalación-de-r-desde-cran">Instalación de R desde <span>CRAN</span></a></li>
 <li><a href="#instalación-de-devtools-y-demás-paquetes">Instalación de devtools y demás paquetes</a></li>
 <li><a href="#ayuda-html">Ayuda html</a></li>
@@ -248,6 +253,7 @@
 </ul>
 </div>
 
+<p><strong><em>Actualizado el 16/02/2022</em></strong></p>
 <p>En la web del proyecto R (<a href="http://www.r-project.org">www.r-project.org</a>) está disponible mucha información sobre este entorno estadístico.</p>
 <table>
 <tbody>
@@ -268,14 +274,14 @@
 </ul>
 <div id="windows" class="section level1">
 <h1>Instalación de R en Windows</h1>
-<p>Seleccionando <a href="http://ftp.cixug.es/CRAN/bin/windows/">Download R for Windows</a> y posteriormente <a href="http://ftp.cixug.es/CRAN/bin/windows/base/">base</a> accedemos al enlace con el instalador de R para Windows (actualmente de la versión <a href="http://ftp.cixug.es/CRAN/bin/windows/base/R-4.0.3-win.exe">4.0.3</a>).</p>
+<p>Seleccionando <a href="http://ftp.cixug.es/CRAN/bin/windows/">Download R for Windows</a> y posteriormente <a href="http://ftp.cixug.es/CRAN/bin/windows/base/">base</a> accedemos al enlace con el instalador de R para Windows (actualmente de la versión <a href="http://ftp.cixug.es/CRAN/bin/windows/base/R-4.1.2-win.exe">4.1.2</a>).</p>
 <p><img src="/img/R351.png" style="width:60.0%" /></p>
 <div id="asistente-de-instalación" class="section level2">
 <h2>Asistente de instalación</h2>
 <p>Durante el proceso de instalación la recomendación (para evitar posibles problemas) es seleccionar ventanas simples SDI en lugar de múltiples ventanas MDI (hay que utilizar <em>Opciones de configuración</em>).</p>
 <p><img src="/img/asistente.png" style="width:70.0%" /></p>
 <p>Una vez terminada la instalación, al abrir R aparece la ventana de la consola (simula una ventana de comandos de Unix) que permite ejecutar comandos de R.</p>
-<p>Por defecto se instalan un conjunto de paquetes base de R (que se cargan automáticamente al iniciarlo) y un conjunto de <a href="https://cran.r-project.org/src/contrib/4.0.3/Recommended">paquetes recomendados</a> (que se pueden cargar empleando el comando <code>library()</code>),
+<p>Por defecto se instalan un conjunto de paquetes base de R (que se cargan automáticamente al iniciarlo) y un conjunto de <a href="https://cran.r-project.org/src/contrib/4.1.2/Recommended">paquetes recomendados</a> (que se pueden cargar empleando el comando <code>library()</code>),
 pero hay disponibles miles de paquetes que cubren literalmente todos los campos del análisis de datos.
 Ver por ejemplo:</p>
 <ul>
@@ -334,7 +340,7 @@ Si es el caso, en lugar de la última línea se puede ejecutar:</p>
 <div id="library" class="section level3">
 <h3>Cambiar los permisos de la carpeta <em>library</em></h3>
 <p>Para evitar problemas con la instalación de paquetes en Windows (y evitar también que los paquetes se instalen en <em>Documentos\R\win-library\X.Y</em>) yo acostumbro a dar permiso de <em>control total</em> a los usuarios del equipo en el subdirectorio <em>library</em> de la instalación de R.
-Para ello, pulsar con el botón derecho en esta carpeta (e.g. <em>C:\Program Files\R\R-4.0.3\library</em>), seleccionar <em>Propiedades &gt; Seguridad &gt; Editar</em>, seleccionar los <em>Usuarios</em> del equipo, marcar <em>Control total</em> y <em>Aplicar</em>.</p>
+Para ello, pulsar con el botón derecho en esta carpeta (e.g. <em>C:\Program Files\R\R-4.1.2\library</em>), seleccionar <em>Propiedades &gt; Seguridad &gt; Editar</em>, seleccionar los <em>Usuarios</em> del equipo, marcar <em>Control total</em> y <em>Aplicar</em>.</p>
 <table>
 <tbody>
 <tr class="odd">
@@ -350,7 +356,7 @@ Para ello, pulsar con el botón derecho en esta carpeta (e.g. <em>C:\Program Fi
 Es importante instalar la versión correspondiente a la instalación de R.</p>
 <p>Al finalizar se debe añadir el directorio de instalación a la ruta de búsqueda<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, y ya de paso recomiendo añadir también el directorio de instalación de R (de esta forma también podremos emplear R en la ventana de comandos).
 Para ello habría que ir a <em>Propiedades del sistema &gt; Opciones avanzadas &gt; Variables de entorno</em> y en <em>Variables de sistema</em> editar el <em>Path</em> y añadir dos nuevas entradas (o modificar versiones anteriores):
-<em>C:\rtools40\usr\bin</em> y <em>C:\Program Files\R\R-4.0.3\bin</em> (o los correspondientes directorios de instalación).</p>
+<em>C:\rtools40\usr\bin</em> y <em>C:\Program Files\R\R-4.1.2\bin</em> (o los correspondientes directorios de instalación).</p>
 <p>Si no sabes como acceder a <em>Propiedades del sistema</em> (en Windows 10 está bastante oculto) puedes consultar este <a href="https://answers.microsoft.com/es-es/windows/forum/windows_10-other_settings/windows-10-variables-de-entorno-windows-10-version/703ea5fa-1db4-46da-8ff7-6261140bf58b">post</a>.
 Yo prefiero pulsar con el botón derecho en <em>Equipo</em>, seleccionar <em>Propiedades</em> y después <em>Configuración avanzada del sistema</em>.</p>
 <p><img src="/img/cmd.png" style="width:60.0%" /></p>
@@ -369,8 +375,9 @@ Para más detalles ver:</p>
 </div>
 <div id="ubuntu" class="section level1">
 <h1>Instalación de R en Ubuntu/Devian</h1>
+<p>[Testado con Ubuntu 20.04.3 LTS y R 4.1.2]</p>
 <p>Instalar dependencias:</p>
-<pre class="sh"><code>sudo apt install libcurl4-gnutls-dev libgit2-dev libxml2-dev libssh2-1-dev libssl-dev git build-essential gfortran</code></pre>
+<pre class="sh"><code>sudo apt install libcurl4-gnutls-dev libgit2-dev libxml2-dev libssl-dev </code></pre>
 <p>Si aparecen problemas asegurarse de que los repositorios <em>universe</em> y <em>multiverse</em> están disponibles:</p>
 <pre class="sh"><code>sudo add-apt-repository universe
 sudo add-apt-repository multiverse
@@ -378,11 +385,22 @@ sudo apt update</code></pre>
 <p>Se puede instalar R desde estos repositorios, pero normalmente no será la versión más actualizada y no lo recomendaría.</p>
 <div id="instalación-de-r-desde-cran" class="section level2">
 <h2>Instalación de R desde <a href="https://cran.r-project.org/bin/linux/ubuntu">CRAN</a></h2>
-<p>Añadir los repositorios a la lista de fuentes (para ver la versión de ubuntu se puede ejecutar <code>lsb_release -a</code>, el siguiente código ya la obtiene directamente), la llave apt e instalar R:</p>
-<pre class="sh"><code>echo &quot;deb https://cloud.r-project.org/bin/linux/ubuntu/ $(lsb_release -cs)-cran35/&quot; | sudo tee /etc/apt/sources.list.d/cran-r.list
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 51716619E084DAB9
-sudo apt-get update
-sudo apt-get install r-base r-base-dev</code></pre>
+<p>Añadir la llave de firma GPG, añadir el repositorio CRAN a la lista de fuentes (para ver la versión de ubuntu se puede ejecutar <code>lsb_release -a</code>, el siguiente código ya la obtiene directamente) e instalar R:</p>
+<pre class="sh"><code># Cambiar a root (alternativamente añadir `sudo` al principio de los comandos)
+sudo -i
+# update indices
+apt update -qq
+# install two helper packages we need
+apt install --no-install-recommends software-properties-common dirmngr
+# add the signing key (by Michael Rutter) for these repos
+# To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc 
+# Fingerprint: 298A3A825C0D65DFD57CBB651716619E084DAB9
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+# add the R 4.0 repo from CRAN -- adjust &#39;focal&#39; to &#39;groovy&#39; or &#39;bionic&#39; as needed
+add-apt-repository &quot;deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/&quot;
+apt-get update
+apt-get install r-base r-base-dev
+logout</code></pre>
 </div>
 <div id="instalación-de-devtools-y-demás-paquetes" class="section level2">
 <h2>Instalación de devtools y demás paquetes</h2>
@@ -473,15 +491,15 @@ install.packages(c(&#39;RGtk2&#39;, &#39;cairoDevice&#39;, &#39;rattle&#39;))</c
   <h3></h3>
   <ul>
     
+    <li><a href="/post/instalacion-de-r-para-hpc/">Instalación de R en Ubuntu para HPC (High Performance Computing)</a></li>
+    
+    <li><a href="/post/instalacion-de-rstudio/">Instalación y configuración de RStudio Desktop</a></li>
+    
+    <li><a href="/post/geoestadistica-no-parametrica-con-el-paquete-npsp/">Geoestadística no paramétrica con el paquete `npsp`</a></li>
+    
     <li><a href="/post/ayuda-y-recursos-para-el-aprendizaje-de-r/">Ayuda y recursos para el aprendizaje de R</a></li>
     
     <li><a href="/post/problema-colinealidad/">El problema de la colinelidad</a></li>
-    
-    <li><a href="/post/apuntes-de-remuestreo/">Apuntes de Remuestreo</a></li>
-    
-    <li><a href="/post/escritura-de-libros-con-bookdown/">Libro sobre `bookdown`</a></li>
-    
-    <li><a href="/post/intro-bookdown/">Escritura de libros con `bookdown`</a></li>
     
   </ul>
 </div>

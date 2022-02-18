@@ -226,11 +226,14 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <div id="TOC">
+      <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
 <ul>
 <li><a href="#windows">Instalación en Windows y primeros pasos</a></li>
 <li><a href="#ubuntu">Instalación en Ubuntu/Devian</a></li>
-<li><a href="#configuración">Configuración</a><ul>
+<li><a href="#configuración">Configuración</a>
+<ul>
 <li><a href="#opciones-adicionales">Opciones adicionales</a></li>
 </ul></li>
 </ul>
@@ -303,7 +306,7 @@ Por ejemplo, yo acostumbro a establecer:</p>
 </ul></li>
 <li><p>Packages: Management</p>
 <ul>
-<li><p>CRAN mirror: Spain (A Coruña)</p>
+<li><p>CRAN mirror: Spain (A Coruña) - Oficina de software libre (CIXUG)</p>
 <p>(o otro cercano, como Spain (Madrid), Escuela Politécnica Nacional (Ecuador), …)</p></li>
 </ul></li>
 <li><p>R Markdown</p>
@@ -341,10 +344,10 @@ Para utilizar el dispositivo gráfico de R habría que modificar las siguientes 
 })</code></pre>
 <p>El visor integrado de RStudio no resulta muy cómodo para navegar por la ayuda de las funciones (por ejemplo no permite hacer zoom o abrir múltiples ventanas).
 Para utilizar en su lugar el navegador del equipo habría que comentar las siguientes líneas de <em>C:\Program Files\RStudio\R\Options.R</em>:</p>
-<pre class="r"><code># # custom browseURL implementation
-# options(browser = function(url)
+<pre class="r"><code># # custom browseURL implementation.
+# .rs.setOption(&quot;browser&quot;, function(url)
 # {
-#    .Call(&quot;rs_browseURL&quot;, url) ;
+   # .Call(&quot;rs_browseURL&quot;, url, PACKAGE = &quot;(embedding)&quot;)
 # })</code></pre>
 </div>
 </div>
@@ -375,8 +378,6 @@ Para utilizar en su lugar el navegador del equipo habría que comentar las sigui
   <h3></h3>
   <ul>
     
-    <li><a href="/post/instalacion-de-r/">Instalación de R</a></li>
-    
     <li><a href="/post/ayuda-y-recursos-para-el-aprendizaje-de-r/">Ayuda y recursos para el aprendizaje de R</a></li>
     
     <li><a href="/post/problema-colinealidad/">El problema de la colinelidad</a></li>
@@ -384,6 +385,8 @@ Para utilizar en su lugar el navegador del equipo habría que comentar las sigui
     <li><a href="/post/apuntes-de-remuestreo/">Apuntes de Remuestreo</a></li>
     
     <li><a href="/post/escritura-de-libros-con-bookdown/">Libro sobre `bookdown`</a></li>
+    
+    <li><a href="/post/intro-bookdown/">Escritura de libros con `bookdown`</a></li>
     
   </ul>
 </div>
