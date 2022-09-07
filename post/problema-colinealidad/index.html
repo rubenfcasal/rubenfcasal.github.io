@@ -382,7 +382,7 @@ Por ejemplo, los coeficientes de tolerancia de los últimos ajustes serían:</p>
 ## 0.9998606 0.9998606</code></pre>
 <p>El problema de la colinealidad se agrava al aumentar el número de dimensiones (la maldición de la dimensionalidad).
 Hay que tener en cuenta también que, además de la dificultad para interpretar el efecto de los predictores, va a resultar más difícil determinar que variables son de interés para predecir la respuesta (i.e. no son ruido). Debido a la aleatoriedad, predictores que realmente no están relacionados con la respuesta pueden ser tenidos en cuenta por el modelo con mayor facilidad, especialmente si se recurre a los contrastes tradicionales para determinar si tienen un efecto significativo.</p>
-<p>Por ejemplo en el último ajuste, bajo las hipótesis del modelo de regresión lineal múltiple, se aceptaría un efecto lineal significativo de <code>x2</code> aunque realmente no influye en la respuesta (esto puede ocurrir el 5% de las veces, considerando una única variable).</p>
+<p>Por ejemplo en el último ajuste, bajo las hipótesis del modelo de regresión lineal múltiple, se aceptaría un efecto lineal significativo de <code>x2</code> aunque realmente no influye en la respuesta (esto puede ocurrir el 5% de las veces, considerando una única variable ruido, pero crece de forma exponencial al aumentar el número de variables no influyentes).</p>
 
     </div>
 
@@ -410,9 +410,9 @@ Hay que tener en cuenta también que, además de la dificultad para interpretar 
   <h3></h3>
   <ul>
     
-    <li><a href="/post/introduccion-a-la-geoestadistica-con-geor/">Introducción a la Geoestadística con `geoR`</a></li>
-    
     <li><a href="/post/diagnosis-de-la-independencia/">Diagnosis de la independencia</a></li>
+    
+    <li><a href="/post/introduccion-a-la-geoestadistica-con-geor/">Introducción a la Geoestadística con `geoR`</a></li>
     
     <li><a href="/post/apuntes-de-remuestreo/">Apuntes de Remuestreo</a></li>
     
