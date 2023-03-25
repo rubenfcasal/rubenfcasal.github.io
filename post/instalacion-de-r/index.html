@@ -49,7 +49,7 @@
 
   
 
-  <title>Instalación de R | R Machinery</title>
+  <title>Instalación de R (actualizado) | R Machinery</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -140,22 +140,22 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Instalación de R</h1>
+    <h1 itemprop="name">Instalación de R (actualizado)</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
     
-    <time datetime="2022-02-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      2022-02-16
+    <time datetime="2023-03-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2023-03-20
     </time>
   </span>
 
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    7 
+    8 
   </span>
   
 
@@ -185,7 +185,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Instalaci%c3%b3n%20de%20R&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r%2f"
+         href="https://twitter.com/intent/tweet?text=Instalaci%c3%b3n%20de%20R%20%28actualizado%29&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
@@ -199,21 +199,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r%2f&amp;title=Instalaci%c3%b3n%20de%20R"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r%2f&amp;title=Instalaci%c3%b3n%20de%20R%20%28actualizado%29"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r%2f&amp;title=Instalaci%c3%b3n%20de%20R"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r%2f&amp;title=Instalaci%c3%b3n%20de%20R%20%28actualizado%29"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Instalaci%c3%b3n%20de%20R&amp;body=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r%2f">
+         href="mailto:?subject=Instalaci%c3%b3n%20de%20R%20%28actualizado%29&amp;body=https%3a%2f%2frubenfcasal.github.io%2fpost%2finstalacion-de-r%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -238,7 +238,7 @@
 <li><a href="#configuración-avanzada-opcional">Configuración avanzada (opcional)</a>
 <ul>
 <li><a href="#library">Cambiar los permisos de la carpeta <em>library</em></a></li>
-<li><a href="#rtools">Instalación de Rtools y configuración de la ruta de búsqueda</a></li>
+<li><a href="#rtools">Instalación de herramientas (incluyendo Rtools) y configuración de la ruta de búsqueda</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#ubuntu">Instalación de R en Ubuntu/Devian</a>
@@ -253,7 +253,6 @@
 </ul>
 </div>
 
-<p><strong><em>Actualizado el 16/02/2022</em></strong></p>
 <p>En la web del proyecto R (<a href="http://www.r-project.org">www.r-project.org</a>) está disponible mucha información sobre este entorno estadístico.</p>
 <table>
 <tbody>
@@ -269,12 +268,12 @@
 </table>
 <p>Las descargas se realizan a través de la web del CRAN (The Comprehensive R Archive Network), con múltiples <a href="https://cran.r-project.org/mirrors.html">mirrors</a>:</p>
 <ul>
-<li><em>Oficina de Software Libre (A Coruña)</em> (CIXUG): <a href="http://ftp.cixug.es/CRAN/">ftp.cixug.es/CRAN</a>.</li>
-<li><em>Spanish National Research Network (Madrid)</em> (RedIRIS): <a href="http://cran.es.r-project.org/">cran.es.r-project.org</a>.</li>
+<li><em>Oficina de software libre (CIXUG)</em>, A Coruña: <a href="http://ftp.cixug.es/CRAN/">ftp.cixug.es/CRAN</a>.</li>
+<li><em>Spanish National Research Network, Madrid</em> (RedIRIS): <a href="http://cran.es.r-project.org/">cran.es.r-project.org</a>.</li>
 </ul>
 <div id="windows" class="section level1">
 <h1>Instalación de R en Windows</h1>
-<p>Seleccionando <a href="http://ftp.cixug.es/CRAN/bin/windows/">Download R for Windows</a> y posteriormente <a href="http://ftp.cixug.es/CRAN/bin/windows/base/">base</a> accedemos al enlace con el instalador de R para Windows (actualmente de la versión <a href="http://ftp.cixug.es/CRAN/bin/windows/base/R-4.1.2-win.exe">4.1.2</a>).</p>
+<p>Seleccionando <a href="http://ftp.cixug.es/CRAN/bin/windows/">Download R for Windows</a> y posteriormente <a href="http://ftp.cixug.es/CRAN/bin/windows/base/">base</a> accedemos al enlace con el instalador de R para Windows (actualmente de la versión <a href="http://ftp.cixug.es/CRAN/bin/windows/base/R-4.2.3-win.exe">4.2.3</a>).</p>
 <p><img src="/img/R351.png" style="width:60.0%" /></p>
 <div id="asistente-de-instalación" class="section level2">
 <h2>Asistente de instalación</h2>
@@ -292,10 +291,9 @@ Ver por ejemplo:</p>
 <div id="instalación-de-paquetes" class="section level2">
 <h2>Instalación de paquetes</h2>
 <p>Después de la instalación de R suele ser necesario instalar paquetes adicionales (puede ser recomendable <em>Ejecutar como administrador</em> R para evitar problemas de permiso de escritura en la carpeta <em>C:\Program Files\R\R-X.Y.Z\library</em>, o cambiar previamente los permisos de esta carpeta como se indica <a href="#library">aquí</a>).</p>
-<p>Los paquetes que recomendaría instalar a un usuario que se está iniciando en R son <a href="https://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr"><code>Rcmdr</code></a> y <a href="https://rattle.togaware.com"><code>rattle</code></a> (dos entornos gráficos), junto con sus dependencias (de esta forma cubriríamos las herramientas necesarias para la mayoría de análisis con R).
-Para ello bastaría con ejecutar en la consola de R (copiando y pegando p.e.) los comandos:</p>
-<pre class="r"><code>pkgs &lt;- c(&quot;Rcmdr&quot;, &quot;rattle&quot;) # Añadir los que se deseen...
-install.packages(pkgs, dependencies = TRUE)</code></pre>
+<p>El paquete que recomendaría instalar a un usuario que se está iniciando en R es<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> <a href="https://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr"><code>Rcmdr</code></a> (un entorno gráfico), junto con sus dependencias (de esta forma cubriríamos las herramientas necesarias para los análisis más habituales con R).</p>
+<p>Para ello bastaría con ejecutar en la consola de R (copiando y pegando p.e.) el comando:</p>
+<pre class="r"><code>install.packages(&quot;Rcmdr&quot;, dependencies = TRUE)</code></pre>
 <p>(puede que haya que seleccionar el repositorio de descarga, e.g. <em>Spain (Madrid)</em>).</p>
 <p>La forma tradicional es esta:</p>
 <ol style="list-style-type: decimal">
@@ -304,13 +302,10 @@ install.packages(pkgs, dependencies = TRUE)</code></pre>
 <li><p>Se selecciona el paquete y automáticamente se instala.</p></li>
 </ol>
 <p>El problema con esta forma es que no se instalan todos los paquetes de los que dependen (el <code>Rcmdr</code> lo hace automáticamente al iniciarlo por primera vez con el comando <code>library(Rcmdr)</code>).</p>
-<p><code>Rattle</code> depende de la libraría gráfica GTK+, al iniciarlo por primera vez con el comando <code>library(rattle)</code> nos pregunta si queremos instalarla:</p>
-<p><img src="/img/image7.png" style="width:30.0%" /></p>
-<p>Pulsamos OK y reiniciamos R.</p>
 <p>En el caso de un usuario más avanzado, puede ser recomendable preparar un listado de todos los paquetes que se requieren y ejecutar un código de la forma:</p>
-<pre class="r"><code>pkgs &lt;- c(&quot;mgcv&quot;, &quot;car&quot;, &quot;leaps&quot;, &quot;lmtest&quot;, &quot;glmnet&quot;, &quot;RcmdrMisc&quot;, 
-          &quot;rmarkdown&quot;, &quot;knitr&quot;, &quot;ggplot2&quot;, &quot;dplyr&quot;, &quot;dbplyr&quot;, &quot;tidyr&quot;, 
-          &quot;stringr&quot;, &quot;readxl&quot;, &quot;openxlsx&quot;)
+<pre class="r"><code>pkgs &lt;- c(&quot;Rcmdr&quot;, &quot;caret&quot;, &quot;tidymodels&quot;, &quot;tidyverse&quot;, &quot;remotes&quot;, &quot;devtools&quot;,
+          &quot;sf&quot;, &quot;gstat&quot;, &quot;geoR&quot;, &quot;quadprog&quot;, &quot;DEoptim&quot;, &quot;spam&quot;, &quot;openxlsx&quot;,
+            &quot;knitr&quot;, &quot;bookdown&quot;, &quot;blogdown&quot;, &quot;pkgdown&quot;)
 install.packages(setdiff(pkgs, installed.packages()[,&quot;Package&quot;]), dependencies = TRUE)</code></pre>
 <p>El código anterior no reinstala los paquetes ya instalados, por lo que podrían aparecer problemas debidos a incompatibilidades entre versiones (aunque no suele ocurrir, salvo que nuestra instalación de R esté muy desactualizada).
 Si es el caso, en lugar de la última línea se puede ejecutar:</p>
@@ -340,7 +335,7 @@ Si es el caso, en lugar de la última línea se puede ejecutar:</p>
 <div id="library" class="section level3">
 <h3>Cambiar los permisos de la carpeta <em>library</em></h3>
 <p>Para evitar problemas con la instalación de paquetes en Windows (y evitar también que los paquetes se instalen en <em>Documentos\R\win-library\X.Y</em>) yo acostumbro a dar permiso de <em>control total</em> a los usuarios del equipo en el subdirectorio <em>library</em> de la instalación de R.
-Para ello, pulsar con el botón derecho en esta carpeta (e.g. <em>C:\Program Files\R\R-4.1.2\library</em>), seleccionar <em>Propiedades &gt; Seguridad &gt; Editar</em>, seleccionar los <em>Usuarios</em> del equipo, marcar <em>Control total</em> y <em>Aplicar</em>.</p>
+Para ello, pulsar con el botón derecho en esta carpeta (e.g. <em>C:\Program Files\R\R-4.2.3\library</em>), seleccionar <em>Propiedades &gt; Seguridad &gt; Editar</em>, seleccionar los <em>Usuarios</em> del equipo, marcar <em>Control total</em> y <em>Aplicar</em>.</p>
 <table>
 <tbody>
 <tr class="odd">
@@ -351,24 +346,32 @@ Para ello, pulsar con el botón derecho en esta carpeta (e.g. <em>C:\Program Fi
 </table>
 </div>
 <div id="rtools" class="section level3">
-<h3>Instalación de Rtools y configuración de la ruta de búsqueda</h3>
+<h3>Instalación de herramientas (incluyendo Rtools) y configuración de la ruta de búsqueda</h3>
 <p>Para instalar paquetes a partir del código en Windows (y por tanto para desarrollar nuevos paquetes) puede ser necesario instalar <a href="https://cran.r-project.org/bin/windows/Rtools">Rtools</a> (si el paquete contiene código en C, C++ o Fortran, algo bastante habitual).
 Es importante instalar la versión correspondiente a la instalación de R.</p>
-<p>Al finalizar se debe añadir el directorio de instalación a la ruta de búsqueda<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, y ya de paso recomiendo añadir también el directorio de instalación de R (de esta forma también podremos emplear R en la ventana de comandos).
+<p>Al finalizar se puede añadir el directorio de instalación a la ruta de búsqueda (aunque solo sería necesario si se va a trabajar desde la ventana de comandos), y ya de paso recomiendo añadir también el directorio de instalación de R.
 Para ello habría que ir a <em>Propiedades del sistema &gt; Opciones avanzadas &gt; Variables de entorno</em> y en <em>Variables de sistema</em> editar el <em>Path</em> y añadir dos nuevas entradas (o modificar versiones anteriores):
-<em>C:\rtools40\usr\bin</em> y <em>C:\Program Files\R\R-4.1.2\bin</em> (o los correspondientes directorios de instalación).</p>
+<em>C:\rtools42\usr\bin</em> y <em>C:\Program Files\R\R-4.2.3\bin</em> (o los correspondientes directorios de instalación).</p>
 <p>Si no sabes como acceder a <em>Propiedades del sistema</em> (en Windows 10 está bastante oculto) puedes consultar este <a href="https://answers.microsoft.com/es-es/windows/forum/windows_10-other_settings/windows-10-variables-de-entorno-windows-10-version/703ea5fa-1db4-46da-8ff7-6261140bf58b">post</a>.
 Yo prefiero pulsar con el botón derecho en <em>Equipo</em>, seleccionar <em>Propiedades</em> y después <em>Configuración avanzada del sistema</em>.</p>
 <p><img src="/img/cmd.png" style="width:60.0%" /></p>
-<p>Adicionalmente, si se instaló RStudio, como también instala <a href="https://pandoc.org">pandoc</a>, se puede añadir <em>C:\Program Files\RStudio\bin\pandoc</em> al <em>Path</em> (de esta forma podremos convertir fácilmente contenido escrito en otros formatos a Markdown, ver <a href="https://rubenfcasal.github.io/bookdown_intro/pandoc.html">enlace</a>).
+<p>Adicionalmente, si se instaló RStudio, como también instala <a href="https://pandoc.org">pandoc</a>, se puede añadir<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> <em>C:\Program Files\RStudio\bin\quarto\bin\tools</em> al <em>Path</em> (de esta forma podremos convertir fácilmente contenido escrito en otros formatos a Markdown, ver <a href="https://rubenfcasal.github.io/bookdown_intro/pandoc.html">enlace</a>).
 Al finalizar, habrá que reiniciar el equipo para que los cambios surjan efecto.</p>
-<p>Si se quieren instalar paquetes de repositorios distintos de CRAN (GitHub, GitLab, Bitbucket, …), puede ser recomendable instalar <a href="https://devtools.r-lib.org"><code>devtools</code></a>,
+<p>Si se quieren instalar paquetes de repositorios distintos de CRAN (GitHub, GitLab, Bitbucket, …), puede ser recomendable instalar <a href="https://remotes.r-lib.org/"><code>remotes</code></a>.</p>
+<p>Para el desarrollo de paquetes es recomendable instalar <a href="https://devtools.r-lib.org"><code>devtools</code></a>.
 Para más detalles ver:</p>
 <ul>
-<li>R packages by Hadley Wickham
+<li>R packages by Hadley Wickham and Jenny Bryan
 (<a href="http://r-pkgs.had.co.nz/">online</a>,
 <a href="http://shop.oreilly.com/product/0636920034421.do">O’Reilly</a>)</li>
 </ul>
+<p>Para generar animaciones en rmarkdown recomiendo emplear <a href="https://www.ffmpeg.org">ffmpeg</a> e instalar la versión compilada para Windows de BtbN: <a href="https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-lgpl-shared.zip">ffmpeg-master-latest-win64-lgpl-shared.zip</a>.
+Que solo habría que descomprimir y añadir al path el subdirectorio <em>bin</em> (yo acostumbro a descomprimirlo en el subdirectorio <em>ffmpeg</em> de <em>rtools</em> y añado una entrada de la forma *C:).
+Una vez instalado podemos generar una animación, que combine automáticamente las imágenes generadas en un bloque (chunk) de código, estableciendo las opciones: <code>fig.show="animate"</code> y <code>ffmpeg.format="gif"</code> (adicionalmente podemos establecer otras opciones como <code>aniopts="loop"</code> o <code>interval=0.5</code>; para más detalles ver <a href="https://yihui.org/knitr/options/#animation">chunk options</a>).</p>
+<!-- 
+Pendiente:
+Compresión ficheros .RData
+-->
 <hr />
 </div>
 </div>
@@ -433,35 +436,14 @@ sudo apt-get upgrade</code></pre>
 <p>Para instalar R-Commander (<a href="https://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr/installation-notes.html" class="uri">https://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr/installation-notes.html</a>) es necesario disponer de las librerías gráficas X11, como a partir de OS X Lion ya no están instaladas por defecto en el sistema, hay que instalar las librerías Open Source XQuartz <a href="https://www.xquartz.org" class="uri">https://www.xquartz.org</a>.</p>
 <p>Finalmente, para instalar <code>Rcmdr</code> ejecutar en la consola de R:</p>
 <pre class="r"><code>install.packages(&quot;Rcmdr&quot;, dependencies = TRUE)</code></pre>
-<p>Para instalar <code>rattle</code> seguir estos pasos (<a href="https://zhiyzuo.github.io/installation-rattle" class="uri">https://zhiyzuo.github.io/installation-rattle</a>):</p>
-<ol style="list-style-type: decimal">
-<li><p>Instalar Homebrew:
-<a href="https://brew.sh/" class="uri">https://brew.sh/</a>.</p></li>
-<li><p>Ejecutar el siguiente código en la consola:</p>
-<pre class="r"><code>system(&#39;brew install gtk+&#39;)
-
-local({
-  if (Sys.info()[[&#39;sysname&#39;]] != &#39;Darwin&#39;) return()
-
-  .Platform$pkgType = &#39;mac.binary.el-capitan&#39;
-  unlockBinding(&#39;.Platform&#39;, baseenv())
-  assign(&#39;.Platform&#39;, .Platform, &#39;package:base&#39;)
-  lockBinding(&#39;.Platform&#39;, baseenv())
-
-  options(
-    pkgType = &#39;both&#39;, install.packages.compile.from.source = &#39;always&#39;,
-    repos = &#39;https://macos.rbind.org&#39;
-  )
-})
-
-install.packages(c(&#39;RGtk2&#39;, &#39;cairoDevice&#39;, &#39;rattle&#39;))</code></pre></li>
-</ol>
-<hr />
+<p>Si se quiere instalar <code>rattle</code> seguir <a href="https://rattle.togaware.com/">estos pasos</a>.</p>
 </div>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Esto se puede hacer mediante el archivo <em>.Renviron</em> como se indica en la <a href="https://cran.r-project.org/bin/windows/Rtools/#putting-rtools-on-the-path">documentación oficial</a>, pero solo sería válido en R.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p>Anteriormente también recomendaba instalar <a href="https://rattle.togaware.com"><code>rattle</code></a>, pero depende del paquete <code>RGtk2</code> para poder emplear la librería gráfica GTK+ y
+actualmente no está disponible en CRAN, aunque se podría instalar siguiendo <a href="https://rattle.togaware.com/">estos pasos</a>.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Para encontrar la ruta a pandoc se puede ejecutar <code>rmarkdown::find_pandoc()</code>.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
@@ -497,9 +479,9 @@ install.packages(c(&#39;RGtk2&#39;, &#39;cairoDevice&#39;, &#39;rattle&#39;))</c
     
     <li><a href="/post/geoestadistica-no-parametrica-con-el-paquete-npsp/">Geoestadística no paramétrica con el paquete `npsp`</a></li>
     
-    <li><a href="/post/ayuda-y-recursos-para-el-aprendizaje-de-r/">Ayuda y recursos para el aprendizaje de R</a></li>
-    
     <li><a href="/post/problema-colinealidad/">El problema de la colinelidad</a></li>
+    
+    <li><a href="/post/apuntes-de-remuestreo/">Apuntes de Remuestreo</a></li>
     
   </ul>
 </div>
@@ -539,7 +521,7 @@ install.packages(c(&#39;RGtk2&#39;, &#39;cairoDevice&#39;, &#39;rattle&#39;))</c
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017-2021 Ruben Fernandez-Casal &middot; 
+      &copy; 2017-2023 Ruben Fernandez-Casal &middot; 
 
       Powered by <a href="https://bookdown.org/yihui/blogdown" target="_blank">blogdown</a> 
       and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic

@@ -6,19 +6,32 @@
     <description>Recent content in Apuntes on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2021 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2023 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rubenfcasal.github.io/tags/apuntes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Instalación de R</title>
+      <title>Ayuda y recursos para el aprendizaje de R (actualizado)</title>
+      <link>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
+      <description>Ayuda onlineCursosLibrosIniciación a la programación en RProgramación avanzada en RBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…).
+Ayuda onlineAyuda en línea sobre funciones o paquetes: rdrr.io, RDocumentation
+Buscador RSeek
+StackOverflow, en castellano
+Cross Validated</description>
+    </item>
+    
+    <item>
+      <title>Instalación de R (actualizado)</title>
       <link>https://rubenfcasal.github.io/post/instalacion-de-r/</link>
-      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/instalacion-de-r/</guid>
-      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de Rtools y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS XActualizado el 16/02/2022</description>
+      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de herramientas (incluyendo Rtools) y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS XEn la web del proyecto R (www.</description>
     </item>
     
     <item>
@@ -36,7 +49,7 @@
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/instalacion-de-r-para-hpc/</guid>
-      <description>Instalación de RInstalar Microsoft R Open con MKLConfigurar R para HPC en Ubuntu/DebianConfigurar R para emplear OpenBLAS o ATLASInstalar OpenBLAS o ATLASSeleccionar el número de núcleos/hilosConfigurar R para emplear Intel Math Kernel Library (MKL)Instalación de Intel MKLIntegrate MKLUse the MKLDesinstalar o desenlazar MKLProblemas con MKLSeleccionar librerías BLAS y LAPACKInstalación de RStudio ServerProblemas con RStudio ServerInstalación HPC compilando R desde el código fuenteBenchmarking RIntroducción al procesamiento en paralelo en RPaquetes de REjemplosProcesamiento en paralelo en R con GPUsConfigurar R para emplear NVBLASWork in progess… (sugerencias y comentarios serán bien recibidos).</description>
+      <description>Instalación de RConfigurar R para HPC en Ubuntu/DebianConfigurar R para emplear OpenBLAS o ATLASInstalar OpenBLAS o ATLASSeleccionar el número de núcleos/hilosConfigurar R para emplear Intel Math Kernel Library (MKL)Instalación de Intel MKLIntegrate MKLUse the MKLDesinstalar o desenlazar MKLProblemas con MKLSeleccionar librerías BLAS y LAPACKInstalación de RStudio ServerProblemas con RStudio ServerInstalación HPC compilando R desde el código fuenteBenchmarking RIntroducción al procesamiento en paralelo en RPaquetes de REjemplosProcesamiento en paralelo en R con GPUsConfigurar R para emplear NVBLASWork in progess… (sugerencias y comentarios serán bien recibidos).</description>
     </item>
     
     <item>
@@ -45,21 +58,7 @@
       <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/instalacion-de-rstudio/</guid>
-      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc(ver RStudio IDE Features).</description>
-    </item>
-    
-    <item>
-      <title>Ayuda y recursos para el aprendizaje de R</title>
-      <link>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</link>
-      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
-      <description>Ayuda onlineCursosLibrosIniciaciónAvanzadosBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…, actualizado el 2022-02-18).
-Ayuda onlineAyuda en línea sobre funciones o paquetes: rdrr.io, RDocumentation
-Buscador RSeek
-StackOverflow, en castellano
-Cross Validated
-CursosAlgunos cursos gratuitos:</description>
+      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc.</description>
     </item>
     
     <item>

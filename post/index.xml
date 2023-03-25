@@ -6,19 +6,32 @@
     <description>Recent content on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2021 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2023 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://rubenfcasal.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Instalación de R</title>
+      <title>Ayuda y recursos para el aprendizaje de R (actualizado)</title>
+      <link>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
+      <description>Ayuda onlineCursosLibrosIniciación a la programación en RProgramación avanzada en RBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…).
+Ayuda onlineAyuda en línea sobre funciones o paquetes: rdrr.io, RDocumentation
+Buscador RSeek
+StackOverflow, en castellano
+Cross Validated</description>
+    </item>
+    
+    <item>
+      <title>Instalación de R (actualizado)</title>
       <link>https://rubenfcasal.github.io/post/instalacion-de-r/</link>
-      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/instalacion-de-r/</guid>
-      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de Rtools y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS XActualizado el 16/02/2022</description>
+      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de herramientas (incluyendo Rtools) y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS XEn la web del proyecto R (www.</description>
     </item>
     
     <item>
@@ -36,7 +49,7 @@
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/instalacion-de-r-para-hpc/</guid>
-      <description>Instalación de RInstalar Microsoft R Open con MKLConfigurar R para HPC en Ubuntu/DebianConfigurar R para emplear OpenBLAS o ATLASInstalar OpenBLAS o ATLASSeleccionar el número de núcleos/hilosConfigurar R para emplear Intel Math Kernel Library (MKL)Instalación de Intel MKLIntegrate MKLUse the MKLDesinstalar o desenlazar MKLProblemas con MKLSeleccionar librerías BLAS y LAPACKInstalación de RStudio ServerProblemas con RStudio ServerInstalación HPC compilando R desde el código fuenteBenchmarking RIntroducción al procesamiento en paralelo en RPaquetes de REjemplosProcesamiento en paralelo en R con GPUsConfigurar R para emplear NVBLASWork in progess… (sugerencias y comentarios serán bien recibidos).</description>
+      <description>Instalación de RConfigurar R para HPC en Ubuntu/DebianConfigurar R para emplear OpenBLAS o ATLASInstalar OpenBLAS o ATLASSeleccionar el número de núcleos/hilosConfigurar R para emplear Intel Math Kernel Library (MKL)Instalación de Intel MKLIntegrate MKLUse the MKLDesinstalar o desenlazar MKLProblemas con MKLSeleccionar librerías BLAS y LAPACKInstalación de RStudio ServerProblemas con RStudio ServerInstalación HPC compilando R desde el código fuenteBenchmarking RIntroducción al procesamiento en paralelo en RPaquetes de REjemplosProcesamiento en paralelo en R con GPUsConfigurar R para emplear NVBLASWork in progess… (sugerencias y comentarios serán bien recibidos).</description>
     </item>
     
     <item>
@@ -45,21 +58,7 @@
       <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/instalacion-de-rstudio/</guid>
-      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc(ver RStudio IDE Features).</description>
-    </item>
-    
-    <item>
-      <title>Ayuda y recursos para el aprendizaje de R</title>
-      <link>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</link>
-      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
-      <description>Ayuda onlineCursosLibrosIniciaciónAvanzadosBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…, actualizado el 2022-02-18).
-Ayuda onlineAyuda en línea sobre funciones o paquetes: rdrr.io, RDocumentation
-Buscador RSeek
-StackOverflow, en castellano
-Cross Validated
-CursosAlgunos cursos gratuitos:</description>
+      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc.</description>
     </item>
     
     <item>
@@ -203,9 +202,10 @@ IntroducciónMarkdown permite la creación de páginas web a partir de document
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/getting-started/</guid>
-      <description>The Academic framework enables you to easily create a beautifully simple personal or academic website using the Hugo static site generator.
+      <description>This post corresponds to an older versión of the Academic framework for Hugo, visit wowchemy/wowchemy-hugo-themes and gohugo for updated information.
+The Academic framework enables you to easily create a beautifully simple personal or academic website using the Hugo static site generator.
 Key features:
- Easily manage your homepage, blog posts, publications, talks, and projects Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact Need a different section? Just use the Custom widget! Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize     Installation Getting Started  Core parameters Introduce yourself Customize the homepage Add your content Remove unused widgets and pages Themes Customization &amp;amp; updating  Advanced customization  Navigation menu Website icon Analytics Third party and local scripts (JS) Language and translation Permalinks Advanced style customization (CSS)  Updating Feedback &amp;amp; Contributing License   Installation  Install Hugo and create a new website by typing the following commands in your Terminal or Command Prompt app:</description>
+ Easily manage your homepage, blog posts, publications, talks, and projects Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact Need a different section?</description>
     </item>
     
     <item>
@@ -214,7 +214,8 @@ Key features:
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/widgets/</guid>
-      <description>Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:
+      <description>This post corresponds to an older versión of Hugo, visit the website for updated information.
+Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:
  About/biography Selected publications Recent publications Recent news/blog posts Projects Selected talks Recent talks Contact Tag cloud Hero (introduction) Custom widget (demonstrated with the teaching example)  The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.</description>
     </item>
     
@@ -224,7 +225,13 @@ Key features:
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://rubenfcasal.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;This post corresponds to an older versión of the Academic framework for Hugo, visit &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes&#34; target=&#34;_blank&#34;&gt;wowchemy/wowchemy-hugo-themes&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;gohugo&lt;/a&gt; for updated information.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://rubenfcasal.github.io/post/writing-markdown-latex.md&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -233,7 +240,13 @@ Key features:
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://rubenfcasal.github.io/post/writing-markdown-latex/</guid>
-      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;This post corresponds to an older versión of Hugo, visit the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; for updated information.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;</description>
     </item>
     
     <item>

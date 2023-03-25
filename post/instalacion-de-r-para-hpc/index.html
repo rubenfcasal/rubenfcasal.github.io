@@ -226,17 +226,20 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <div id="TOC">
+      <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
 <ul>
-<li><a href="#instalación-de-r">Instalación de R</a><ul>
-<li><a href="#ropen">Instalar <span>Microsoft R Open</span> con <span>MKL</span></a></li>
-</ul></li>
-<li><a href="#configurar-r-para-hpc-en-ubuntudebian">Configurar R para HPC en Ubuntu/Debian</a><ul>
-<li><a href="#configurar-r-para-emplear-openblas-o-atlas">Configurar R para emplear <span>OpenBLAS</span> o <span>ATLAS</span></a><ul>
+<li><a href="#instalación-de-r">Instalación de R</a></li>
+<li><a href="#configurar-r-para-hpc-en-ubuntudebian">Configurar R para HPC en Ubuntu/Debian</a>
+<ul>
+<li><a href="#configurar-r-para-emplear-openblas-o-atlas">Configurar R para emplear <span>OpenBLAS</span> o <span>ATLAS</span></a>
+<ul>
 <li><a href="#instalar-openblas-o-atlas">Instalar OpenBLAS o ATLAS</a></li>
 <li><a href="#NUM_THREADS">Seleccionar el número de núcleos/hilos</a></li>
 </ul></li>
-<li><a href="#configurar-r-para-emplear-intel-math-kernel-library-mkl">Configurar R para emplear <span>Intel Math Kernel Library (MKL)</span></a><ul>
+<li><a href="#configurar-r-para-emplear-intel-math-kernel-library-mkl">Configurar R para emplear <span>Intel Math Kernel Library (MKL)</span></a>
+<ul>
 <li><a href="#instalación-de-intel-mkl">Instalación de Intel MKL</a></li>
 <li><a href="#integrate-mkl">Integrate MKL</a></li>
 <li><a href="#use-the-mkl">Use the MKL</a></li>
@@ -245,16 +248,19 @@
 </ul></li>
 <li><a href="#selectblas">Seleccionar librerías BLAS y LAPACK</a></li>
 </ul></li>
-<li><a href="#rstudio-server">Instalación de RStudio Server</a><ul>
+<li><a href="#rstudio-server">Instalación de RStudio Server</a>
+<ul>
 <li><a href="#problemas-con-rstudio-server">Problemas con RStudio Server</a></li>
 </ul></li>
 <li><a href="#compilaR">Instalación HPC compilando R desde el código fuente</a></li>
 <li><a href="#benchmarking-r">Benchmarking R</a></li>
-<li><a href="#introducción-al-procesamiento-en-paralelo-en-r">Introducción al procesamiento en paralelo en R</a><ul>
+<li><a href="#introducción-al-procesamiento-en-paralelo-en-r">Introducción al procesamiento en paralelo en R</a>
+<ul>
 <li><a href="#paquetes-de-r">Paquetes de R</a></li>
 <li><a href="#ejemplos">Ejemplos</a></li>
 </ul></li>
-<li><a href="#procesamiento-en-paralelo-en-r-con-gpus">Procesamiento en paralelo en R con GPUs</a><ul>
+<li><a href="#procesamiento-en-paralelo-en-r-con-gpus">Procesamiento en paralelo en R con GPUs</a>
+<ul>
 <li><a href="#configurar-r-para-emplear-nvblas">Configurar R para emplear NVBLAS</a></li>
 </ul></li>
 </ul>
@@ -267,8 +273,8 @@ Algunos paquetes se pueden configurar de forma transparente (<code>Matrix</code>
 Sin embargo compilar R de esta forma puede presentar problemas (ver <a href="https://cran.r-project.org/doc/manuals/r-release/R-admin.html#BLAS">R Installation and Administration</a>) y depende de la instalación previa de BLAS/LAPACK.
 En la <a href="#compilaR">última sección</a> se muestran algunas referencias para esta aproximación (se podrían instalar distintas versiones en distintos directorios).</p>
 <p>Un enfoque más simple consiste en instalar R desde CRAN (siguiendo los pasos descritos en <a href="/post/instalacion-de-r/#ubuntu">este post</a>), que por defecto utilizará una implementación BLAS/LAPACK estable y compatible con distintas plataformas pero que no está optimizadas para el rendimiento, y posteriormente reemplazar las librerías estándar de referencia (típicamente enlazando con las proporcionadas por <a href="https://www.openblas.net">OpenBLAS</a>, <a href="http://math-atlas.sourceforge.net">ATLAS</a> o <a href="https://software.intel.com/en-us/mkl">Intel MKL</a>), como se describe en las secciones siguientes.</p>
-<p>Otra alternativa sería instalar <a href="https://mran.revolutionanalytics.com/open">Microsoft R Open</a> con <a href="https://mran.revolutionanalytics.com/documents/rro/multithread">MKL</a>, como se describe en <a href="#ropen">esta sección</a>.</p>
-<p>Antes de nada, puede ser recomendable crear un directorio donde descargar archivos (si se instala RStudio, Microsoft R Open, Intel MKL o se compila R desde el código fuente):</p>
+<p>Otra alternativa sería instalar <a href="https://mran.revolutionanalytics.com/open">Microsoft R Open</a> con <a href="https://mran.revolutionanalytics.com/documents/rro/multithread">MKL</a>, aunque Microsoft retiró R Open el 1 de julio de 2022 y la última versión disponible es la 4.0.2 (Microsoft R Application Network y CRAN Time Machine se retirarán el 1 de julio de 2023, ya que SQL Server y Azure SQL pasaron a emplear la versión oficial de R).</p>
+<p>Antes de nada, puede ser recomendable crear un directorio donde descargar archivos (si se instala RStudio, Intel MKL o se compila R desde el código fuente):</p>
 <pre class="sh"><code>mkdir installr
 cd installr</code></pre>
 <p>Fuentes:</p>
@@ -278,16 +284,27 @@ cd installr</code></pre>
 </ul>
 <div id="instalación-de-r" class="section level1">
 <h1>Instalación de R</h1>
-<p>Como ya se comentó, el primer paso sería la instalación de R, bien la versión oficial de <a href="https://cran.r-project.org">CRAN</a> siguiendo los pasos descritos en <a href="/post/instalacion-de-r/#ubuntu">este post</a>, o la versión de Microsoft como se describe a continuación.</p>
-<p>Posteriormente se puede cambiar la versión de R que se empleará por defecto modificando el <code>path</code>.</p>
-<div id="ropen" class="section level2">
-<h2>Instalar <a href="https://mran.revolutionanalytics.com/open">Microsoft R Open</a> con <a href="https://mran.revolutionanalytics.com/documents/rro/multithread">MKL</a></h2>
-<p>Seguir los pasos descritos en la <a href="http://mran.revolutionanalytics.com/documents/rro/installation/#revorinst-sidebyside">guía oficial</a>.</p>
-<p>Para emplear esta instalación en RStudio (ver <a href="https://support.rstudio.com/hc/en-us/articles/360002358593-Using-Microsoft-R-Open-MRO-with-RStudio-Server-and-RStudio-Connect">Using Microsoft R Open (MRO) with RStudio Server and RStudio Connect</a>), se puede establecer la variable de entorno <code>RSTUDIO_WHICH_R</code>:</p>
-<pre><code>export RSTUDIO_WHICH_R=/opt/microsoft/ropen/X.Y.Z/lib64/R</code></pre>
-<p>donde <code>X.Y.Z</code> es la versión de R (actualmente la 4.0.2), por ejemplo en el fichero <em>~/.profile</em>:</p>
-<pre class="sh"><code>echo &#39;export RSTUDIO_WHICH_R=/opt/microsoft/ropen/4.0.2/lib64/R&#39;  | tee -a ~/.profile</code></pre>
-</div>
+<p>Como ya se comentó, el primer paso sería la instalación de R siguiendo los pasos descritos en <a href="/post/instalacion-de-r/#ubuntu">este post</a>.</p>
+<!-- 
+Como ya se comentó, el primer paso sería la instalación de R, bien la versión oficial de [CRAN](https://cran.r-project.org) siguiendo los pasos descritos en [este post](/post/instalacion-de-r/#ubuntu), o la versión de Microsoft como se describe a continuación.
+
+Posteriormente se puede cambiar la versión de R que se empleará por defecto modificando el `path`.
+
+## Instalar [Microsoft R Open](https://mran.revolutionanalytics.com/open) con [MKL](https://mran.revolutionanalytics.com/documents/rro/multithread) {#ropen}
+
+Seguir los pasos descritos en la [guía oficial](http://mran.revolutionanalytics.com/documents/rro/installation/#revorinst-sidebyside).
+
+Para emplear esta instalación en RStudio (ver [Using Microsoft R Open (MRO) with RStudio Server and RStudio Connect](https://support.rstudio.com/hc/en-us/articles/360002358593-Using-Microsoft-R-Open-MRO-with-RStudio-Server-and-RStudio-Connect)), se puede establecer la variable de entorno `RSTUDIO_WHICH_R`:
+
+```
+export RSTUDIO_WHICH_R=/opt/microsoft/ropen/X.Y.Z/lib64/R
+```
+
+donde `X.Y.Z` es la versión de R (actualmente la 4.0.2), por ejemplo en el fichero *~/.profile*:
+
+```sh
+echo 'export RSTUDIO_WHICH_R=/opt/microsoft/ropen/4.0.2/lib64/R'  | tee -a ~/.profile
+``` -->
 </div>
 <div id="configurar-r-para-hpc-en-ubuntudebian" class="section level1">
 <h1>Configurar R para HPC en Ubuntu/Debian</h1>
@@ -724,13 +741,13 @@ y <em>MPI</em> para la computación distribuida en múltiples nodos.<a href="#fn
     
     <li><a href="/post/instalacion-de-rstudio/">Instalación y configuración de RStudio Desktop</a></li>
     
-    <li><a href="/post/ayuda-y-recursos-para-el-aprendizaje-de-r/">Ayuda y recursos para el aprendizaje de R</a></li>
-    
     <li><a href="/post/problema-colinealidad/">El problema de la colinelidad</a></li>
     
     <li><a href="/post/apuntes-de-remuestreo/">Apuntes de Remuestreo</a></li>
     
     <li><a href="/post/escritura-de-libros-con-bookdown/">Libro sobre `bookdown`</a></li>
+    
+    <li><a href="/post/intro-bookdown/">Escritura de libros con `bookdown`</a></li>
     
   </ul>
 </div>
@@ -770,7 +787,7 @@ y <em>MPI</em> para la computación distribuida en múltiples nodos.<a href="#fn
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017-2021 Ruben Fernandez-Casal &middot; 
+      &copy; 2017-2023 Ruben Fernandez-Casal &middot; 
 
       Powered by <a href="https://bookdown.org/yihui/blogdown" target="_blank">blogdown</a> 
       and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic

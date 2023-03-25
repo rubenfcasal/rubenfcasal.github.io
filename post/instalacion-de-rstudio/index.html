@@ -239,13 +239,12 @@
 </ul>
 </div>
 
-<p>Un entorno de desarrollo (IDE, <em>Integrated Development Environment</em>) de R muy recomendable es <a href="http://rstudio.org">RStudio</a>.
-Está disponible para la mayoría de plataformas (hay una versión para servidores: <a href="https://rstudio.com/products/rstudio/#rstudio-server">RStudio Server</a>, ver <a href="/post/instalacion-de-r-para-hpc/#rstudio-server">post</a>) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc
-(ver <a href="https://rstudio.com/products/rstudio/features">RStudio IDE Features</a>).</p>
+<p>Un entorno de desarrollo (IDE, <em>Integrated Development Environment</em>) de R muy recomendable es <a href="https://posit.co/products/open-source/rstudio">RStudio</a>.
+Está disponible para la mayoría de plataformas (hay una versión para servidores: <a href="https://posit.co/download/rstudio-server">RStudio Server</a>, ver <a href="/post/instalacion-de-r-para-hpc/#rstudio-server">post</a>) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc.</p>
 <p>En primer lugar es necesario tener instalado previamente R, por ejemplo como se describe en <a href="/post/instalacion-de-r">este post</a>.</p>
 <div id="windows" class="section level1">
 <h1>Instalación en Windows y primeros pasos</h1>
-<p>Basta con descargar el correspondiente archivo de instalación de <a href="http://rstudio.org/download/desktop"><em>http://rstudio.org/download/desktop</em></a> y seguir las instrucciones.</p>
+<p>Basta con descargar el correspondiente archivo de instalación de <a href="https://posit.co/download/rstudio-desktop"><em>https://posit.co/download/rstudio-desktop</em></a> y seguir las instrucciones.</p>
 <p>Al ejecutarlo se mostrará la ventana principal:</p>
 <p><img src="/img/rstudio.png" style="width:70.0%" /></p>
 <p>Por defecto RStudio está organizado en cuatro paneles:</p>
@@ -263,11 +262,10 @@ Está disponible para la mayoría de plataformas (hay una versión para servidor
 </ul>
 <p>Información adicional:</p>
 <ul>
-<li><p><a href="https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf">RStudio cheatsheet</a></p></li>
-<li><p><a href="https://support.rstudio.com/hc/en-us/sections/200107586-Using-the-RStudio-IDE">Using the RStudio IDE</a></p></li>
-<li><p><a href="https://support.rstudio.com/hc/en-us/articles/234653607-Getting-Started-with-RStudio-Server">Getting-Started-with-RStudio-Server</a></p></li>
-<li><p><a href="https://docs.rstudio.com/ide/server-pro">RStudio Server Professional Edition Administration Guide</a></p></li>
+<li><p><a href="https://posit.co/wp-content/uploads/2022/10/rstudio-ide-1.pdf">RStudio cheatsheet</a></p></li>
+<li><p><a href="https://support.posit.co/hc/en-us/sections/200107586-Using-the-RStudio-IDE">Using the RStudio IDE</a></p></li>
 </ul>
+<!-- https://support.posit.co/hc/en-us/articles/234653607-Getting-Started-with-RStudio-Workbench-RStudio-Server -->
 <hr />
 </div>
 <div id="ubuntu" class="section level1">
@@ -275,12 +273,11 @@ Está disponible para la mayoría de plataformas (hay una versión para servidor
 <p>Antes de nada, puede ser recomendable crear un directorio donde descargar el instalador:</p>
 <pre class="sh"><code>mkdir installr
 cd installr</code></pre>
-<p>Buscar la versión actualizada de RStudio en <a href="https://rstudio.com/products/rstudio/download/#download">Download RStudio</a> correspondiente a la versión de ubuntu, en este caso emplearemos “<a href="https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.4.1103-amd64.deb" class="uri">https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.4.1103-amd64.deb</a>”,
-para Ubuntu 18/Debian 10.</p>
+<p>Buscar la versión actualizada de RStudio en <a href="https://posit.co/download/rstudio-desktop">Download RStudio</a> correspondiente a la versión de Ubuntu, en este caso emplearemos “<a href="https://download1.rstudio.org/electron/bionic/amd64/rstudio-2022.12.0-353-amd64.deb" class="uri">https://download1.rstudio.org/electron/bionic/amd64/rstudio-2022.12.0-353-amd64.deb</a>”,
+para Ubuntu 18+/Debian 10.</p>
 <pre class="sh"><code>sudo apt-get install gdebi-core
-wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.4.1103-amd64.deb
-sudo gdebi -n rstudio-1.4.1103-amd64.deb
-</code></pre>
+wget https://download1.rstudio.org/electron/bionic/amd64/rstudio-2022.12.0-353-amd64.deb
+sudo gdebi -n rstudio-2022.12.0-353-amd64.deb</code></pre>
 <p>Si no se dispone de un entorno gráfico puede ser recomendable instalar RStudio Server como se describe en <a href="/post/instalacion-de-r-para-hpc/#rstudio-server">este post</a>.</p>
 <hr />
 </div>
@@ -297,7 +294,7 @@ Por ejemplo, yo acostumbro a establecer:</p>
 <li><p>Code: Saving</p>
 <ul>
 <li><p>Default text encoding: UTF-8</p>
-<p>(se puede establecer por defecto al emplear el menú <em>File &gt; Save with Encoding…</em> )</p></li>
+<p>(en las nuevas versiones de RStudio ya será la opción por defecto; en versiones anteriores también se puede establecer al emplear el menú <em>File &gt; Save with Encoding…</em>)</p></li>
 </ul></li>
 <li><p>Appearance</p>
 <ul>
@@ -378,8 +375,6 @@ Para utilizar en su lugar el navegador del equipo habría que comentar las sigui
   <h3></h3>
   <ul>
     
-    <li><a href="/post/ayuda-y-recursos-para-el-aprendizaje-de-r/">Ayuda y recursos para el aprendizaje de R</a></li>
-    
     <li><a href="/post/problema-colinealidad/">El problema de la colinelidad</a></li>
     
     <li><a href="/post/apuntes-de-remuestreo/">Apuntes de Remuestreo</a></li>
@@ -387,6 +382,8 @@ Para utilizar en su lugar el navegador del equipo habría que comentar las sigui
     <li><a href="/post/escritura-de-libros-con-bookdown/">Libro sobre `bookdown`</a></li>
     
     <li><a href="/post/intro-bookdown/">Escritura de libros con `bookdown`</a></li>
+    
+    <li><a href="/post/analisis-de-datos-con-r/">Análisis de datos con R</a></li>
     
   </ul>
 </div>
@@ -426,7 +423,7 @@ Para utilizar en su lugar el navegador del equipo habría que comentar las sigui
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017-2021 Ruben Fernandez-Casal &middot; 
+      &copy; 2017-2023 Ruben Fernandez-Casal &middot; 
 
       Powered by <a href="https://bookdown.org/yihui/blogdown" target="_blank">blogdown</a> 
       and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
