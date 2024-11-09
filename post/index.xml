@@ -2,81 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R Machinery</title>
-    <link>https://rubenfcasal.github.io/post/</link>
+    <link>/post/</link>
     <description>Recent content on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2023 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2024 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://rubenfcasal.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Instalación de R (actualizado)</title>
+      <link>/post/instalacion-de-r/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/instalacion-de-r/</guid>
+      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de herramientas (incluyendo Rtools) y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS X[Actualizado a R 4.</description>
+    </item>
+    
+    <item>
+      <title>Instalación y configuración de RStudio Desktop (actualizado)</title>
+      <link>/post/instalacion-de-rstudio/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/instalacion-de-rstudio/</guid>
+      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc.</description>
+    </item>
+    
+    <item>
       <title>Ayuda y recursos para el aprendizaje de R (actualizado)</title>
-      <link>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</link>
+      <link>/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
+      <guid>/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
       <description>Ayuda onlineCursosLibrosIniciación a la programación en RProgramación avanzada en RBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…).
 Ayuda onlineAyuda en línea sobre funciones o paquetes: rdrr.io, RDocumentation
 Buscador RSeek
 StackOverflow, en castellano
-Cross Validated</description>
-    </item>
-    
-    <item>
-      <title>Instalación de R (actualizado)</title>
-      <link>https://rubenfcasal.github.io/post/instalacion-de-r/</link>
-      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://rubenfcasal.github.io/post/instalacion-de-r/</guid>
-      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de herramientas (incluyendo Rtools) y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS XEn la web del proyecto R (www.</description>
+Cross Validated
+CursosAlgunos cursos gratuitos:</description>
     </item>
     
     <item>
       <title>Geoestadística no paramétrica con el paquete `npsp`</title>
-      <link>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</link>
+      <link>/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</guid>
+      <guid>/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</guid>
       <description>IntroducciónModelo generalAproximación tradicionalGeoestadística no paramétricaEstimación de la tendenciaSelección de la ventanaEstimación del variogramaModelado automáticoPredicción krigingFuturas implementaciones y temas abiertosAgradecimientosReferenciasEn esta presentación para el X Seminario Internacional SEE, se pretende proporcionar una introducción a la Geoestadística No Paramétrica desde un punto de vista aplicado, empleando el paquete npsp (Nonparametric spatial statistics) del entorno estadístico R.</description>
     </item>
     
     <item>
       <title>Instalación de R en Ubuntu para HPC (High Performance Computing)</title>
-      <link>https://rubenfcasal.github.io/post/instalacion-de-r-para-hpc/</link>
+      <link>/post/instalacion-de-r-para-hpc/</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/instalacion-de-r-para-hpc/</guid>
+      <guid>/post/instalacion-de-r-para-hpc/</guid>
       <description>Instalación de RConfigurar R para HPC en Ubuntu/DebianConfigurar R para emplear OpenBLAS o ATLASInstalar OpenBLAS o ATLASSeleccionar el número de núcleos/hilosConfigurar R para emplear Intel Math Kernel Library (MKL)Instalación de Intel MKLIntegrate MKLUse the MKLDesinstalar o desenlazar MKLProblemas con MKLSeleccionar librerías BLAS y LAPACKInstalación de RStudio ServerProblemas con RStudio ServerInstalación HPC compilando R desde el código fuenteBenchmarking RIntroducción al procesamiento en paralelo en RPaquetes de REjemplosProcesamiento en paralelo en R con GPUsConfigurar R para emplear NVBLASWork in progess… (sugerencias y comentarios serán bien recibidos).</description>
     </item>
     
     <item>
-      <title>Instalación y configuración de RStudio Desktop</title>
-      <link>https://rubenfcasal.github.io/post/instalacion-de-rstudio/</link>
-      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://rubenfcasal.github.io/post/instalacion-de-rstudio/</guid>
-      <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc.</description>
-    </item>
-    
-    <item>
       <title>El problema de la colinelidad</title>
-      <link>https://rubenfcasal.github.io/post/problema-colinealidad/</link>
+      <link>/post/problema-colinealidad/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/problema-colinealidad/</guid>
+      <guid>/post/problema-colinealidad/</guid>
       <description>En regresión múltiple, si alguna de las variables explicativas no aporta información adicional relevante sobre la respuesta puede aparecer el problema de la colinealidad (o concurvidad, si se consideran efectos no lineales).
 En regresión lineal múltiple se supone que ninguna de las variables explicativas es combinación lineal de las demás.Si una de las variables explicativas (variables independientes) es combinación lineal de las otras, no se pueden determinar los parámetros de forma única (sistema singular).</description>
     </item>
     
     <item>
       <title>Apuntes de Remuestreo</title>
-      <link>https://rubenfcasal.github.io/post/apuntes-de-remuestreo/</link>
+      <link>/post/apuntes-de-remuestreo/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/apuntes-de-remuestreo/</guid>
+      <guid>/post/apuntes-de-remuestreo/</guid>
       <description>Los apuntes de la asignatura de Técnicas de Remuestreo del Máster en Técnicas Estadísticas, que impartimos Ricardo Cao Abad (rcao@udc.es) y yo, están accesibles online en formato html y pdf aqui:
 https://rubenfcasal.github.io/book_remuestreo.
 Cualquier sugerencia o observación será bien recibida&amp;hellip;</description>
@@ -84,29 +85,29 @@ Cualquier sugerencia o observación será bien recibida&amp;hellip;</description
     
     <item>
       <title>Libro sobre `bookdown`</title>
-      <link>https://rubenfcasal.github.io/post/escritura-de-libros-con-bookdown/</link>
+      <link>/post/escritura-de-libros-con-bookdown/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/escritura-de-libros-con-bookdown/</guid>
+      <guid>/post/escritura-de-libros-con-bookdown/</guid>
       <description>Tomás Cotos y yo preparamos una pequeña guía sobre sobre como emplear el paquete bookdown de R para la escritura de libros en formato RMarkdown (que presentamos en las V Jornadas de Usuarios de R, incluyendo algunos detalles de configuración para la escritura en otros idiomas distintos del inglés (castellano, galego,…). Este libro está hecho empleando ese mismo paquete y está disponible en el repositorio Github: rubenfcasal/bookdown_intro. Se puede ver online aquí: https://rubenfcasal.</description>
     </item>
     
     <item>
       <title>Tesis geoestadística espacio-temporal</title>
-      <link>https://rubenfcasal.github.io/post/tesis_geoestadistica_espacio-temporal/</link>
+      <link>/post/tesis_geoestadistica_espacio-temporal/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/tesis_geoestadistica_espacio-temporal/</guid>
+      <guid>/post/tesis_geoestadistica_espacio-temporal/</guid>
       <description>Mi tesis doctoral “Geoestadística espacio-temporal:modelos flexibles de variogramas anisotrópicos no separables” puede descargarse en formato pdf aquí.
 Esta memoria, del año 2003, se centra principalmente en el modelado flexible de la dependencia espacio-temporal.La monografía esta organizada en dos partes: la primera parte (capítulos del 2 al 5) consiste en una introducción a la geoestadística, donde se realiza una revisión de las distintas ideas y herramientas desarrolladas para el caso general de procesos espaciales, tratando con mayor detalle las distintas propuestas relacionadas con el modelado no paramétrico de la dependencia espacial: la segunda parte (capítulos del 6 al 9) se centra en el caso espacio-temporal.</description>
     </item>
     
     <item>
       <title>Creación e divulgación de contidos con RMarkdown</title>
-      <link>https://rubenfcasal.github.io/post/creaci%C3%B3n-contenidos-rmarkdown/</link>
+      <link>/post/creaci%C3%B3n-contenidos-rmarkdown/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/creaci%C3%B3n-contenidos-rmarkdown/</guid>
+      <guid>/post/creaci%C3%B3n-contenidos-rmarkdown/</guid>
       <description>EjemplosMaterialRequisitosEn el próximo Congreso de la Sgapeiovoy a participar en la impartición de un cursosobre R Markdown.
 En la segunda parte del curso “Creación e divulgación de contidos con R Markdown”trataremos los siguientes temas:
 Conversión entre formatos con pandoc.
@@ -116,20 +117,20 @@ En la segunda parte del curso “Creación e divulgación de contidos con R Mark
     
     <item>
       <title>Escritura de libros con `bookdown`</title>
-      <link>https://rubenfcasal.github.io/post/intro-bookdown/</link>
+      <link>/post/intro-bookdown/</link>
       <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/intro-bookdown/</guid>
+      <guid>/post/intro-bookdown/</guid>
       <description>IntroducciónRequisitosGet startedPrimeros pasosEncabezado de index.RmdArchivo _bookdown.ymlLicenciaPublicación en la webActualización 14-10-18: Una versión más reciente de este post está disponible aquí:https://rubenfcasal.github.io/bookdown_intro.
 IntroducciónEl paquete bookdown de R permite escribir libros empleandoR Markdown de forma fácil.Sin preocuparse mucho por los detalles de composiciónse pueden crear libros en distintos formatos (HTML / PDF / Word / …).Además de permitir emplear las extensiones Markdown de Pandoc(notas al pie de página, tablas, citas, ecuaciones LaTeX, …),se pueden emplear extensiones markdown para libros(leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</description>
     </item>
     
     <item>
       <title>Creación de sitios web con `blogdown`</title>
-      <link>https://rubenfcasal.github.io/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</link>
+      <link>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</link>
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
+      <guid>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
       <description>IntroducciónCreación de un sitio webCreación de contenidoDocumentaciónAlgunos ejemplos:PublicaciónLenguaje y traducciónAyudaActualización 24-03-19: Documentación más reciente sobre blogdown en el libro blogdown: Creating Websites with R Markdown (y también en el Capítulo 10 dellibro R Markdown: The Definitive Guide).
 Basado en este artículo de Yihui Xie publicado en el Blog de RStudio.
 IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, quepermite crear sitios web (estáticos) de uso general (webs personales,blogs, …) con R Markdown.</description>
@@ -137,20 +138,20 @@ IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, queperm
     
     <item>
       <title>Análisis de datos con R</title>
-      <link>https://rubenfcasal.github.io/post/analisis-de-datos-con-r/</link>
+      <link>/post/analisis-de-datos-con-r/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/analisis-de-datos-con-r/</guid>
+      <guid>/post/analisis-de-datos-con-r/</guid>
       <description>Una presentación sobre el análisis de datos con R (que preparé para una charla sobre Big Data en Pymes) está accesible online en formato pdf aqui.
 La idea es que el entorno estadístico R puede ser una herramienta de gran utilidad en todo el proceso del análisis de datos (desde el acceso hasta la generación de informes). Con una pincelada de Big Data y &amp;ldquo;publicidad&amp;rdquo; para las empresas (a ver si valoran y demandan más este tipo de conocimientos)&amp;hellip;</description>
     </item>
     
     <item>
       <title>Apuntes de simulación</title>
-      <link>https://rubenfcasal.github.io/post/apuntes-de-simulaci%C3%B3n/</link>
+      <link>/post/apuntes-de-simulaci%C3%B3n/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/apuntes-de-simulaci%C3%B3n/</guid>
+      <guid>/post/apuntes-de-simulaci%C3%B3n/</guid>
       <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub. Por ejemplo, está disponible en http://github.com/rubenfcasal/simbook una versión de parte de mis apuntes de simulación en forma de libro para ponerlo como ejemplo.
 El libro está accesible online en formato html (de momento no lo estoy compilando en pdf) aqui: https://rubenfcasal.github.io/simbook.
 Ya me decís&amp;hellip;</description>
@@ -158,50 +159,50 @@ Ya me decís&amp;hellip;</description>
     
     <item>
       <title>Diagnosis de la independencia</title>
-      <link>https://rubenfcasal.github.io/post/diagnosis-de-la-independencia/</link>
+      <link>/post/diagnosis-de-la-independencia/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/diagnosis-de-la-independencia/</guid>
+      <guid>/post/diagnosis-de-la-independencia/</guid>
       <description>IntroducciónRepaso: La covarianza y el coeficiente de correlaciónEl problema de la dependenciaMétodos para detectar dependenciaMétodos gráficosGráfico secuencialGráfico de dispersion retardadoEl correlogramaContrastes de hipótesisTest de rachasEl contraste de Ljung-BoxEjemplo adicional: Análisis de series temporales
 IntroducciónRepaso: La covarianza y el coeficiente de correlaciónPara medir la relación (lineal) entre dos variables se emplea la covarianza:\[Cov(X,Y) = E{\big[(X - E(X))(Y - E(Y))\big]}\]Su estimador es la covarianza muestral:\[s_{XY}=\frac{1}{n}\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i} - \overline{y})\]</description>
     </item>
     
     <item>
       <title>Introducción a la Geoestadística con `geoR`</title>
-      <link>https://rubenfcasal.github.io/post/introduccion-a-la-geoestadistica-con-geor/</link>
+      <link>/post/introduccion-a-la-geoestadistica-con-geor/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/introduccion-a-la-geoestadistica-con-geor/</guid>
+      <guid>/post/introduccion-a-la-geoestadistica-con-geor/</guid>
       <description>El paquete geoR1. Inicio de una sesión y de carga de datos1.1 Cargar el paquete1.2 Archivos de datos2. Análisis descriptivo de datos geoestadísticos3. Modelado de la dependencia3.1 Variogramas empíricos3.2 Ajuste de un modelo de variograma3.3 Inferencia sobre el variograma3.4 Validación cruzada3.5 Estimación del variograma en procesos no estacionarios4. Predicción espacial (kriging)
 El paquete geoREl paquete geoR proporciona herramientas para el análisis de datosgeoestadísticos en R(otra alternativa es el paquete gstat, por ejemplo…).</description>
     </item>
     
     <item>
       <title>`npsp` versión 0.6.2</title>
-      <link>https://rubenfcasal.github.io/post/npsp-062/</link>
+      <link>/post/npsp-062/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/npsp-062/</guid>
+      <guid>/post/npsp-062/</guid>
       <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub.
 Por ejemplo, está disponible en http://github.com/rubenfcasal/npsp la versión 0.6.2 del paquete npsp (la versión en CRAN es la 0.5-3). En esta versión añadí una web del paquete que tenía pensado emplear como ejemplo: https://rubenfcasal.github.io/npsp. Mi intención es subir cuanto antes una nueva versión (la 0.7, con novedades en cuanto al modelado automático de datos espaciales) a GitHub y al CRAN.</description>
     </item>
     
     <item>
       <title>Generación de informes con R</title>
-      <link>https://rubenfcasal.github.io/post/generaci%C3%B3n-de-informes-con-r/</link>
+      <link>/post/generaci%C3%B3n-de-informes-con-r/</link>
       <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/generaci%C3%B3n-de-informes-con-r/</guid>
+      <guid>/post/generaci%C3%B3n-de-informes-con-r/</guid>
       <description>R MarkdownIntroducciónInclusión de código RInclusión de gráficosInclusión de tablasExtracción del código RSpinR MarkdownActualización 14-10-18: Una versión actualizada de este post está disponible aquí:https://rubenfcasal.github.io/bookdown_intro/rmarkdown.html.
 IntroducciónMarkdown permite la creación de páginas web a partir de documentos de textode forma muy sencilla y rápida (tiene unas reglas sintácticas muy simples).Este documento se ha generado empleando Markdown y R.</description>
     </item>
     
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
-      <link>https://rubenfcasal.github.io/post/getting-started/</link>
+      <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/getting-started/</guid>
+      <guid>/post/getting-started/</guid>
       <description>This post corresponds to an older versión of the Academic framework for Hugo, visit wowchemy/wowchemy-hugo-themes and gohugo for updated information.
 The Academic framework enables you to easily create a beautifully simple personal or academic website using the Hugo static site generator.
 Key features:
@@ -210,10 +211,10 @@ Key features:
     
     <item>
       <title>Customizing the homepage with widgets</title>
-      <link>https://rubenfcasal.github.io/post/widgets/</link>
+      <link>/post/widgets/</link>
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/widgets/</guid>
+      <guid>/post/widgets/</guid>
       <description>This post corresponds to an older versión of Hugo, visit the website for updated information.
 Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:
  About/biography Selected publications Recent publications Recent news/blog posts Projects Selected talks Recent talks Contact Tag cloud Hero (introduction) Custom widget (demonstrated with the teaching example)  The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.</description>
@@ -221,25 +222,25 @@ Key features:
     
     <item>
       <title>Managing content</title>
-      <link>https://rubenfcasal.github.io/post/managing-content/</link>
+      <link>/post/managing-content/</link>
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/managing-content/</guid>
+      <guid>/post/managing-content/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;This post corresponds to an older versión of the Academic framework for Hugo, visit &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes&#34; target=&#34;_blank&#34;&gt;wowchemy/wowchemy-hugo-themes&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;gohugo&lt;/a&gt; for updated information.&lt;/p&gt;
 
 &lt;/div&gt;
 
 
-&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://rubenfcasal.github.io/post/writing-markdown-latex.md&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;/post/writing-markdown-latex.md&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
-      <link>https://rubenfcasal.github.io/post/writing-markdown-latex/</link>
+      <link>/post/writing-markdown-latex/</link>
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/writing-markdown-latex/</guid>
+      <guid>/post/writing-markdown-latex/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;This post corresponds to an older versión of Hugo, visit the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; for updated information.&lt;/p&gt;
 
@@ -251,20 +252,20 @@ Key features:
     
     <item>
       <title>A Plain Markdown Post</title>
-      <link>https://rubenfcasal.github.io/post/2015-12-30-plain-markdown/</link>
+      <link>/post/2015-12-30-plain-markdown/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/2015-12-30-plain-markdown/</guid>
+      <guid>/post/2015-12-30-plain-markdown/</guid>
       <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>https://rubenfcasal.github.io/post/2015-07-23-r-rmarkdown/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownIncluding PlotsR MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed code chunks:
 this.is = a.code(example)like this R code chunk (also adding the resulting R outcomes):

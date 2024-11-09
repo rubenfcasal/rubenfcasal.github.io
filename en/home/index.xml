@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on R Machinery</title>
-    <link>https://rubenfcasal.github.io/en/home/</link>
+    <link>/en/home/</link>
     <description>Recent content in Homes on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017-2023 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2024 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://rubenfcasal.github.io/en/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/en/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R Machinery</title>
-      <link>https://rubenfcasal.github.io/en/home/hero/</link>
+      <link>/en/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/en/home/hero/</guid>
+      <guid>/en/home/hero/</guid>
       <description>Website about R by Rubén Fernández-Casal You will find here tools (and machinery) about R in Spanish&amp;hellip;
 The web of the npsp package is (mainly) in English.
 You can also visit my institutional web (in English).
@@ -27,10 +27,10 @@ R packages  Fernandez-Casal R (2021). npsp: Nonparametric Spatial Statistics. R 
     
     <item>
       <title></title>
-      <link>https://rubenfcasal.github.io/en/home/about/</link>
+      <link>/en/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/en/home/about/</guid>
+      <guid>/en/home/about/</guid>
       <description>Biography Rubén Fernández-Casal is an Associate Professor (MODES research group) at the Department of Mathematics (University of A Coruña, Spain).
 Academic Background  1998-2006. Associate Professor at the University of Vigo, Spain.
  1996-1998. Teaching Assistant at the University of Santiago de Compostela, Spain.
@@ -42,10 +42,10 @@ Institutional web  Teaching
     
     <item>
       <title>Contact</title>
-      <link>https://rubenfcasal.github.io/en/home/contact/</link>
+      <link>/en/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/en/home/contact/</guid>
+      <guid>/en/home/contact/</guid>
       <description></description>
     </item>
     

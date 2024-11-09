@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on R Machinery</title>
-    <link>https://rubenfcasal.github.io/categories/hugo/</link>
+    <link>/categories/hugo/</link>
     <description>Recent content in Hugo on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2023 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2024 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://rubenfcasal.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
-      <link>https://rubenfcasal.github.io/post/getting-started/</link>
+      <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/getting-started/</guid>
+      <guid>/post/getting-started/</guid>
       <description>This post corresponds to an older versión of the Academic framework for Hugo, visit wowchemy/wowchemy-hugo-themes and gohugo for updated information.
 The Academic framework enables you to easily create a beautifully simple personal or academic website using the Hugo static site generator.
 Key features:
@@ -26,10 +26,10 @@ Key features:
     
     <item>
       <title>Customizing the homepage with widgets</title>
-      <link>https://rubenfcasal.github.io/post/widgets/</link>
+      <link>/post/widgets/</link>
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/widgets/</guid>
+      <guid>/post/widgets/</guid>
       <description>This post corresponds to an older versión of Hugo, visit the website for updated information.
 Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:
  About/biography Selected publications Recent publications Recent news/blog posts Projects Selected talks Recent talks Contact Tag cloud Hero (introduction) Custom widget (demonstrated with the teaching example)  The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.</description>
@@ -37,25 +37,25 @@ Key features:
     
     <item>
       <title>Managing content</title>
-      <link>https://rubenfcasal.github.io/post/managing-content/</link>
+      <link>/post/managing-content/</link>
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/managing-content/</guid>
+      <guid>/post/managing-content/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;This post corresponds to an older versión of the Academic framework for Hugo, visit &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes&#34; target=&#34;_blank&#34;&gt;wowchemy/wowchemy-hugo-themes&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;gohugo&lt;/a&gt; for updated information.&lt;/p&gt;
 
 &lt;/div&gt;
 
 
-&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://rubenfcasal.github.io/post/writing-markdown-latex.md&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;/post/writing-markdown-latex.md&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
-      <link>https://rubenfcasal.github.io/post/writing-markdown-latex/</link>
+      <link>/post/writing-markdown-latex/</link>
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/writing-markdown-latex/</guid>
+      <guid>/post/writing-markdown-latex/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;This post corresponds to an older versión of Hugo, visit the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; for updated information.&lt;/p&gt;
 
@@ -67,20 +67,20 @@ Key features:
     
     <item>
       <title>A Plain Markdown Post</title>
-      <link>https://rubenfcasal.github.io/post/2015-12-30-plain-markdown/</link>
+      <link>/post/2015-12-30-plain-markdown/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/2015-12-30-plain-markdown/</guid>
+      <guid>/post/2015-12-30-plain-markdown/</guid>
       <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>https://rubenfcasal.github.io/post/2015-07-23-r-rmarkdown/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownIncluding PlotsR MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed code chunks:
 this.is = a.code(example)like this R code chunk (also adding the resulting R outcomes):

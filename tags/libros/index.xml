@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Libros on R Machinery</title>
-    <link>https://rubenfcasal.github.io/tags/libros/</link>
+    <link>/tags/libros/</link>
     <description>Recent content in Libros on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2023 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2024 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubenfcasal.github.io/tags/libros/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/libros/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Apuntes de Remuestreo</title>
-      <link>https://rubenfcasal.github.io/post/apuntes-de-remuestreo/</link>
+      <link>/post/apuntes-de-remuestreo/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/apuntes-de-remuestreo/</guid>
+      <guid>/post/apuntes-de-remuestreo/</guid>
       <description>Los apuntes de la asignatura de Técnicas de Remuestreo del Máster en Técnicas Estadísticas, que impartimos Ricardo Cao Abad (rcao@udc.es) y yo, están accesibles online en formato html y pdf aqui:
 https://rubenfcasal.github.io/book_remuestreo.
 Cualquier sugerencia o observación será bien recibida&amp;hellip;</description>
@@ -25,29 +25,29 @@ Cualquier sugerencia o observación será bien recibida&amp;hellip;</description
     
     <item>
       <title>Libro sobre `bookdown`</title>
-      <link>https://rubenfcasal.github.io/post/escritura-de-libros-con-bookdown/</link>
+      <link>/post/escritura-de-libros-con-bookdown/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/escritura-de-libros-con-bookdown/</guid>
+      <guid>/post/escritura-de-libros-con-bookdown/</guid>
       <description>Tomás Cotos y yo preparamos una pequeña guía sobre sobre como emplear el paquete bookdown de R para la escritura de libros en formato RMarkdown (que presentamos en las V Jornadas de Usuarios de R, incluyendo algunos detalles de configuración para la escritura en otros idiomas distintos del inglés (castellano, galego,…). Este libro está hecho empleando ese mismo paquete y está disponible en el repositorio Github: rubenfcasal/bookdown_intro. Se puede ver online aquí: https://rubenfcasal.</description>
     </item>
     
     <item>
       <title>Tesis geoestadística espacio-temporal</title>
-      <link>https://rubenfcasal.github.io/post/tesis_geoestadistica_espacio-temporal/</link>
+      <link>/post/tesis_geoestadistica_espacio-temporal/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/tesis_geoestadistica_espacio-temporal/</guid>
+      <guid>/post/tesis_geoestadistica_espacio-temporal/</guid>
       <description>Mi tesis doctoral “Geoestadística espacio-temporal:modelos flexibles de variogramas anisotrópicos no separables” puede descargarse en formato pdf aquí.
 Esta memoria, del año 2003, se centra principalmente en el modelado flexible de la dependencia espacio-temporal.La monografía esta organizada en dos partes: la primera parte (capítulos del 2 al 5) consiste en una introducción a la geoestadística, donde se realiza una revisión de las distintas ideas y herramientas desarrolladas para el caso general de procesos espaciales, tratando con mayor detalle las distintas propuestas relacionadas con el modelado no paramétrico de la dependencia espacial: la segunda parte (capítulos del 6 al 9) se centra en el caso espacio-temporal.</description>
     </item>
     
     <item>
       <title>Apuntes de simulación</title>
-      <link>https://rubenfcasal.github.io/post/apuntes-de-simulaci%C3%B3n/</link>
+      <link>/post/apuntes-de-simulaci%C3%B3n/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/apuntes-de-simulaci%C3%B3n/</guid>
+      <guid>/post/apuntes-de-simulaci%C3%B3n/</guid>
       <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub. Por ejemplo, está disponible en http://github.com/rubenfcasal/simbook una versión de parte de mis apuntes de simulación en forma de libro para ponerlo como ejemplo.
 El libro está accesible online en formato html (de momento no lo estoy compilando en pdf) aqui: https://rubenfcasal.github.io/simbook.
 Ya me decís&amp;hellip;</description>

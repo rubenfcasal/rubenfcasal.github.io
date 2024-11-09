@@ -5,7 +5,25 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</loc>
+      <loc>/post/instalacion-de-r/</loc>
+      <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/instalacion-de-rstudio/</loc>
+      <lastmod>2024-11-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</loc>
       <lastmod>2023-03-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,16 +32,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/instalacion-de-r/</loc>
-      <lastmod>2023-03-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://rubenfcasal.github.io/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</loc>
+      <loc>/post/geoestadistica-no-parametrica-con-el-paquete-npsp/</loc>
       <lastmod>2021-05-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +41,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/instalacion-de-r-para-hpc/</loc>
+      <loc>/post/instalacion-de-r-para-hpc/</loc>
       <lastmod>2021-02-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,16 +50,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/instalacion-de-rstudio/</loc>
-      <lastmod>2021-02-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://rubenfcasal.github.io/post/problema-colinealidad/</loc>
+      <loc>/post/problema-colinealidad/</loc>
       <lastmod>2021-02-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/apuntes-de-remuestreo/</loc>
+      <loc>/post/apuntes-de-remuestreo/</loc>
       <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/escritura-de-libros-con-bookdown/</loc>
+      <loc>/post/escritura-de-libros-con-bookdown/</loc>
       <lastmod>2018-10-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/tesis_geoestadistica_espacio-temporal/</loc>
+      <loc>/post/tesis_geoestadistica_espacio-temporal/</loc>
       <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/creaci%C3%B3n-contenidos-rmarkdown/</loc>
+      <loc>/post/creaci%C3%B3n-contenidos-rmarkdown/</loc>
       <lastmod>2017-10-26T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/intro-bookdown/</loc>
+      <loc>/post/intro-bookdown/</loc>
       <lastmod>2017-10-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</loc>
+      <loc>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</loc>
       <lastmod>2017-10-24T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/analisis-de-datos-con-r/</loc>
+      <loc>/post/analisis-de-datos-con-r/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/apuntes-de-simulaci%C3%B3n/</loc>
+      <loc>/post/apuntes-de-simulaci%C3%B3n/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,7 +131,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/diagnosis-de-la-independencia/</loc>
+      <loc>/post/diagnosis-de-la-independencia/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -140,7 +140,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/introduccion-a-la-geoestadistica-con-geor/</loc>
+      <loc>/post/introduccion-a-la-geoestadistica-con-geor/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -149,7 +149,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/npsp-062/</loc>
+      <loc>/post/npsp-062/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -158,7 +158,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/generaci%C3%B3n-de-informes-con-r/</loc>
+      <loc>/post/generaci%C3%B3n-de-informes-con-r/</loc>
       <lastmod>2017-10-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -167,7 +167,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/apuntes/</loc>
+      <loc>/tags/apuntes/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -176,7 +176,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/talk/example-talk/</loc>
+      <loc>/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -185,7 +185,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -194,7 +194,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -203,7 +203,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/project/deep-learning/</loc>
+      <loc>/project/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -212,7 +212,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/project/example-external-project/</loc>
+      <loc>/project/example-external-project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -221,7 +221,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/getting-started/</loc>
+      <loc>/post/getting-started/</loc>
       <lastmod>2017-09-03T00:00:00+02:00</lastmod>
     </url>
     
@@ -230,7 +230,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/widgets/</loc>
+      <loc>/post/widgets/</loc>
       <lastmod>2016-04-19T00:00:00+02:00</lastmod>
     </url>
     
@@ -239,7 +239,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/managing-content/</loc>
+      <loc>/post/managing-content/</loc>
       <lastmod>2016-04-18T00:00:00+02:00</lastmod>
     </url>
     
@@ -248,7 +248,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/writing-markdown-latex/</loc>
+      <loc>/post/writing-markdown-latex/</loc>
       <lastmod>2016-04-17T00:00:00+02:00</lastmod>
     </url>
     
@@ -257,7 +257,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/2015-12-30-plain-markdown/</loc>
+      <loc>/post/2015-12-30-plain-markdown/</loc>
       <lastmod>2015-12-30T00:00:00+00:00</lastmod>
     </url>
     
@@ -266,7 +266,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/post/2015-07-23-r-rmarkdown/</loc>
+      <loc>/post/2015-07-23-r-rmarkdown/</loc>
       <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -275,10 +275,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/categories/" hreflang="es"/>
-      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/en/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/categories/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/categories/" hreflang="en"/>
     
-      <loc>https://rubenfcasal.github.io/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -287,8 +287,8 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/configuraci%C3%B3n/</loc>
-      <lastmod>2023-03-20T00:00:00+00:00</lastmod>
+      <loc>/tags/configuraci%C3%B3n/</loc>
+      <lastmod>2024-11-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -297,7 +297,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/categories/documentos/</loc>
+      <loc>/categories/documentos/</loc>
       <lastmod>2021-05-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -307,7 +307,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/categories/estad%C3%ADstica/</loc>
+      <loc>/categories/estad%C3%ADstica/</loc>
       <lastmod>2021-05-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -317,7 +317,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/geoestad%C3%ADstica/</loc>
+      <loc>/tags/geoestad%C3%ADstica/</loc>
       <lastmod>2021-05-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -327,7 +327,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/categories/hugo/</loc>
+      <loc>/categories/hugo/</loc>
       <lastmod>2017-09-03T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -337,7 +337,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/libros/</loc>
+      <loc>/tags/libros/</loc>
       <lastmod>2019-09-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -347,7 +347,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/markdown/</loc>
+      <loc>/tags/markdown/</loc>
       <lastmod>2015-12-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -357,7 +357,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/paquetes/</loc>
+      <loc>/tags/paquetes/</loc>
       <lastmod>2021-05-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -367,7 +367,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/presentaciones/</loc>
+      <loc>/tags/presentaciones/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -377,7 +377,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -387,10 +387,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/publication_types/" hreflang="es"/>
-      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/en/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/publication_types/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/publication_types/" hreflang="en"/>
     
-      <loc>https://rubenfcasal.github.io/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -399,8 +399,8 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/categories/r/</loc>
-      <lastmod>2023-03-23T00:00:00+00:00</lastmod>
+      <loc>/categories/r/</loc>
+      <lastmod>2024-11-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -409,10 +409,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/" hreflang="es"/>
-      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/en/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/" hreflang="en"/>
     
-      <loc>https://rubenfcasal.github.io/</loc>
+      <loc>/</loc>
       <lastmod>2017-10-15T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -422,7 +422,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/r-markdown/</loc>
+      <loc>/tags/r-markdown/</loc>
       <lastmod>2018-10-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -432,7 +432,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/regresi%C3%B3n/</loc>
+      <loc>/tags/regresi%C3%B3n/</loc>
       <lastmod>2021-05-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -442,7 +442,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/simulaci%C3%B3n/</loc>
+      <loc>/tags/simulaci%C3%B3n/</loc>
       <lastmod>2019-09-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -452,10 +452,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/tags/" hreflang="es"/>
-      <xhtml:link rel="alternate" href="https://rubenfcasal.github.io/en/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/tags/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/tags/" hreflang="en"/>
     
-      <loc>https://rubenfcasal.github.io/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -465,7 +465,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-09-03T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -475,7 +475,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/blogdown/</loc>
+      <loc>/tags/blogdown/</loc>
       <lastmod>2017-10-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -485,7 +485,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/bookdown/</loc>
+      <loc>/tags/bookdown/</loc>
       <lastmod>2017-10-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -495,7 +495,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/deep-learning/</loc>
+      <loc>/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -505,7 +505,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/demo/</loc>
+      <loc>/tags/demo/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -515,7 +515,7 @@
     
     <url>
     
-      <loc>https://rubenfcasal.github.io/tags/sgapeio/</loc>
+      <loc>/tags/sgapeio/</loc>
       <lastmod>2019-09-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

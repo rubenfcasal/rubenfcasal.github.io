@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on R Machinery</title>
-    <link>https://rubenfcasal.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2023 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2024 Ruben Fernandez-Casal</copyright>
     
-	<atom:link href="https://rubenfcasal.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Documentos</title>
-      <link>https://rubenfcasal.github.io/categories/documentos/</link>
+      <link>/categories/documentos/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/categories/documentos/</guid>
+      <guid>/categories/documentos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Estadística</title>
-      <link>https://rubenfcasal.github.io/categories/estad%C3%ADstica/</link>
+      <link>/categories/estad%C3%ADstica/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/categories/estad%C3%ADstica/</guid>
+      <guid>/categories/estad%C3%ADstica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://rubenfcasal.github.io/categories/hugo/</link>
+      <link>/categories/hugo/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://rubenfcasal.github.io/categories/hugo/</guid>
+      <guid>/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://rubenfcasal.github.io/categories/r/</link>
-      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      <link>/categories/r/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/categories/r/</guid>
+      <guid>/categories/r/</guid>
       <description></description>
     </item>
     

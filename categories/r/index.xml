@@ -2,62 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on R Machinery</title>
-    <link>https://rubenfcasal.github.io/categories/r/</link>
+    <link>/categories/r/</link>
     <description>Recent content in R on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2023 Ruben Fernandez-Casal</copyright>
-    <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017-2024 Ruben Fernandez-Casal</copyright>
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubenfcasal.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Ayuda y recursos para el aprendizaje de R (actualizado)</title>
-      <link>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</link>
-      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://rubenfcasal.github.io/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
-      <description>Ayuda onlineCursosLibrosIniciación a la programación en RProgramación avanzada en RBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…).
-Ayuda onlineAyuda en línea sobre funciones o paquetes: rdrr.io, RDocumentation
-Buscador RSeek
-StackOverflow, en castellano
-Cross Validated</description>
-    </item>
     
     <item>
       <title>Instalación de R (actualizado)</title>
-      <link>https://rubenfcasal.github.io/post/instalacion-de-r/</link>
-      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <link>/post/instalacion-de-r/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/instalacion-de-r/</guid>
-      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de herramientas (incluyendo Rtools) y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS XEn la web del proyecto R (www.</description>
+      <guid>/post/instalacion-de-r/</guid>
+      <description>Instalación de R en WindowsAsistente de instalaciónInstalación de paquetesInstalación (opcional) de un entorno de desarrollo o un editor de comandosConfiguración avanzada (opcional)Cambiar los permisos de la carpeta libraryInstalación de herramientas (incluyendo Rtools) y configuración de la ruta de búsquedaInstalación de R en Ubuntu/DevianInstalación de R desde CRANInstalación de devtools y demás paquetesAyuda htmlActualizar RInstalar R-StudioInstalación en Mac OS X[Actualizado a R 4.</description>
     </item>
     
     <item>
-      <title>Instalación de R en Ubuntu para HPC (High Performance Computing)</title>
-      <link>https://rubenfcasal.github.io/post/instalacion-de-r-para-hpc/</link>
-      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      <title>Instalación y configuración de RStudio Desktop (actualizado)</title>
+      <link>/post/instalacion-de-rstudio/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/instalacion-de-r-para-hpc/</guid>
-      <description>Instalación de RConfigurar R para HPC en Ubuntu/DebianConfigurar R para emplear OpenBLAS o ATLASInstalar OpenBLAS o ATLASSeleccionar el número de núcleos/hilosConfigurar R para emplear Intel Math Kernel Library (MKL)Instalación de Intel MKLIntegrate MKLUse the MKLDesinstalar o desenlazar MKLProblemas con MKLSeleccionar librerías BLAS y LAPACKInstalación de RStudio ServerProblemas con RStudio ServerInstalación HPC compilando R desde el código fuenteBenchmarking RIntroducción al procesamiento en paralelo en RPaquetes de REjemplosProcesamiento en paralelo en R con GPUsConfigurar R para emplear NVBLASWork in progess… (sugerencias y comentarios serán bien recibidos).</description>
-    </item>
-    
-    <item>
-      <title>Instalación y configuración de RStudio Desktop</title>
-      <link>https://rubenfcasal.github.io/post/instalacion-de-rstudio/</link>
-      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://rubenfcasal.github.io/post/instalacion-de-rstudio/</guid>
+      <guid>/post/instalacion-de-rstudio/</guid>
       <description>Instalación en Windows y primeros pasosInstalación en Ubuntu/DevianConfiguraciónOpciones adicionalesUn entorno de desarrollo (IDE, Integrated Development Environment) de R muy recomendable es RStudio.Está disponible para la mayoría de plataformas (hay una versión para servidores: RStudio Server, ver post) e integra una gran cantidad de herramientas, que permiten desde la generación de informes (este es el principal motivo por el que algunos empleamos RStudio), hasta la gestión de distintos tipos de proyectos, depuración de código, control de versiones, etc.</description>
     </item>
     
     <item>
+      <title>Ayuda y recursos para el aprendizaje de R (actualizado)</title>
+      <link>/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ayuda-y-recursos-para-el-aprendizaje-de-r/</guid>
+      <description>Ayuda onlineCursosLibrosIniciación a la programación en RProgramación avanzada en RBookdownMaterial onlineA continuación se muestran algunos recursos que considero que pueden ser útiles para el aprendizaje de R y la obtención de ayuda… (página en preparación…).
+Ayuda onlineAyuda en línea sobre funciones o paquetes: rdrr.io, RDocumentation
+Buscador RSeek
+StackOverflow, en castellano
+Cross Validated
+CursosAlgunos cursos gratuitos:</description>
+    </item>
+    
+    <item>
+      <title>Instalación de R en Ubuntu para HPC (High Performance Computing)</title>
+      <link>/post/instalacion-de-r-para-hpc/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/instalacion-de-r-para-hpc/</guid>
+      <description>Instalación de RConfigurar R para HPC en Ubuntu/DebianConfigurar R para emplear OpenBLAS o ATLASInstalar OpenBLAS o ATLASSeleccionar el número de núcleos/hilosConfigurar R para emplear Intel Math Kernel Library (MKL)Instalación de Intel MKLIntegrate MKLUse the MKLDesinstalar o desenlazar MKLProblemas con MKLSeleccionar librerías BLAS y LAPACKInstalación de RStudio ServerProblemas con RStudio ServerInstalación HPC compilando R desde el código fuenteBenchmarking RIntroducción al procesamiento en paralelo en RPaquetes de REjemplosProcesamiento en paralelo en R con GPUsConfigurar R para emplear NVBLASWork in progess… (sugerencias y comentarios serán bien recibidos).</description>
+    </item>
+    
+    <item>
       <title>Creación e divulgación de contidos con RMarkdown</title>
-      <link>https://rubenfcasal.github.io/post/creaci%C3%B3n-contenidos-rmarkdown/</link>
+      <link>/post/creaci%C3%B3n-contenidos-rmarkdown/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/creaci%C3%B3n-contenidos-rmarkdown/</guid>
+      <guid>/post/creaci%C3%B3n-contenidos-rmarkdown/</guid>
       <description>EjemplosMaterialRequisitosEn el próximo Congreso de la Sgapeiovoy a participar en la impartición de un cursosobre R Markdown.
 En la segunda parte del curso “Creación e divulgación de contidos con R Markdown”trataremos los siguientes temas:
 Conversión entre formatos con pandoc.
@@ -67,20 +68,20 @@ En la segunda parte del curso “Creación e divulgación de contidos con R Mark
     
     <item>
       <title>Escritura de libros con `bookdown`</title>
-      <link>https://rubenfcasal.github.io/post/intro-bookdown/</link>
+      <link>/post/intro-bookdown/</link>
       <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/intro-bookdown/</guid>
+      <guid>/post/intro-bookdown/</guid>
       <description>IntroducciónRequisitosGet startedPrimeros pasosEncabezado de index.RmdArchivo _bookdown.ymlLicenciaPublicación en la webActualización 14-10-18: Una versión más reciente de este post está disponible aquí:https://rubenfcasal.github.io/bookdown_intro.
 IntroducciónEl paquete bookdown de R permite escribir libros empleandoR Markdown de forma fácil.Sin preocuparse mucho por los detalles de composiciónse pueden crear libros en distintos formatos (HTML / PDF / Word / …).Además de permitir emplear las extensiones Markdown de Pandoc(notas al pie de página, tablas, citas, ecuaciones LaTeX, …),se pueden emplear extensiones markdown para libros(leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</description>
     </item>
     
     <item>
       <title>Creación de sitios web con `blogdown`</title>
-      <link>https://rubenfcasal.github.io/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</link>
+      <link>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</link>
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
+      <guid>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
       <description>IntroducciónCreación de un sitio webCreación de contenidoDocumentaciónAlgunos ejemplos:PublicaciónLenguaje y traducciónAyudaActualización 24-03-19: Documentación más reciente sobre blogdown en el libro blogdown: Creating Websites with R Markdown (y también en el Capítulo 10 dellibro R Markdown: The Definitive Guide).
 Basado en este artículo de Yihui Xie publicado en el Blog de RStudio.
 IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, quepermite crear sitios web (estáticos) de uso general (webs personales,blogs, …) con R Markdown.</description>
@@ -88,10 +89,10 @@ IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, queperm
     
     <item>
       <title>`npsp` versión 0.6.2</title>
-      <link>https://rubenfcasal.github.io/post/npsp-062/</link>
+      <link>/post/npsp-062/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/npsp-062/</guid>
+      <guid>/post/npsp-062/</guid>
       <description>Con motivo del próximo curso de la Sgapeio estoy subiendo material a mi cuenta de GitHub.
 Por ejemplo, está disponible en http://github.com/rubenfcasal/npsp la versión 0.6.2 del paquete npsp (la versión en CRAN es la 0.5-3). En esta versión añadí una web del paquete que tenía pensado emplear como ejemplo: https://rubenfcasal.github.io/npsp. Mi intención es subir cuanto antes una nueva versión (la 0.7, con novedades en cuanto al modelado automático de datos espaciales) a GitHub y al CRAN.</description>
     </item>

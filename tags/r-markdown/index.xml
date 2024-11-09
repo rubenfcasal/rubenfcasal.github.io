@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R Markdown on R Machinery</title>
-    <link>https://rubenfcasal.github.io/tags/r-markdown/</link>
+    <link>/tags/r-markdown/</link>
     <description>Recent content in R Markdown on R Machinery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>&amp;copy; 2017-2023 Ruben Fernandez-Casal</copyright>
+    <copyright>&amp;copy; 2017-2024 Ruben Fernandez-Casal</copyright>
     <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubenfcasal.github.io/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Libro sobre `bookdown`</title>
-      <link>https://rubenfcasal.github.io/post/escritura-de-libros-con-bookdown/</link>
+      <link>/post/escritura-de-libros-con-bookdown/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/escritura-de-libros-con-bookdown/</guid>
+      <guid>/post/escritura-de-libros-con-bookdown/</guid>
       <description>Tomás Cotos y yo preparamos una pequeña guía sobre sobre como emplear el paquete bookdown de R para la escritura de libros en formato RMarkdown (que presentamos en las V Jornadas de Usuarios de R, incluyendo algunos detalles de configuración para la escritura en otros idiomas distintos del inglés (castellano, galego,…). Este libro está hecho empleando ese mismo paquete y está disponible en el repositorio Github: rubenfcasal/bookdown_intro. Se puede ver online aquí: https://rubenfcasal.</description>
     </item>
     
     <item>
       <title>Creación e divulgación de contidos con RMarkdown</title>
-      <link>https://rubenfcasal.github.io/post/creaci%C3%B3n-contenidos-rmarkdown/</link>
+      <link>/post/creaci%C3%B3n-contenidos-rmarkdown/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/creaci%C3%B3n-contenidos-rmarkdown/</guid>
+      <guid>/post/creaci%C3%B3n-contenidos-rmarkdown/</guid>
       <description>EjemplosMaterialRequisitosEn el próximo Congreso de la Sgapeiovoy a participar en la impartición de un cursosobre R Markdown.
 En la segunda parte del curso “Creación e divulgación de contidos con R Markdown”trataremos los siguientes temas:
 Conversión entre formatos con pandoc.
@@ -36,20 +36,20 @@ En la segunda parte del curso “Creación e divulgación de contidos con R Mark
     
     <item>
       <title>Escritura de libros con `bookdown`</title>
-      <link>https://rubenfcasal.github.io/post/intro-bookdown/</link>
+      <link>/post/intro-bookdown/</link>
       <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/intro-bookdown/</guid>
+      <guid>/post/intro-bookdown/</guid>
       <description>IntroducciónRequisitosGet startedPrimeros pasosEncabezado de index.RmdArchivo _bookdown.ymlLicenciaPublicación en la webActualización 14-10-18: Una versión más reciente de este post está disponible aquí:https://rubenfcasal.github.io/bookdown_intro.
 IntroducciónEl paquete bookdown de R permite escribir libros empleandoR Markdown de forma fácil.Sin preocuparse mucho por los detalles de composiciónse pueden crear libros en distintos formatos (HTML / PDF / Word / …).Además de permitir emplear las extensiones Markdown de Pandoc(notas al pie de página, tablas, citas, ecuaciones LaTeX, …),se pueden emplear extensiones markdown para libros(leyendas de figuras y tablas, numeración y referencias cruzadas de figuras / tablas / secciones / ecuaciones / teoremas / ejemplos / …, widgets HTML, …).</description>
     </item>
     
     <item>
       <title>Creación de sitios web con `blogdown`</title>
-      <link>https://rubenfcasal.github.io/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</link>
+      <link>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</link>
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
+      <guid>/post/creaci%C3%B3n-de-sitios-web-con-blogdown/</guid>
       <description>IntroducciónCreación de un sitio webCreación de contenidoDocumentaciónAlgunos ejemplos:PublicaciónLenguaje y traducciónAyudaActualización 24-03-19: Documentación más reciente sobre blogdown en el libro blogdown: Creating Websites with R Markdown (y también en el Capítulo 10 dellibro R Markdown: The Definitive Guide).
 Basado en este artículo de Yihui Xie publicado en el Blog de RStudio.
 IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, quepermite crear sitios web (estáticos) de uso general (webs personales,blogs, …) con R Markdown.</description>
@@ -57,30 +57,30 @@ IntroducciónEn CRAN está disponible un nuevo paquete de R, blogdown, queperm
     
     <item>
       <title>Generación de informes con R</title>
-      <link>https://rubenfcasal.github.io/post/generaci%C3%B3n-de-informes-con-r/</link>
+      <link>/post/generaci%C3%B3n-de-informes-con-r/</link>
       <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/generaci%C3%B3n-de-informes-con-r/</guid>
+      <guid>/post/generaci%C3%B3n-de-informes-con-r/</guid>
       <description>R MarkdownIntroducciónInclusión de código RInclusión de gráficosInclusión de tablasExtracción del código RSpinR MarkdownActualización 14-10-18: Una versión actualizada de este post está disponible aquí:https://rubenfcasal.github.io/bookdown_intro/rmarkdown.html.
 IntroducciónMarkdown permite la creación de páginas web a partir de documentos de textode forma muy sencilla y rápida (tiene unas reglas sintácticas muy simples).Este documento se ha generado empleando Markdown y R.</description>
     </item>
     
     <item>
       <title>A Plain Markdown Post</title>
-      <link>https://rubenfcasal.github.io/post/2015-12-30-plain-markdown/</link>
+      <link>/post/2015-12-30-plain-markdown/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/2015-12-30-plain-markdown/</guid>
+      <guid>/post/2015-12-30-plain-markdown/</guid>
       <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>https://rubenfcasal.github.io/post/2015-07-23-r-rmarkdown/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://rubenfcasal.github.io/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownIncluding PlotsR MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed code chunks:
 this.is = a.code(example)like this R code chunk (also adding the resulting R outcomes):

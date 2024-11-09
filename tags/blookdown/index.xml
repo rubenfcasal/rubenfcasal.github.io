@@ -1,26 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>blookdown on R Machinery</title>
-    <link>/tags/blookdown/</link>
-    <description>Recent content in blookdown on R Machinery</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <copyright>&amp;copy; 2017-2018 Ruben Fernandez-Casal</copyright>
-    <lastBuildDate>Wed, 25 Oct 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/blookdown/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Escritura de libros con `bookdown`</title>
-      <link>/post/intro-bookdown/</link>
-      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/intro-bookdown/</guid>
-      <description>IntroducciónRequisitosGet startedPrimeros pasosEncabezado de index.RmdArchivo _bookdown.ymlLicenciaPublicación en la webActualización 14-10-18: Una versión más reciente de este post está disponible aquí: https://rubenfcasal.github.io/bookdown_intro.
-IntroducciónEl paquete bookdown de R permite escribir libros empleando R Markdown de forma fácil. Sin preocuparse mucho por los detalles de composición se pueden crear libros en distintos formatos (HTML / PDF / Word / …).</description>
-    </item>
-    
-  </channel>
-</rss>
